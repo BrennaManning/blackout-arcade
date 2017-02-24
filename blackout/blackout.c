@@ -18,7 +18,7 @@ STATE_HANDLER_T state, last_state;
 
 void on(void) {
     if (state != last_state ) {
-        pin_set(&D[4]);
+        pin_set(&D[4]); //light
         last_state = state;
         state = state;
     }
@@ -42,8 +42,8 @@ void on(void) {
 
 void off(void) {
     if (state != last_state) {
-        led_on(&led3);
-        pin_clear(&D[4]);
+        led_on(&led3); 
+        pin_clear(&D[4]); // light off
         last_state = state;
         state = state;
     }
@@ -64,8 +64,8 @@ int16_t main(void) {
     init_pin();
     init_ui();
     //init_oc();
-    pin_digitalIn(&D[0]);
-    pin_digitalOut(&D[4]);
+    pin_digitalIn(&D[0]); // button pressed/ unpressed
+    pin_digitalOut(&D[4]); // light on/ off
     //oc_pwm(&oc1, &D[13], NULL, 10e3, 0x8000);
 
     state = off;
@@ -73,7 +73,7 @@ int16_t main(void) {
 
     while (1) {
         lastbutton1 = button1;
-        button1 = pin_read(&D[0]);
+        button1 = pin_read(&D[0]); // check if button pressed
         state();
     //     button1 = pin_read(&D[0]);
     //     if (button1 == 1){
