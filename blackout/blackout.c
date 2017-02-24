@@ -18,7 +18,7 @@ STATE_HANDLER_T state, last_state;
 
 void on(void) {
     if (state != last_state ) {
-        pin_set(&D[4]); //light
+        pin_set(&D[4]); //light on 
         last_state = state;
         state = state;
     }
