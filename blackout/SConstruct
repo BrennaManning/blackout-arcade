@@ -22,7 +22,8 @@ env.Program('blackout', ['blackout.c',
                          '../lib/uart.c',
                          '../lib/ui.c',
                          '../lib/timer.c',
-                         '../lib/oc.c'
+                         '../lib/oc.c',
+                         '../lib/spi.c'
                          ])
 env.Hex('blackout')
 env.List('blackout')
