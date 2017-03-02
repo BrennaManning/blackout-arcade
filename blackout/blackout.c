@@ -7,7 +7,6 @@
 #include "oc.h"
 #include "spi.h"
 
-
 _PIN *bP1; 
 _PIN *bP2; 
 _PIN *ledP1; 
@@ -58,8 +57,6 @@ void writeLights(panel, leds){
     }
 }
 
-
-
 int16_t main(void) {
     init_clock();
     init_uart();
@@ -87,11 +84,8 @@ int16_t main(void) {
     prev_buttons_p2 = 0x0000;
     diff_buttons_p2 = 0x0000;
 
-
     timer_setPeriod(&timer2, 0.15);
     timer_start(&timer2);
-   
-
 
     while (1) {
         if (timer_flag(&timer2)) {
@@ -99,7 +93,6 @@ int16_t main(void) {
             prev_buttons_p1 = buttons_p1;
             buttons_p1 = readButtons(1);
             diff_buttons_p1 = buttons_p1 ^ prev_buttons_p1;
-            // if diff_buttons_p1 == 1
 
             prev_buttons_p2 = buttons_p2;
             buttons_p2 = readButtons(2);
@@ -109,11 +102,13 @@ int16_t main(void) {
             prev_leds_p2 = leds_p2;
             leds_p1 = leds_p1 ^ diff_buttons_p2;
             leds_p2 = leds_p2 ^ diff_buttons_p1;
+
             if (leds_p1 != prev_leds_p1){
 
                 writeLights(1, leds_p1);
 
             }
+
             if (leds_p2 != prev_leds_p2){
 
                 writeLights(2, leds_p2);
