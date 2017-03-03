@@ -21,11 +21,13 @@ int leds_p1;
 int buttons_p1;
 int prev_buttons_p1;
 int diff_buttons_p1; 
+int diff_rising_buttons_p1;
 
 int leds_p2;
 int buttons_p2;
 int prev_buttons_p2;
 int diff_buttons_p2;
+int diff_rising_buttons_p2;
 
 int prev_leds_p1;
 int prev_leds_p2;
@@ -78,12 +80,13 @@ int16_t main(void) {
     buttons_p1 = 0x0000;
     prev_buttons_p1 = 0x0000;
     diff_buttons_p1 = 0x0000; 
+    diff_rising_buttons_p1 = 0x0000;
 
     leds_p2 = 0x0000;
     buttons_p2 = 0x0000;
     prev_buttons_p2 = 0x0000;
     diff_buttons_p2 = 0x0000;
-
+    diff_rising_buttons_p2 = 0x0000;
     timer_setPeriod(&timer2, 0.15);
     timer_start(&timer2);
 
@@ -93,23 +96,26 @@ int16_t main(void) {
             prev_buttons_p1 = buttons_p1;
             buttons_p1 = readButtons(1);
             diff_buttons_p1 = buttons_p1 ^ prev_buttons_p1;
+            diff_rising_buttons_p1 = diff_buttons_p1 & buttons_p1;
+
 
             prev_buttons_p2 = buttons_p2;
             buttons_p2 = readButtons(2);
             diff_buttons_p2 = buttons_p2 ^ prev_buttons_p2;
+            diff_rising_buttons_p2 = diff_buttons_p2 & buttons_p2;
 
             prev_leds_p1 = leds_p1;
             prev_leds_p2 = leds_p2;
-            leds_p1 = leds_p1 ^ diff_buttons_p2;
-            leds_p2 = leds_p2 ^ diff_buttons_p1;
+            leds_p1 = leds_p1 ^ diff_rising_buttons_p2;
+            leds_p2 = leds_p2 ^ diff_rising_buttons_p1;
 
-            if (leds_p1 != prev_leds_p1){
+            if (leds_p1 != prev_leds_p1 && diff_rising_buttons_p2 != 0){
 
                 writeLights(1, leds_p1);
 
             }
 
-            if (leds_p2 != prev_leds_p2){
+            if (leds_p2 != prev_leds_p2 && diff_rising_buttons_p1 != 0){
 
                 writeLights(2, leds_p2);
 
