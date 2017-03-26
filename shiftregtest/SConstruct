@@ -16,10 +16,12 @@ env.Append(BUILDERS = {'List' : list})
 
 env.Program('shiftregtest', ['shiftregtest.c',
                         'descriptors.c', 
-                        'usb.c', 
+                        #'usb.c', 
                         '../lib/ui.c', 
                         '../lib/pin.c', 
                         '../lib/spi.c',
-                        '../lib/common.c'])
+                        '../lib/common.c',
+                        '../lib/timer.c',
+                        '../lib/oc.c'])
 env.Hex('shiftregtest')
 env.List('shiftregtest')
