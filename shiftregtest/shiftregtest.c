@@ -10,7 +10,7 @@
 #include "oc.h"
 
 
-_PIN *SCK, *MISO, *MOSI, *CS;
+_PIN *SCK, *MISO, *MOSI, *CS, *TOGGLE;
 
 
 // PIN NUMBERS
@@ -32,13 +32,15 @@ _PIN *SCK, *MISO, *MOSI, *CS;
 
 
 void shiftreg_writeReg(uint8_t address, uint8_t value) {
-    if (address<=0x7E) {
-        led_on(&led3);
-        pin_clear(CS);
-        spi_transfer(&spi1, address);
-        spi_transfer(&spi1, value);
-        pin_set(CS);
-    }
+
+    led_on(&led3);
+    pin_clear(CS);
+    spi_transfer(&spi1, 0b01000000); // DEVICE OPCODE R/W BIT LOW
+    spi_transfer(&spi1, address);
+    //spi_transfer(&spi1, )
+    spi_transfer(&spi1, value);
+    pin_set(CS);
+
 }
 
 uint8_t shiftreg_readReg(uint8_t address) {
@@ -46,7 +48,8 @@ uint8_t shiftreg_readReg(uint8_t address) {
 
     if (address<=0x7E) {
         pin_clear(CS);
-        spi_transfer(&spi1, 0x80|address);
+        spi_transfer(&spi1, 0b01000001); // DEVICE OPCODE R/W BIT HIGH
+        spi_transfer(&spi1, address);
         value = spi_transfer(&spi1, 0);
         pin_set(CS);
         return value;
@@ -66,6 +69,7 @@ int16_t main(void) {
     SCK = &D[2];
     MOSI = &D[1];
     MISO = &D[0];
+    TOGGLE = &D[4];
 
     // pin_init(SCK, (uint16_t *)&PORTB, (uint16_t *)&TRISB, 
     //          (uint16_t *)&ANSB, 9, 9, 8, 9, (uint16_t *)&RPOR4);
@@ -80,13 +84,20 @@ int16_t main(void) {
 
     pin_digitalOut(CS);
     pin_set(CS);
-    
+    spi_open(&spi1, MISO, MOSI, SCK, 1e6, 1);
+    pin_digitalOut(TOGGLE);
+    pin_clear(TOGGLE);    
     while(1){
-
-        spi_open(&spi1, MISO, MOSI, SCK, 1e6, 1);
-        shiftreg_writeReg(0x0A, 0); // IOCON BANK TO 0
-        shiftreg_writeReg(0x15, 0b11111111); // OLAT
+        pin_set(TOGGLE);
+        shiftreg_writeReg(0x0A, 0); // IOCON TO 0
+        shiftreg_writeReg(0x01, 0); // IODIR to 0
+        shiftreg_writeReg(0x15, 0b11111111); // OLATB
         shiftreg_writeReg(0x13, 0b11111111); // GPIOB
+        shiftreg_writeReg(0x14, 0b11111111); // OLATA
+        shiftreg_writeReg(0x12, 0b11111111); // GPIOA
+        
+
+        pin_clear(TOGGLE);
     }
 
 }
