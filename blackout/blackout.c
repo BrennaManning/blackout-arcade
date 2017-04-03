@@ -24,7 +24,6 @@ _PIN *ledP2_3;
 _PIN *ledP1_4; 
 _PIN *ledP2_4;  
 
-
 int panel;
 int buttonNum;
 int lightNum;

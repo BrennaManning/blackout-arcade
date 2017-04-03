@@ -27,3 +27,13 @@ env.Program('blackout', ['blackout.c',
                          ])
 env.Hex('blackout')
 env.List('blackout')
+
+env.Program('coinMech', ['coinMech.c',
+                         'descriptors.c', 
+                         '../lib/pin.c', 
+                         '../lib/uart.c',
+                         '../lib/ui.c',
+                         '../lib/timer.c'
+                         ])
+env.Hex('coinMech')
+env.List('coinMech')
