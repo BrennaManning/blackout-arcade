@@ -17,6 +17,8 @@ int panel;
 int readButtons(int panel);
 void writeLights(int panel, int leds);
 
+void lightsRandom(int leds_p1, int leds_p2);
+
 int leds_p1; 
 int buttons_p1;
 int prev_buttons_p1;
@@ -31,6 +33,10 @@ int diff_rising_buttons_p2;
 
 int prev_leds_p1;
 int prev_leds_p2;
+
+int random_panel;
+int random_bit;
+int new_leds;
 
 
 int readButtons(panel){
@@ -57,6 +63,20 @@ void writeLights(panel, leds){
         // SPI CLOCK STUFF
         led_toggle(&led2);
     }
+}
+
+void lightsRandom(leds_p1, leds_p2){
+    // Randomly turns on a light
+    srand(time(NULL));
+    int random_panel = (rand() % 2) + 1;
+    int random_bit = rand() % 16;
+    if (random_panel == 1){
+        new_leds = leds_p1 ^ (1 << random_bit);
+    }
+    else {
+        new_leds = leds_p2 ^ (1 << random_bit);
+    }
+    writeLights(random_panel, new_leds);
 }
 
 int16_t main(void) {
@@ -89,6 +109,8 @@ int16_t main(void) {
     diff_rising_buttons_p2 = 0x0000;
     timer_setPeriod(&timer2, 0.15);
     timer_start(&timer2);
+    timer_setPeriod(&timer3, 2);
+    timer_start(&timer3);
 
     while (1) {
         if (timer_flag(&timer2)) {
@@ -121,6 +143,12 @@ int16_t main(void) {
 
             }
 
+        }
+
+        // Randomly turn on a light every 2 seconds
+        if (timer_flag(&timer3)) {
+            timer_lower(&timer3);
+            lightsRandom(leds_p1, leds_p2);
         }
 
     }
