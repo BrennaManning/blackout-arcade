@@ -4,411 +4,411 @@ coinMech.elf:     file format elf32-pic30
 Disassembly of section .aivt._AltADC1Interrupt:
 
 0000012e <.aivt._AltADC1Interrupt>:
- 12e:	e4 2f 00    	nop       
+ 12e:	24 30 00    	nop       
 Disassembly of section .aivt._AltAddressError:
 
 00000108 <.aivt._AltAddressError>:
- 108:	e4 2f 00    	nop       
+ 108:	24 30 00    	nop       
 Disassembly of section .aivt._AltCNInterrupt:
 
 0000013a <.aivt._AltCNInterrupt>:
- 13a:	e4 2f 00    	nop       
+ 13a:	24 30 00    	nop       
 Disassembly of section .aivt._AltCRCInterrupt:
 
 0000019a <.aivt._AltCRCInterrupt>:
- 19a:	e4 2f 00    	nop       
+ 19a:	24 30 00    	nop       
 Disassembly of section .aivt._AltCTMUInterrupt:
 
 000001ae <.aivt._AltCTMUInterrupt>:
- 1ae:	e4 2f 00    	nop       
+ 1ae:	24 30 00    	nop       
 Disassembly of section .aivt._AltCompInterrupt:
 
 00000138 <.aivt._AltCompInterrupt>:
- 138:	e4 2f 00    	nop       
+ 138:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC1Interrupt:
 
 00000116 <.aivt._AltIC1Interrupt>:
- 116:	e4 2f 00    	nop       
+ 116:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC2Interrupt:
 
 0000011e <__CONFIG1-0x156e0>:
- 11e:	e4 2f 00    	nop       
+ 11e:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC3Interrupt:
 
 0000015e <__CONFIG2-0x1569e>:
- 15e:	e4 2f 00    	nop       
+ 15e:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC4Interrupt:
 
 00000160 <__CONFIG3-0x1569a>:
- 160:	e4 2f 00    	nop       
+ 160:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC5Interrupt:
 
 00000162 <.aivt._AltIC5Interrupt>:
- 162:	e4 2f 00    	nop       
+ 162:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC6Interrupt:
 
 00000164 <.aivt._AltIC6Interrupt>:
- 164:	e4 2f 00    	nop       
+ 164:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC7Interrupt:
 
 00000140 <.aivt._AltIC7Interrupt>:
- 140:	e4 2f 00    	nop       
+ 140:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC8Interrupt:
 
 00000142 <.aivt._AltIC8Interrupt>:
- 142:	e4 2f 00    	nop       
+ 142:	24 30 00    	nop       
 Disassembly of section .aivt._AltIC9Interrupt:
 
 000001ce <.aivt._AltIC9Interrupt>:
- 1ce:	e4 2f 00    	nop       
+ 1ce:	24 30 00    	nop       
 Disassembly of section .aivt._AltINT0Interrupt:
 
 00000114 <.aivt._AltINT0Interrupt>:
- 114:	e4 2f 00    	nop       
+ 114:	24 30 00    	nop       
 Disassembly of section .aivt._AltINT1Interrupt:
 
 0000013c <.aivt._AltINT1Interrupt>:
- 13c:	e4 2f 00    	nop       
+ 13c:	24 30 00    	nop       
 Disassembly of section .aivt._AltINT2Interrupt:
 
 0000014e <.aivt._AltINT2Interrupt>:
- 14e:	e4 2f 00    	nop       
+ 14e:	24 30 00    	nop       
 Disassembly of section .aivt._AltINT3Interrupt:
 
 0000017e <.aivt._AltINT3Interrupt>:
- 17e:	e4 2f 00    	nop       
+ 17e:	24 30 00    	nop       
 Disassembly of section .aivt._AltINT4Interrupt:
 
 00000180 <.aivt._AltINT4Interrupt>:
- 180:	e4 2f 00    	nop       
+ 180:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt14:
 
 00000130 <.aivt._AltInterrupt14>:
- 130:	e4 2f 00    	nop       
+ 130:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt15:
 
 00000132 <.aivt._AltInterrupt15>:
- 132:	e4 2f 00    	nop       
+ 132:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt21:
 
 0000013e <.aivt._AltInterrupt21>:
- 13e:	e4 2f 00    	nop       
+ 13e:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt24:
 
 00000144 <.aivt._AltInterrupt24>:
- 144:	e4 2f 00    	nop       
+ 144:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt34:
 
 00000158 <.aivt._AltInterrupt34>:
- 158:	e4 2f 00    	nop       
+ 158:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt35:
 
 0000015a <.aivt._AltInterrupt35>:
- 15a:	e4 2f 00    	nop       
+ 15a:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt36:
 
 0000015c <.aivt._AltInterrupt36>:
- 15c:	e4 2f 00    	nop       
+ 15c:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt4:
 
 0000011c <.aivt._AltInterrupt4>:
- 11c:	e4 2f 00    	nop       
+ 11c:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt46:
 
 00000170 <.aivt._AltInterrupt46>:
- 170:	e4 2f 00    	nop       
+ 170:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt47:
 
 00000172 <.aivt._AltInterrupt47>:
- 172:	e4 2f 00    	nop       
+ 172:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt48:
 
 00000174 <.aivt._AltInterrupt48>:
- 174:	e4 2f 00    	nop       
+ 174:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt51:
 
 0000017a <.aivt._AltInterrupt51>:
- 17a:	e4 2f 00    	nop       
+ 17a:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt52:
 
 0000017c <.aivt._AltInterrupt52>:
- 17c:	e4 2f 00    	nop       
+ 17c:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt55:
 
 00000182 <.aivt._AltInterrupt55>:
- 182:	e4 2f 00    	nop       
+ 182:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt56:
 
 00000184 <.aivt._AltInterrupt56>:
- 184:	e4 2f 00    	nop       
+ 184:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt57:
 
 00000186 <.aivt._AltInterrupt57>:
- 186:	e4 2f 00    	nop       
+ 186:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt58:
 
 00000188 <.aivt._AltInterrupt58>:
- 188:	e4 2f 00    	nop       
+ 188:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt59:
 
 0000018a <.aivt._AltInterrupt59>:
- 18a:	e4 2f 00    	nop       
+ 18a:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt60:
 
 0000018c <.aivt._AltInterrupt60>:
- 18c:	e4 2f 00    	nop       
+ 18c:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt61:
 
 0000018e <.aivt._AltInterrupt61>:
- 18e:	e4 2f 00    	nop       
+ 18e:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt63:
 
 00000192 <.aivt._AltInterrupt63>:
- 192:	e4 2f 00    	nop       
+ 192:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt64:
 
 00000194 <.aivt._AltInterrupt64>:
- 194:	e4 2f 00    	nop       
+ 194:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt68:
 
 0000019c <.aivt._AltInterrupt68>:
- 19c:	e4 2f 00    	nop       
+ 19c:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt69:
 
 0000019e <.aivt._AltInterrupt69>:
- 19e:	e4 2f 00    	nop       
+ 19e:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt70:
 
 000001a0 <.aivt._AltInterrupt70>:
- 1a0:	e4 2f 00    	nop       
+ 1a0:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt71:
 
 000001a2 <.aivt._AltInterrupt71>:
- 1a2:	e4 2f 00    	nop       
+ 1a2:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt73:
 
 000001a6 <.aivt._AltInterrupt73>:
- 1a6:	e4 2f 00    	nop       
+ 1a6:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt74:
 
 000001a8 <.aivt._AltInterrupt74>:
- 1a8:	e4 2f 00    	nop       
+ 1a8:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt75:
 
 000001aa <.aivt._AltInterrupt75>:
- 1aa:	e4 2f 00    	nop       
+ 1aa:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt76:
 
 000001ac <.aivt._AltInterrupt76>:
- 1ac:	e4 2f 00    	nop       
+ 1ac:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt78:
 
 000001b0 <.aivt._AltInterrupt78>:
- 1b0:	e4 2f 00    	nop       
+ 1b0:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt79:
 
 000001b2 <.aivt._AltInterrupt79>:
- 1b2:	e4 2f 00    	nop       
+ 1b2:	24 30 00    	nop       
 Disassembly of section .aivt._AltInterrupt80:
 
 000001b4 <.aivt._AltInterrupt80>:
- 1b4:	e4 2f 00    	nop       
+ 1b4:	24 30 00    	nop       
 Disassembly of section .aivt._AltLVDInterrupt:
 
 000001a4 <.aivt._AltLVDInterrupt>:
- 1a4:	e4 2f 00    	nop       
+ 1a4:	24 30 00    	nop       
 Disassembly of section .aivt._AltMI2C1Interrupt:
 
 00000136 <.aivt._AltMI2C1Interrupt>:
- 136:	e4 2f 00    	nop       
+ 136:	24 30 00    	nop       
 Disassembly of section .aivt._AltMI2C2Interrupt:
 
 00000178 <.aivt._AltMI2C2Interrupt>:
- 178:	e4 2f 00    	nop       
+ 178:	24 30 00    	nop       
 Disassembly of section .aivt._AltMI2C3Interrupt:
 
 000001be <.aivt._AltMI2C3Interrupt>:
- 1be:	e4 2f 00    	nop       
+ 1be:	24 30 00    	nop       
 Disassembly of section .aivt._AltMathError:
 
 0000010c <.aivt._AltMathError>:
- 10c:	e4 2f 00    	nop       
+ 10c:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC1Interrupt:
 
 00000118 <.aivt._AltOC1Interrupt>:
- 118:	e4 2f 00    	nop       
+ 118:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC2Interrupt:
 
 00000120 <.aivt._AltOC2Interrupt>:
- 120:	e4 2f 00    	nop       
+ 120:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC3Interrupt:
 
 00000146 <.aivt._AltOC3Interrupt>:
- 146:	e4 2f 00    	nop       
+ 146:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC4Interrupt:
 
 00000148 <.aivt._AltOC4Interrupt>:
- 148:	e4 2f 00    	nop       
+ 148:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC5Interrupt:
 
 00000166 <.aivt._AltOC5Interrupt>:
- 166:	e4 2f 00    	nop       
+ 166:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC6Interrupt:
 
 00000168 <.aivt._AltOC6Interrupt>:
- 168:	e4 2f 00    	nop       
+ 168:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC7Interrupt:
 
 0000016a <.aivt._AltOC7Interrupt>:
- 16a:	e4 2f 00    	nop       
+ 16a:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC8Interrupt:
 
 0000016c <.aivt._AltOC8Interrupt>:
- 16c:	e4 2f 00    	nop       
+ 16c:	24 30 00    	nop       
 Disassembly of section .aivt._AltOC9Interrupt:
 
 000001cc <.aivt._AltOC9Interrupt>:
- 1cc:	e4 2f 00    	nop       
+ 1cc:	24 30 00    	nop       
 Disassembly of section .aivt._AltOscillatorFail:
 
 00000106 <.aivt._AltOscillatorFail>:
- 106:	e4 2f 00    	nop       
+ 106:	24 30 00    	nop       
 Disassembly of section .aivt._AltPMPInterrupt:
 
 0000016e <.aivt._AltPMPInterrupt>:
- 16e:	e4 2f 00    	nop       
+ 16e:	24 30 00    	nop       
 Disassembly of section .aivt._AltRTCCInterrupt:
 
 00000190 <.aivt._AltRTCCInterrupt>:
- 190:	e4 2f 00    	nop       
+ 190:	24 30 00    	nop       
 Disassembly of section .aivt._AltReservedTrap0:
 
 00000104 <.aivt._AltReservedTrap0>:
- 104:	e4 2f 00    	nop       
+ 104:	24 30 00    	nop       
 Disassembly of section .aivt._AltReservedTrap5:
 
 0000010e <.aivt._AltReservedTrap5>:
- 10e:	e4 2f 00    	nop       
+ 10e:	24 30 00    	nop       
 Disassembly of section .aivt._AltReservedTrap6:
 
 00000110 <.aivt._AltReservedTrap6>:
- 110:	e4 2f 00    	nop       
+ 110:	24 30 00    	nop       
 Disassembly of section .aivt._AltReservedTrap7:
 
 00000112 <.aivt._AltReservedTrap7>:
- 112:	e4 2f 00    	nop       
+ 112:	24 30 00    	nop       
 Disassembly of section .aivt._AltSI2C1Interrupt:
 
 00000134 <.aivt._AltSI2C1Interrupt>:
- 134:	e4 2f 00    	nop       
+ 134:	24 30 00    	nop       
 Disassembly of section .aivt._AltSI2C2Interrupt:
 
 00000176 <.aivt._AltSI2C2Interrupt>:
- 176:	e4 2f 00    	nop       
+ 176:	24 30 00    	nop       
 Disassembly of section .aivt._AltSI2C3Interrupt:
 
 000001bc <.aivt._AltSI2C3Interrupt>:
- 1bc:	e4 2f 00    	nop       
+ 1bc:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI1ErrInterrupt:
 
 00000126 <.aivt._AltSPI1ErrInterrupt>:
- 126:	e4 2f 00    	nop       
+ 126:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI1Interrupt:
 
 00000128 <.aivt._AltSPI1Interrupt>:
- 128:	e4 2f 00    	nop       
+ 128:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI2ErrInterrupt:
 
 00000154 <.aivt._AltSPI2ErrInterrupt>:
- 154:	e4 2f 00    	nop       
+ 154:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI2Interrupt:
 
 00000156 <.aivt._AltSPI2Interrupt>:
- 156:	e4 2f 00    	nop       
+ 156:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI3ErrInterrupt:
 
 000001c8 <.aivt._AltSPI3ErrInterrupt>:
- 1c8:	e4 2f 00    	nop       
+ 1c8:	24 30 00    	nop       
 Disassembly of section .aivt._AltSPI3Interrupt:
 
 000001ca <.aivt._AltSPI3Interrupt>:
- 1ca:	e4 2f 00    	nop       
+ 1ca:	24 30 00    	nop       
 Disassembly of section .aivt._AltStackError:
 
 0000010a <.aivt._AltStackError>:
- 10a:	e4 2f 00    	nop       
+ 10a:	24 30 00    	nop       
 Disassembly of section .aivt._AltT1Interrupt:
 
 0000011a <.aivt._AltT1Interrupt>:
- 11a:	e4 2f 00    	nop       
+ 11a:	24 30 00    	nop       
 Disassembly of section .aivt._AltT2Interrupt:
 
 00000122 <.aivt._AltT2Interrupt>:
- 122:	e4 2f 00    	nop       
+ 122:	24 30 00    	nop       
 Disassembly of section .aivt._AltT3Interrupt:
 
 00000124 <.aivt._AltT3Interrupt>:
- 124:	e4 2f 00    	nop       
+ 124:	24 30 00    	nop       
 Disassembly of section .aivt._AltT4Interrupt:
 
 0000014a <.aivt._AltT4Interrupt>:
- 14a:	e4 2f 00    	nop       
+ 14a:	24 30 00    	nop       
 Disassembly of section .aivt._AltT5Interrupt:
 
 0000014c <.aivt._AltT5Interrupt>:
- 14c:	e4 2f 00    	nop       
+ 14c:	24 30 00    	nop       
 Disassembly of section .aivt._AltU1ErrInterrupt:
 
 00000196 <.aivt._AltU1ErrInterrupt>:
- 196:	e4 2f 00    	nop       
+ 196:	24 30 00    	nop       
 Disassembly of section .aivt._AltU1RXInterrupt:
 
 0000012a <.aivt._AltU1RXInterrupt>:
- 12a:	e4 2f 00    	nop       
+ 12a:	24 30 00    	nop       
 Disassembly of section .aivt._AltU1TXInterrupt:
 
 0000012c <.aivt._AltU1TXInterrupt>:
- 12c:	e4 2f 00    	nop       
+ 12c:	24 30 00    	nop       
 Disassembly of section .aivt._AltU2ErrInterrupt:
 
 00000198 <.aivt._AltU2ErrInterrupt>:
- 198:	e4 2f 00    	nop       
+ 198:	24 30 00    	nop       
 Disassembly of section .aivt._AltU2RXInterrupt:
 
 00000150 <.aivt._AltU2RXInterrupt>:
- 150:	e4 2f 00    	nop       
+ 150:	24 30 00    	nop       
 Disassembly of section .aivt._AltU2TXInterrupt:
 
 00000152 <.aivt._AltU2TXInterrupt>:
- 152:	e4 2f 00    	nop       
+ 152:	24 30 00    	nop       
 Disassembly of section .aivt._AltU3ErrInterrupt:
 
 000001b6 <.aivt._AltU3ErrInterrupt>:
- 1b6:	e4 2f 00    	nop       
+ 1b6:	24 30 00    	nop       
 Disassembly of section .aivt._AltU3RXInterrupt:
 
 000001b8 <.aivt._AltU3RXInterrupt>:
- 1b8:	e4 2f 00    	nop       
+ 1b8:	24 30 00    	nop       
 Disassembly of section .aivt._AltU3TXInterrupt:
 
 000001ba <.aivt._AltU3TXInterrupt>:
- 1ba:	e4 2f 00    	nop       
+ 1ba:	24 30 00    	nop       
 Disassembly of section .aivt._AltU4ErrInterrupt:
 
 000001c2 <.aivt._AltU4ErrInterrupt>:
- 1c2:	e4 2f 00    	nop       
+ 1c2:	24 30 00    	nop       
 Disassembly of section .aivt._AltU4RXInterrupt:
 
 000001c4 <.aivt._AltU4RXInterrupt>:
- 1c4:	e4 2f 00    	nop       
+ 1c4:	24 30 00    	nop       
 Disassembly of section .aivt._AltU4TXInterrupt:
 
 000001c6 <.aivt._AltU4TXInterrupt>:
- 1c6:	e4 2f 00    	nop       
+ 1c6:	24 30 00    	nop       
 Disassembly of section .aivt._AltUSB1Interrupt:
 
 000001c0 <.aivt._AltUSB1Interrupt>:
- 1c0:	e4 2f 00    	nop       
+ 1c0:	24 30 00    	nop       
 Disassembly of section .reset:
 
 00000000 <.reset>:
@@ -417,7 +417,7 @@ Disassembly of section .reset:
 Disassembly of section .text:
 
 00001110 <__reset>:
-    1110:	af b8 20    	mov.w     #0xb8a, w15
+    1110:	cf b8 20    	mov.w     #0xb8c, w15
     1112:	0e ff 27    	mov.w     #0x7ff0, w14
     1114:	0e 01 88    	mov.w     w14, 0x20
     1116:	00 00 00    	nop       
@@ -432,7 +432,7 @@ Disassembly of section .text:
     1124:	85 00 07    	rcall     0x1230 <__crt_start_mode> <__crt_start_mode_normal>
     1126:	00 00 e0    	cp0.w     w0
     1128:	03 00 3a    	bra       NZ, 0x1130 <L11>
-    112a:	80 f7 22    	mov.w     #0x2f78, w0
+    112a:	c0 fe 22    	mov.w     #0x2fec, w0
     112c:	01 00 20    	mov.w     #0x0, w1
     112e:	02 00 37    	bra       0x1134 <L21>
 
@@ -453,7 +453,7 @@ Disassembly of section .text:
     1142:	00 00 00 
 
 00001144 <L13>:
-    1144:	ba 2f 02    	call      0x2fba <_main>
+    1144:	b4 2f 02    	call      0x2fb4 <_main>
     1146:	00 00 00 
     1148:	00 40 da    	break     
     114a:	00 00 fe    	reset     
@@ -1199,141 +1199,141 @@ Disassembly of section .application_ivt:
 00001000 <__DEFAULT_VECTOR-0x10c>:
     1000:	10 11 04    	goto      0x1110 <__reset>
     1002:	00 00 00 
-    1004:	e4 2f 04    	goto      0x2fe4 <L0>
+    1004:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1006:	00 00 00 
-    1008:	e4 2f 04    	goto      0x2fe4 <L0>
+    1008:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     100a:	00 00 00 
-    100c:	e4 2f 04    	goto      0x2fe4 <L0>
+    100c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     100e:	00 00 00 
-    1010:	e4 2f 04    	goto      0x2fe4 <L0>
+    1010:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1012:	00 00 00 
-    1014:	e4 2f 04    	goto      0x2fe4 <L0>
+    1014:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1016:	00 00 00 
-    1018:	e4 2f 04    	goto      0x2fe4 <L0>
+    1018:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     101a:	00 00 00 
-    101c:	e4 2f 04    	goto      0x2fe4 <L0>
+    101c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     101e:	00 00 00 
-    1020:	e4 2f 04    	goto      0x2fe4 <L0>
+    1020:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1022:	00 00 00 
     1024:	f4 23 04    	goto      0x23f4 <__T1Interrupt>
     1026:	00 00 00 
-    1028:	e4 2f 04    	goto      0x2fe4 <L0>
+    1028:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     102a:	00 00 00 
-    102c:	e4 2f 04    	goto      0x2fe4 <L0>
+    102c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     102e:	00 00 00 
     1030:	22 24 04    	goto      0x2422 <__T2Interrupt>
     1032:	00 00 00 
     1034:	50 24 04    	goto      0x2450 <__T3Interrupt>
     1036:	00 00 00 
-    1038:	e4 2f 04    	goto      0x2fe4 <L0>
+    1038:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     103a:	00 00 00 
-    103c:	e4 2f 04    	goto      0x2fe4 <L0>
+    103c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     103e:	00 00 00 
     1040:	fe 17 04    	goto      0x17fe <__U1RXInterrupt>
     1042:	00 00 00 
     1044:	d0 17 04    	goto      0x17d0 <__U1TXInterrupt>
     1046:	00 00 00 
-    1048:	e4 2f 04    	goto      0x2fe4 <L0>
+    1048:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     104a:	00 00 00 
-    104c:	e4 2f 04    	goto      0x2fe4 <L0>
+    104c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     104e:	00 00 00 
-    1050:	e4 2f 04    	goto      0x2fe4 <L0>
+    1050:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1052:	00 00 00 
-    1054:	e4 2f 04    	goto      0x2fe4 <L0>
+    1054:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1056:	00 00 00 
-    1058:	e4 2f 04    	goto      0x2fe4 <L0>
+    1058:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     105a:	00 00 00 
-    105c:	e4 2f 04    	goto      0x2fe4 <L0>
+    105c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     105e:	00 00 00 
-    1060:	e4 2f 04    	goto      0x2fe4 <L0>
+    1060:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1062:	00 00 00 
-    1064:	e4 2f 04    	goto      0x2fe4 <L0>
+    1064:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1066:	00 00 00 
-    1068:	e4 2f 04    	goto      0x2fe4 <L0>
+    1068:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     106a:	00 00 00 
-    106c:	e4 2f 04    	goto      0x2fe4 <L0>
+    106c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     106e:	00 00 00 
     1070:	7e 24 04    	goto      0x247e <__T4Interrupt>
     1072:	00 00 00 
     1074:	ac 24 04    	goto      0x24ac <__T5Interrupt>
     1076:	00 00 00 
-    1078:	e4 2f 04    	goto      0x2fe4 <L0>
+    1078:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     107a:	00 00 00 
     107c:	5a 18 04    	goto      0x185a <__U2RXInterrupt>
     107e:	00 00 00 
     1080:	2c 18 04    	goto      0x182c <__U2TXInterrupt>
     1082:	00 00 00 
-    1084:	e4 2f 04    	goto      0x2fe4 <L0>
+    1084:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1086:	00 00 00 
-    1088:	e4 2f 04    	goto      0x2fe4 <L0>
+    1088:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     108a:	00 00 00 
-    108c:	e4 2f 04    	goto      0x2fe4 <L0>
+    108c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     108e:	00 00 00 
-    1090:	e4 2f 04    	goto      0x2fe4 <L0>
+    1090:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1092:	00 00 00 
-    1094:	e4 2f 04    	goto      0x2fe4 <L0>
+    1094:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1096:	00 00 00 
-    1098:	e4 2f 04    	goto      0x2fe4 <L0>
+    1098:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     109a:	00 00 00 
-    109c:	e4 2f 04    	goto      0x2fe4 <L0>
+    109c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     109e:	00 00 00 
-    10a0:	e4 2f 04    	goto      0x2fe4 <L0>
+    10a0:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10a2:	00 00 00 
-    10a4:	e4 2f 04    	goto      0x2fe4 <L0>
+    10a4:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10a6:	00 00 00 
-    10a8:	e4 2f 04    	goto      0x2fe4 <L0>
+    10a8:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10aa:	00 00 00 
-    10ac:	e4 2f 04    	goto      0x2fe4 <L0>
+    10ac:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ae:	00 00 00 
-    10b0:	e4 2f 04    	goto      0x2fe4 <L0>
+    10b0:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10b2:	00 00 00 
-    10b4:	e4 2f 04    	goto      0x2fe4 <L0>
+    10b4:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10b6:	00 00 00 
-    10b8:	e4 2f 04    	goto      0x2fe4 <L0>
+    10b8:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ba:	00 00 00 
-    10bc:	e4 2f 04    	goto      0x2fe4 <L0>
+    10bc:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10be:	00 00 00 
-    10c0:	e4 2f 04    	goto      0x2fe4 <L0>
+    10c0:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10c2:	00 00 00 
-    10c4:	e4 2f 04    	goto      0x2fe4 <L0>
+    10c4:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10c6:	00 00 00 
-    10c8:	e4 2f 04    	goto      0x2fe4 <L0>
+    10c8:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ca:	00 00 00 
-    10cc:	e4 2f 04    	goto      0x2fe4 <L0>
+    10cc:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ce:	00 00 00 
-    10d0:	e4 2f 04    	goto      0x2fe4 <L0>
+    10d0:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10d2:	00 00 00 
-    10d4:	e4 2f 04    	goto      0x2fe4 <L0>
+    10d4:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10d6:	00 00 00 
-    10d8:	e4 2f 04    	goto      0x2fe4 <L0>
+    10d8:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10da:	00 00 00 
     10dc:	b6 18 04    	goto      0x18b6 <__U3RXInterrupt>
     10de:	00 00 00 
     10e0:	88 18 04    	goto      0x1888 <__U3TXInterrupt>
     10e2:	00 00 00 
-    10e4:	e4 2f 04    	goto      0x2fe4 <L0>
+    10e4:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10e6:	00 00 00 
-    10e8:	e4 2f 04    	goto      0x2fe4 <L0>
+    10e8:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ea:	00 00 00 
-    10ec:	e4 2f 04    	goto      0x2fe4 <L0>
+    10ec:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10ee:	00 00 00 
-    10f0:	e4 2f 04    	goto      0x2fe4 <L0>
+    10f0:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10f2:	00 00 00 
     10f4:	12 19 04    	goto      0x1912 <__U4RXInterrupt>
     10f6:	00 00 00 
     10f8:	e4 18 04    	goto      0x18e4 <__U4TXInterrupt>
     10fa:	00 00 00 
-    10fc:	e4 2f 04    	goto      0x2fe4 <L0>
+    10fc:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     10fe:	00 00 00 
-    1100:	e4 2f 04    	goto      0x2fe4 <L0>
+    1100:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1102:	00 00 00 
-    1104:	e4 2f 04    	goto      0x2fe4 <L0>
+    1104:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     1106:	00 00 00 
-    1108:	e4 2f 04    	goto      0x2fe4 <L0>
+    1108:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     110a:	00 00 00 
 
 0000110c <__DEFAULT_VECTOR>:
-    110c:	e4 2f 04    	goto      0x2fe4 <L0>
+    110c:	24 30 04    	goto      0x3024 <__DefaultInterrupt>
     110e:	00 00 00 
 Disassembly of section .ivt:
 
@@ -1913,7 +1913,7 @@ void __attribute__((interrupt, auto_psv)) _U1TXInterrupt(void) {
     17e4:	90 01 88    	mov.w     w0, 0x32
     17e6:	00 00 fa    	lnk       #0x0
     __serviceTxInterrupt(&uart1);
-    17e8:	00 9f 20    	mov.w     #0x9f0, w0
+    17e8:	20 9f 20    	mov.w     #0x9f2, w0
     17ea:	4c ff 07    	rcall     0x1684 <___serviceTxInterrupt> <L0> <.LFB3> <.LFE2>
 }
     17ec:	00 80 fa    	ulnk      
@@ -1942,7 +1942,7 @@ void __attribute__((interrupt, auto_psv)) _U1RXInterrupt(void) {
     1812:	90 01 88    	mov.w     w0, 0x32
     1814:	00 00 fa    	lnk       #0x0
     __serviceRxInterrupt(&uart1);
-    1816:	00 9f 20    	mov.w     #0x9f0, w0
+    1816:	20 9f 20    	mov.w     #0x9f2, w0
     1818:	9f ff 07    	rcall     0x1758 <___serviceRxInterrupt> <L0> <.LFB5> <.LFE4>
 }
     181a:	00 80 fa    	ulnk      
@@ -1971,7 +1971,7 @@ void __attribute__((interrupt, auto_psv)) _U2TXInterrupt(void) {
     1840:	90 01 88    	mov.w     w0, 0x32
     1842:	00 00 fa    	lnk       #0x0
     __serviceTxInterrupt(&uart2);
-    1844:	c0 a2 20    	mov.w     #0xa2c, w0
+    1844:	e0 a2 20    	mov.w     #0xa2e, w0
     1846:	1e ff 07    	rcall     0x1684 <___serviceTxInterrupt> <L0> <.LFB3> <.LFE2>
 }
     1848:	00 80 fa    	ulnk      
@@ -2000,7 +2000,7 @@ void __attribute__((interrupt, auto_psv)) _U2RXInterrupt(void) {
     186e:	90 01 88    	mov.w     w0, 0x32
     1870:	00 00 fa    	lnk       #0x0
     __serviceRxInterrupt(&uart2);
-    1872:	c0 a2 20    	mov.w     #0xa2c, w0
+    1872:	e0 a2 20    	mov.w     #0xa2e, w0
     1874:	71 ff 07    	rcall     0x1758 <___serviceRxInterrupt> <L0> <.LFB5> <.LFE4>
 }
     1876:	00 80 fa    	ulnk      
@@ -2029,7 +2029,7 @@ void __attribute__((interrupt, auto_psv)) _U3TXInterrupt(void) {
     189c:	90 01 88    	mov.w     w0, 0x32
     189e:	00 00 fa    	lnk       #0x0
     __serviceTxInterrupt(&uart3);
-    18a0:	80 a6 20    	mov.w     #0xa68, w0
+    18a0:	a0 a6 20    	mov.w     #0xa6a, w0
     18a2:	f0 fe 07    	rcall     0x1684 <___serviceTxInterrupt> <L0> <.LFB3> <.LFE2>
 }
     18a4:	00 80 fa    	ulnk      
@@ -2058,7 +2058,7 @@ void __attribute__((interrupt, auto_psv)) _U3RXInterrupt(void) {
     18ca:	90 01 88    	mov.w     w0, 0x32
     18cc:	00 00 fa    	lnk       #0x0
     __serviceRxInterrupt(&uart3);
-    18ce:	80 a6 20    	mov.w     #0xa68, w0
+    18ce:	a0 a6 20    	mov.w     #0xa6a, w0
     18d0:	43 ff 07    	rcall     0x1758 <___serviceRxInterrupt> <L0> <.LFB5> <.LFE4>
 }
     18d2:	00 80 fa    	ulnk      
@@ -2087,7 +2087,7 @@ void __attribute__((interrupt, auto_psv)) _U4TXInterrupt(void) {
     18f8:	90 01 88    	mov.w     w0, 0x32
     18fa:	00 00 fa    	lnk       #0x0
     __serviceTxInterrupt(&uart4);
-    18fc:	40 aa 20    	mov.w     #0xaa4, w0
+    18fc:	60 aa 20    	mov.w     #0xaa6, w0
     18fe:	c2 fe 07    	rcall     0x1684 <___serviceTxInterrupt> <L0> <.LFB3> <.LFE2>
 }
     1900:	00 80 fa    	ulnk      
@@ -2116,7 +2116,7 @@ void __attribute__((interrupt, auto_psv)) _U4RXInterrupt(void) {
     1926:	90 01 88    	mov.w     w0, 0x32
     1928:	00 00 fa    	lnk       #0x0
     __serviceRxInterrupt(&uart4);
-    192a:	40 aa 20    	mov.w     #0xaa4, w0
+    192a:	60 aa 20    	mov.w     #0xaa6, w0
     192c:	15 ff 07    	rcall     0x1758 <___serviceRxInterrupt> <L0> <.LFB5> <.LFE4>
 }
     192e:	00 80 fa    	ulnk      
@@ -2170,7 +2170,7 @@ int16_t write(int16_t handle, void *buffer, uint16_t len) {
     1962:	2e 00 90    	mov.w     [w14+4], w0
     1964:	00 00 e8    	inc.w     w0, w0
     1966:	20 07 98    	mov.w     w0, [w14+4]
-    1968:	a0 41 80    	mov.w     0x834, w0
+    1968:	b0 41 80    	mov.w     0x836, w0
     196a:	48 04 07    	rcall     0x21fc <_uart_putc> <L0> <.LFB19> <.LFE18>
     196c:	1e 0f e8    	inc.w     [w14], [w14]
 
@@ -2192,7 +2192,7 @@ int16_t write(int16_t handle, void *buffer, uint16_t len) {
     1982:	2e 00 90    	mov.w     [w14+4], w0
     1984:	00 00 e8    	inc.w     w0, w0
     1986:	20 07 98    	mov.w     w0, [w14+4]
-    1988:	b0 41 80    	mov.w     0x836, w0
+    1988:	c0 41 80    	mov.w     0x838, w0
     198a:	38 04 07    	rcall     0x21fc <_uart_putc> <L0> <.LFB19> <.LFE18>
     198c:	1e 0f e8    	inc.w     [w14], [w14]
 
@@ -2231,7 +2231,7 @@ void init_uart(void) {
     19b0:	80 01 eb    	clr.w     w3
     19b2:	02 2f 20    	mov.w     #0x2f0, w2
     19b4:	21 2f 20    	mov.w     #0x2f2, w1
-    19b6:	00 ae 20    	mov.w     #0xae0, w0
+    19b6:	20 ae 20    	mov.w     #0xae2, w0
     19b8:	cf 08 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     19ba:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 6, -1, 8, 21, (uint16_t *)&RPOR10);
@@ -2245,7 +2245,7 @@ void init_uart(void) {
     19c8:	80 01 eb    	clr.w     w3
     19ca:	02 2f 20    	mov.w     #0x2f0, w2
     19cc:	21 2f 20    	mov.w     #0x2f2, w1
-    19ce:	60 af 20    	mov.w     #0xaf6, w0
+    19ce:	80 af 20    	mov.w     #0xaf8, w0
     19d0:	c3 08 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     19d2:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 7, -1, 0, 26, (uint16_t *)&RPOR13);
@@ -2274,7 +2274,7 @@ void init_uart(void) {
     19fc:	43 22 20    	mov.w     #0x224, w3
     19fe:	22 22 20    	mov.w     #0x222, w2
     1a00:	01 22 20    	mov.w     #0x220, w1
-    1a02:	00 9f 20    	mov.w     #0x9f0, w0
+    1a02:	20 9f 20    	mov.w     #0x9f2, w0
     1a04:	6b 00 07    	rcall     0x1adc <_uart_init> <L0> <.LFB16> <.LFE15>
     1a06:	f0 87 57    	sub.w     w15, #0x10, w15
               (uint16_t *)&U1TXREG, (uint16_t *)&U1RXREG, 
@@ -2305,7 +2305,7 @@ void init_uart(void) {
     1a30:	43 23 20    	mov.w     #0x234, w3
     1a32:	22 23 20    	mov.w     #0x232, w2
     1a34:	01 23 20    	mov.w     #0x230, w1
-    1a36:	c0 a2 20    	mov.w     #0xa2c, w0
+    1a36:	e0 a2 20    	mov.w     #0xa2e, w0
     1a38:	51 00 07    	rcall     0x1adc <_uart_init> <L0> <.LFB16> <.LFE15>
     1a3a:	f0 87 57    	sub.w     w15, #0x10, w15
               (uint16_t *)&U2TXREG, (uint16_t *)&U2RXREG, 
@@ -2336,7 +2336,7 @@ void init_uart(void) {
     1a64:	43 25 20    	mov.w     #0x254, w3
     1a66:	22 25 20    	mov.w     #0x252, w2
     1a68:	01 25 20    	mov.w     #0x250, w1
-    1a6a:	80 a6 20    	mov.w     #0xa68, w0
+    1a6a:	a0 a6 20    	mov.w     #0xa6a, w0
     1a6c:	37 00 07    	rcall     0x1adc <_uart_init> <L0> <.LFB16> <.LFE15>
     1a6e:	f0 87 57    	sub.w     w15, #0x10, w15
               (uint16_t *)&U3TXREG, (uint16_t *)&U3RXREG, 
@@ -2367,7 +2367,7 @@ void init_uart(void) {
     1a98:	43 2b 20    	mov.w     #0x2b4, w3
     1a9a:	22 2b 20    	mov.w     #0x2b2, w2
     1a9c:	01 2b 20    	mov.w     #0x2b0, w1
-    1a9e:	40 aa 20    	mov.w     #0xaa4, w0
+    1a9e:	60 aa 20    	mov.w     #0xaa6, w0
     1aa0:	1d 00 07    	rcall     0x1adc <_uart_init> <L0> <.LFB16> <.LFE15>
     1aa2:	f0 87 57    	sub.w     w15, #0x10, w15
               (uint16_t *)&U4TXREG, (uint16_t *)&U4RXREG, 
@@ -2393,19 +2393,19 @@ void init_uart(void) {
     1ac0:	67 69 24    	mov.w     #0x4696, w7
     1ac2:	00 02 eb    	clr.w     w4
     1ac4:	80 01 eb    	clr.w     w3
-    1ac6:	62 af 20    	mov.w     #0xaf6, w2
-    1ac8:	01 ae 20    	mov.w     #0xae0, w1
-    1aca:	00 9f 20    	mov.w     #0x9f0, w0
+    1ac6:	82 af 20    	mov.w     #0xaf8, w2
+    1ac8:	21 ae 20    	mov.w     #0xae2, w1
+    1aca:	20 9f 20    	mov.w     #0x9f2, w0
     1acc:	72 00 07    	rcall     0x1bb2 <_uart_open> <L0> <.LFB17> <.LFE16>
     1ace:	ec 87 57    	sub.w     w15, #0xc, w15
               0, NULL, 0, NULL, 0);
 
     _stdout = &uart1;
-    1ad0:	00 9f 20    	mov.w     #0x9f0, w0
-    1ad2:	a0 41 88    	mov.w     w0, 0x834
+    1ad0:	20 9f 20    	mov.w     #0x9f2, w0
+    1ad2:	b0 41 88    	mov.w     w0, 0x836
     _stderr = &uart1;
-    1ad4:	00 9f 20    	mov.w     #0x9f0, w0
-    1ad6:	b0 41 88    	mov.w     w0, 0x836
+    1ad4:	20 9f 20    	mov.w     #0x9f2, w0
+    1ad6:	c0 41 88    	mov.w     w0, 0x838
 }
     1ad8:	00 80 fa    	ulnk      
     1ada:	00 00 06    	return    
@@ -4065,7 +4065,7 @@ void __attribute__((interrupt, auto_psv)) _T1Interrupt(void) {
     2408:	90 01 88    	mov.w     w0, 0x32
     240a:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer1);
-    240c:	c0 b0 20    	mov.w     #0xb0c, w0
+    240c:	e0 b0 20    	mov.w     #0xb0e, w0
     240e:	c9 ff 07    	rcall     0x23a2 <_timer_serviceInterrupt> <L0> <.L0> <.LFB0> <.LFE23> <.Letext0> <.Ltext0>
 }
     2410:	00 80 fa    	ulnk      
@@ -4094,7 +4094,7 @@ void __attribute__((interrupt, auto_psv)) _T2Interrupt(void) {
     2436:	90 01 88    	mov.w     w0, 0x32
     2438:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer2);
-    243a:	20 b2 20    	mov.w     #0xb22, w0
+    243a:	40 b2 20    	mov.w     #0xb24, w0
     243c:	b2 ff 07    	rcall     0x23a2 <_timer_serviceInterrupt> <L0> <.L0> <.LFB0> <.LFE23> <.Letext0> <.Ltext0>
 }
     243e:	00 80 fa    	ulnk      
@@ -4123,7 +4123,7 @@ void __attribute__((interrupt, auto_psv)) _T3Interrupt(void) {
     2464:	90 01 88    	mov.w     w0, 0x32
     2466:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer3);
-    2468:	80 b3 20    	mov.w     #0xb38, w0
+    2468:	a0 b3 20    	mov.w     #0xb3a, w0
     246a:	9b ff 07    	rcall     0x23a2 <_timer_serviceInterrupt> <L0> <.L0> <.LFB0> <.LFE23> <.Letext0> <.Ltext0>
 }
     246c:	00 80 fa    	ulnk      
@@ -4152,7 +4152,7 @@ void __attribute__((interrupt, auto_psv)) _T4Interrupt(void) {
     2492:	90 01 88    	mov.w     w0, 0x32
     2494:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer4);
-    2496:	e0 b4 20    	mov.w     #0xb4e, w0
+    2496:	00 b5 20    	mov.w     #0xb50, w0
     2498:	84 ff 07    	rcall     0x23a2 <_timer_serviceInterrupt> <L0> <.L0> <.LFB0> <.LFE23> <.Letext0> <.Ltext0>
 }
     249a:	00 80 fa    	ulnk      
@@ -4181,7 +4181,7 @@ void __attribute__((interrupt, auto_psv)) _T5Interrupt(void) {
     24c0:	90 01 88    	mov.w     w0, 0x32
     24c2:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer5);
-    24c4:	40 b6 20    	mov.w     #0xb64, w0
+    24c4:	60 b6 20    	mov.w     #0xb66, w0
     24c6:	6d ff 07    	rcall     0x23a2 <_timer_serviceInterrupt> <L0> <.L0> <.LFB0> <.LFE23> <.Letext0> <.Ltext0>
 }
     24c8:	00 80 fa    	ulnk      
@@ -4208,7 +4208,7 @@ void init_timer(void) {
     24e8:	03 10 20    	mov.w     #0x100, w3
     24ea:	22 10 20    	mov.w     #0x102, w2
     24ec:	41 10 20    	mov.w     #0x104, w1
-    24ee:	c0 b0 20    	mov.w     #0xb0c, w0
+    24ee:	e0 b0 20    	mov.w     #0xb0e, w0
     24f0:	33 00 07    	rcall     0x2558 <_timer_init> <L0> <.LFB7> <.LFE6>
     24f2:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 3, 4, 11);
@@ -4222,7 +4222,7 @@ void init_timer(void) {
     2500:	63 10 20    	mov.w     #0x106, w3
     2502:	c2 10 20    	mov.w     #0x10c, w2
     2504:	01 11 20    	mov.w     #0x110, w1
-    2506:	20 b2 20    	mov.w     #0xb22, w0
+    2506:	40 b2 20    	mov.w     #0xb24, w0
     2508:	27 00 07    	rcall     0x2558 <_timer_init> <L0> <.LFB7> <.LFE6>
     250a:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 7, 0, 12);
@@ -4236,7 +4236,7 @@ void init_timer(void) {
     2518:	a3 10 20    	mov.w     #0x10a, w3
     251a:	e2 10 20    	mov.w     #0x10e, w2
     251c:	21 11 20    	mov.w     #0x112, w1
-    251e:	80 b3 20    	mov.w     #0xb38, w0
+    251e:	a0 b3 20    	mov.w     #0xb3a, w0
     2520:	1b 00 07    	rcall     0x2558 <_timer_init> <L0> <.LFB7> <.LFE6>
     2522:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 8, 1, 13);
@@ -4250,7 +4250,7 @@ void init_timer(void) {
     2530:	43 11 20    	mov.w     #0x114, w3
     2532:	a2 11 20    	mov.w     #0x11a, w2
     2534:	e1 11 20    	mov.w     #0x11e, w1
-    2536:	e0 b4 20    	mov.w     #0xb4e, w0
+    2536:	00 b5 20    	mov.w     #0xb50, w0
     2538:	0f 00 07    	rcall     0x2558 <_timer_init> <L0> <.LFB7> <.LFE6>
     253a:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS1, (uint16_t *)&IEC1, 11, 2, 14);
@@ -4264,7 +4264,7 @@ void init_timer(void) {
     2548:	83 11 20    	mov.w     #0x118, w3
     254a:	c2 11 20    	mov.w     #0x11c, w2
     254c:	01 12 20    	mov.w     #0x120, w1
-    254e:	40 b6 20    	mov.w     #0xb64, w0
+    254e:	60 b6 20    	mov.w     #0xb66, w0
     2550:	03 00 07    	rcall     0x2558 <_timer_init> <L0> <.LFB7> <.LFE6>
     2552:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS1, (uint16_t *)&IEC1, 12, 3, 15);
@@ -4519,7 +4519,7 @@ float timer_period(_TIMER *self) {
     return timer_multipliers[prescalar]*((float)peek(self->PRx)+1.);
     26be:	1e 00 78    	mov.w     [w14], w0
     26c0:	c2 00 dd    	sl.w      w0, #0x2, w1
-    26c2:	a0 b7 20    	mov.w     #0xb7a, w0
+    26c2:	c0 b7 20    	mov.w     #0xb7c, w0
     26c4:	00 80 40    	add.w     w1, w0, w0
     26c6:	10 04 be    	mov.d     [w0], w8
     26c8:	1e 00 90    	mov.w     [w14+2], w0
@@ -4592,7 +4592,7 @@ float timer_time(_TIMER *self) {
     return timer_multipliers[prescalar]*((float)peek(self->PRx)+1.);
     2728:	1e 00 78    	mov.w     [w14], w0
     272a:	c2 00 dd    	sl.w      w0, #0x2, w1
-    272c:	a0 b7 20    	mov.w     #0xb7a, w0
+    272c:	c0 b7 20    	mov.w     #0xb7c, w0
     272e:	00 80 40    	add.w     w1, w0, w0
     2730:	10 04 be    	mov.d     [w0], w8
     2732:	1e 00 90    	mov.w     [w14+2], w0
@@ -4955,7 +4955,7 @@ void timer_cancel(_TIMER *self) {
     293e:	80 01 eb    	clr.w     w3
     2940:	82 2d 20    	mov.w     #0x2d8, w2
     2942:	a1 2d 20    	mov.w     #0x2da, w1
-    2944:	80 83 20    	mov.w     #0x838, w0
+    2944:	a0 83 20    	mov.w     #0x83a, w0
     2946:	08 01 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2948:	8f 87 e9    	dec2.w    w15, w15
     294a:	80 6d 20    	mov.w     #0x6d8, w0
@@ -4967,7 +4967,7 @@ void timer_cancel(_TIMER *self) {
     2956:	80 01 eb    	clr.w     w3
     2958:	82 2d 20    	mov.w     #0x2d8, w2
     295a:	a1 2d 20    	mov.w     #0x2da, w1
-    295c:	e0 84 20    	mov.w     #0x84e, w0
+    295c:	00 85 20    	mov.w     #0x850, w0
     295e:	fc 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2960:	8f 87 e9    	dec2.w    w15, w15
     2962:	a0 6c 20    	mov.w     #0x6ca, w0
@@ -4979,7 +4979,7 @@ void timer_cancel(_TIMER *self) {
     296e:	80 01 eb    	clr.w     w3
     2970:	82 2e 20    	mov.w     #0x2e8, w2
     2972:	a1 2e 20    	mov.w     #0x2ea, w1
-    2974:	40 86 20    	mov.w     #0x864, w0
+    2974:	60 86 20    	mov.w     #0x866, w0
     2976:	f0 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2978:	8f 87 e9    	dec2.w    w15, w15
     297a:	00 6d 20    	mov.w     #0x6d0, w0
@@ -4991,7 +4991,7 @@ void timer_cancel(_TIMER *self) {
     2986:	80 01 eb    	clr.w     w3
     2988:	82 2e 20    	mov.w     #0x2e8, w2
     298a:	a1 2e 20    	mov.w     #0x2ea, w1
-    298c:	a0 87 20    	mov.w     #0x87a, w0
+    298c:	c0 87 20    	mov.w     #0x87c, w0
     298e:	e4 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2990:	8f 87 e9    	dec2.w    w15, w15
     2992:	c0 6d 20    	mov.w     #0x6dc, w0
@@ -5003,7 +5003,7 @@ void timer_cancel(_TIMER *self) {
     299e:	23 4e 20    	mov.w     #0x4e2, w3
     29a0:	82 2c 20    	mov.w     #0x2c8, w2
     29a2:	a1 2c 20    	mov.w     #0x2ca, w1
-    29a4:	00 89 20    	mov.w     #0x890, w0
+    29a4:	20 89 20    	mov.w     #0x892, w0
     29a6:	d8 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     29a8:	8f 87 e9    	dec2.w    w15, w15
     29aa:	00 6d 20    	mov.w     #0x6d0, w0
@@ -5015,7 +5015,7 @@ void timer_cancel(_TIMER *self) {
     29b6:	80 01 eb    	clr.w     w3
     29b8:	82 2e 20    	mov.w     #0x2e8, w2
     29ba:	a1 2e 20    	mov.w     #0x2ea, w1
-    29bc:	60 8a 20    	mov.w     #0x8a6, w0
+    29bc:	80 8a 20    	mov.w     #0x8a8, w0
     29be:	cc 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     29c0:	8f 87 e9    	dec2.w    w15, w15
     29c2:	20 6c 20    	mov.w     #0x6c2, w0
@@ -5027,7 +5027,7 @@ void timer_cancel(_TIMER *self) {
     29ce:	80 01 eb    	clr.w     w3
     29d0:	82 2d 20    	mov.w     #0x2d8, w2
     29d2:	a1 2d 20    	mov.w     #0x2da, w1
-    29d4:	c0 8b 20    	mov.w     #0x8bc, w0
+    29d4:	e0 8b 20    	mov.w     #0x8be, w0
     29d6:	c0 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     29d8:	8f 87 e9    	dec2.w    w15, w15
     29da:	c0 6c 20    	mov.w     #0x6cc, w0
@@ -5039,7 +5039,7 @@ void timer_cancel(_TIMER *self) {
     29e6:	80 01 eb    	clr.w     w3
     29e8:	82 2d 20    	mov.w     #0x2d8, w2
     29ea:	a1 2d 20    	mov.w     #0x2da, w1
-    29ec:	20 8d 20    	mov.w     #0x8d2, w0
+    29ec:	40 8d 20    	mov.w     #0x8d4, w0
     29ee:	b4 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     29f0:	8f 87 e9    	dec2.w    w15, w15
     29f2:	40 6c 20    	mov.w     #0x6c4, w0
@@ -5051,7 +5051,7 @@ void timer_cancel(_TIMER *self) {
     29fe:	80 01 eb    	clr.w     w3
     2a00:	82 2d 20    	mov.w     #0x2d8, w2
     2a02:	a1 2d 20    	mov.w     #0x2da, w1
-    2a04:	80 8e 20    	mov.w     #0x8e8, w0
+    2a04:	a0 8e 20    	mov.w     #0x8ea, w0
     2a06:	a8 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a08:	8f 87 e9    	dec2.w    w15, w15
     2a0a:	20 6c 20    	mov.w     #0x6c2, w0
@@ -5063,7 +5063,7 @@ void timer_cancel(_TIMER *self) {
     2a16:	80 01 eb    	clr.w     w3
     2a18:	82 2d 20    	mov.w     #0x2d8, w2
     2a1a:	a1 2d 20    	mov.w     #0x2da, w1
-    2a1c:	e0 8f 20    	mov.w     #0x8fe, w0
+    2a1c:	00 90 20    	mov.w     #0x900, w0
     2a1e:	9c 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a20:	8f 87 e9    	dec2.w    w15, w15
     2a22:	a0 6c 20    	mov.w     #0x6ca, w0
@@ -5075,7 +5075,7 @@ void timer_cancel(_TIMER *self) {
     2a2e:	80 01 eb    	clr.w     w3
     2a30:	82 2d 20    	mov.w     #0x2d8, w2
     2a32:	a1 2d 20    	mov.w     #0x2da, w1
-    2a34:	40 91 20    	mov.w     #0x914, w0
+    2a34:	60 91 20    	mov.w     #0x916, w0
     2a36:	90 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a38:	8f 87 e9    	dec2.w    w15, w15
     2a3a:	80 6d 20    	mov.w     #0x6d8, w0
@@ -5087,7 +5087,7 @@ void timer_cancel(_TIMER *self) {
     2a46:	80 01 eb    	clr.w     w3
     2a48:	82 2d 20    	mov.w     #0x2d8, w2
     2a4a:	a1 2d 20    	mov.w     #0x2da, w1
-    2a4c:	a0 92 20    	mov.w     #0x92a, w0
+    2a4c:	c0 92 20    	mov.w     #0x92c, w0
     2a4e:	84 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a50:	8f 87 e9    	dec2.w    w15, w15
     2a52:	60 6d 20    	mov.w     #0x6d6, w0
@@ -5099,7 +5099,7 @@ void timer_cancel(_TIMER *self) {
     2a5e:	80 01 eb    	clr.w     w3
     2a60:	82 2d 20    	mov.w     #0x2d8, w2
     2a62:	a1 2d 20    	mov.w     #0x2da, w1
-    2a64:	00 94 20    	mov.w     #0x940, w0
+    2a64:	20 94 20    	mov.w     #0x942, w0
     2a66:	78 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a68:	8f 87 e9    	dec2.w    w15, w15
     2a6a:	60 6d 20    	mov.w     #0x6d6, w0
@@ -5111,7 +5111,7 @@ void timer_cancel(_TIMER *self) {
     2a76:	80 01 eb    	clr.w     w3
     2a78:	82 2d 20    	mov.w     #0x2d8, w2
     2a7a:	a1 2d 20    	mov.w     #0x2da, w1
-    2a7c:	60 95 20    	mov.w     #0x956, w0
+    2a7c:	80 95 20    	mov.w     #0x958, w0
     2a7e:	6c 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a80:	8f 87 e9    	dec2.w    w15, w15
     2a82:	00 6c 20    	mov.w     #0x6c0, w0
@@ -5123,7 +5123,7 @@ void timer_cancel(_TIMER *self) {
     2a8e:	23 4e 20    	mov.w     #0x4e2, w3
     2a90:	82 2c 20    	mov.w     #0x2c8, w2
     2a92:	a1 2c 20    	mov.w     #0x2ca, w1
-    2a94:	a0 9d 20    	mov.w     #0x9da, w0
+    2a94:	c0 9d 20    	mov.w     #0x9dc, w0
     2a96:	60 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2a98:	8f 87 e9    	dec2.w    w15, w15
     2a9a:	00 6c 20    	mov.w     #0x6c0, w0
@@ -5135,7 +5135,7 @@ void timer_cancel(_TIMER *self) {
     2aa6:	23 4e 20    	mov.w     #0x4e2, w3
     2aa8:	82 2c 20    	mov.w     #0x2c8, w2
     2aaa:	a1 2c 20    	mov.w     #0x2ca, w1
-    2aac:	40 9c 20    	mov.w     #0x9c4, w0
+    2aac:	60 9c 20    	mov.w     #0x9c6, w0
     2aae:	54 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2ab0:	8f 87 e9    	dec2.w    w15, w15
     2ab2:	c0 6c 20    	mov.w     #0x6cc, w0
@@ -5147,7 +5147,7 @@ void timer_cancel(_TIMER *self) {
     2abe:	23 4e 20    	mov.w     #0x4e2, w3
     2ac0:	82 2c 20    	mov.w     #0x2c8, w2
     2ac2:	a1 2c 20    	mov.w     #0x2ca, w1
-    2ac4:	e0 9a 20    	mov.w     #0x9ae, w0
+    2ac4:	00 9b 20    	mov.w     #0x9b0, w0
     2ac6:	48 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2ac8:	8f 87 e9    	dec2.w    w15, w15
     2aca:	00 00 eb    	clr.w     w0
@@ -5159,7 +5159,7 @@ void timer_cancel(_TIMER *self) {
     2ad6:	23 4e 20    	mov.w     #0x4e2, w3
     2ad8:	82 2c 20    	mov.w     #0x2c8, w2
     2ada:	a1 2c 20    	mov.w     #0x2ca, w1
-    2adc:	80 99 20    	mov.w     #0x998, w0
+    2adc:	a0 99 20    	mov.w     #0x99a, w0
     2ade:	3c 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2ae0:	8f 87 e9    	dec2.w    w15, w15
     2ae2:	c0 6d 20    	mov.w     #0x6dc, w0
@@ -5171,7 +5171,7 @@ void timer_cancel(_TIMER *self) {
     2aee:	23 4e 20    	mov.w     #0x4e2, w3
     2af0:	82 2c 20    	mov.w     #0x2c8, w2
     2af2:	a1 2c 20    	mov.w     #0x2ca, w1
-    2af4:	20 98 20    	mov.w     #0x982, w0
+    2af4:	40 98 20    	mov.w     #0x984, w0
     2af6:	30 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2af8:	8f 87 e9    	dec2.w    w15, w15
     2afa:	20 6d 20    	mov.w     #0x6d2, w0
@@ -5183,7 +5183,7 @@ void timer_cancel(_TIMER *self) {
     2b06:	23 4e 20    	mov.w     #0x4e2, w3
     2b08:	82 2c 20    	mov.w     #0x2c8, w2
     2b0a:	a1 2c 20    	mov.w     #0x2ca, w1
-    2b0c:	c0 96 20    	mov.w     #0x96c, w0
+    2b0c:	e0 96 20    	mov.w     #0x96e, w0
     2b0e:	24 00 07    	rcall     0x2b58 <_pin_init> <L0> <.LFB4> <.LFE3>
     2b10:	8f 87 e9    	dec2.w    w15, w15
     2b12:	00 00 eb    	clr.w     w0
@@ -5194,7 +5194,7 @@ void timer_cancel(_TIMER *self) {
     2b18:	1e 00 78    	mov.w     [w14], w0
     2b1a:	76 00 b9    	mul.su    w0, #0x16, w0
     2b1c:	80 00 78    	mov.w     w0, w1
-    2b1e:	80 83 20    	mov.w     #0x838, w0
+    2b1e:	a0 83 20    	mov.w     #0x83a, w0
     2b20:	00 80 40    	add.w     w1, w0, w0
     2b22:	46 00 07    	rcall     0x2bb0 <_pin_digitalIn> <L0> <.LFB5> <.LFE4>
     2b24:	1e 0f e8    	inc.w     [w14], [w14]
@@ -5211,7 +5211,7 @@ void timer_cancel(_TIMER *self) {
     2b32:	1e 00 78    	mov.w     [w14], w0
     2b34:	76 00 b9    	mul.su    w0, #0x16, w0
     2b36:	80 00 78    	mov.w     w0, w1
-    2b38:	c0 96 20    	mov.w     #0x96c, w0
+    2b38:	e0 96 20    	mov.w     #0x96e, w0
     2b3a:	00 80 40    	add.w     w1, w0, w0
     2b3c:	95 00 07    	rcall     0x2c68 <_pin_analogIn> <L0> <.LFB7> <.LFE6>
     2b3e:	1e 0f e8    	inc.w     [w14], [w14]
@@ -5872,74 +5872,115 @@ uint16_t sw_read(_SW *self) {
 }
     2f74:	00 80 fa    	ulnk      
     2f76:	00 00 06    	return    
+
+00002f78 <_coinCheck>:
+    2f78:	04 00 fa    	lnk       #0x4
+    2f7a:	00 80 20    	mov.w     #0x800, w0
+    2f7c:	5b ff 07    	rcall     0x2e34 <_led_on> <L0> <.LFB2> <.LFE1>
+    2f7e:	10 00 20    	mov.w     #0x1, w0
+    2f80:	00 0f 78    	mov.w     w0, [w14]
+    2f82:	10 00 20    	mov.w     #0x1, w0
+    2f84:	10 07 98    	mov.w     w0, [w14+2]
+    2f86:	10 00 20    	mov.w     #0x1, w0
+    2f88:	00 0f 78    	mov.w     w0, [w14]
+    2f8a:	0b 00 37    	bra       0x2fa2 <.L2>
+
+00002f8c <.L5>:
+    2f8c:	10 00 20    	mov.w     #0x1, w0
+    2f8e:	10 07 98    	mov.w     w0, [w14+2]
+    2f90:	03 00 37    	bra       0x2f98 <.L3>
+
+00002f92 <.L4>:
+    2f92:	1e 00 90    	mov.w     [w14+2], w0
+    2f94:	00 00 e8    	inc.w     w0, w0
+    2f96:	10 07 98    	mov.w     w0, [w14+2]
+
+00002f98 <.L3>:
+    2f98:	9e 00 90    	mov.w     [w14+2], w1
+    2f9a:	c0 cc 20    	mov.w     #0xccc, w0
+    2f9c:	80 8f 50    	sub.w     w1, w0, [w15]
+    2f9e:	f9 ff 34    	bra       LE, 0x2f92 <.L4>
+    2fa0:	1e 0f e8    	inc.w     [w14], [w14]
+
+00002fa2 <.L2>:
+    2fa2:	c0 cc 20    	mov.w     #0xccc, w0
+    2fa4:	9e 00 78    	mov.w     [w14], w1
+    2fa6:	80 8f 50    	sub.w     w1, w0, [w15]
+    2fa8:	f1 ff 34    	bra       LE, 0x2f8c <.L5>
+    2faa:	00 80 20    	mov.w     #0x800, w0
+    2fac:	53 ff 07    	rcall     0x2e54 <_led_off> <L0> <.LFB3> <.LFE2>
+    2fae:	34 28 ef    	clr.w     0x834
+    2fb0:	00 80 fa    	ulnk      
+    2fb2:	00 00 06    	return    
+
+00002fb4 <_main>:
+    2fb4:	00 00 fa    	lnk       #0x0
+    2fb6:	00 10 20    	mov.w     #0x100, w0
+    2fb8:	20 3a 88    	mov.w     w0, 0x744
+    2fba:	f2 f4 07    	rcall     0x19a0 <_init_uart> <L0> <.LFB15> <.LFE14>
+    2fbc:	b9 fc 07    	rcall     0x2930 <_init_pin> <L0> <.LFB3> <.LFE2>
+    2fbe:	d8 fe 07    	rcall     0x2d70 <_init_ui> <L0> <.L0> <.LFB0> <.LFE12> <.Letext0> <.Ltext0>
+    2fc0:	8c fa 07    	rcall     0x24da <_init_timer> <L0> <.LFB6> <.LFE5>
+    2fc2:	80 8a 20    	mov.w     #0x8a8, w0
+    2fc4:	80 41 88    	mov.w     w0, 0x830
+    2fc6:	80 41 80    	mov.w     0x830, w0
+    2fc8:	f3 fd 07    	rcall     0x2bb0 <_pin_digitalIn> <L0> <.LFB5> <.LFE4>
+    2fca:	03 00 37    	bra       0x2fd2 <.L8>
+
+00002fcc <.L9>:
+    2fcc:	00 00 00    	nop       
+    2fce:	01 00 37    	bra       0x2fd2 <.L8>
+
+00002fd0 <.L10>:
+    2fd0:	00 00 00    	nop       
+
+00002fd2 <.L8>:
+    2fd2:	80 41 80    	mov.w     0x830, w0
+    2fd4:	bf fe 07    	rcall     0x2d54 <_pin_read> <L0> <.LFB12> <.LFE11>
+    2fd6:	90 41 88    	mov.w     w0, 0x832
+    2fd8:	90 41 80    	mov.w     0x832, w0
+    2fda:	00 00 e0    	cp0.w     w0
+    2fdc:	f7 ff 3a    	bra       NZ, 0x2fcc <.L9>
+    2fde:	a0 41 80    	mov.w     0x834, w0
+    2fe0:	00 00 e0    	cp0.w     w0
+    2fe2:	f6 ff 3a    	bra       NZ, 0x2fd0 <.L10>
+    2fe4:	10 00 20    	mov.w     #0x1, w0
+    2fe6:	a0 41 88    	mov.w     w0, 0x834
+    2fe8:	c7 ff 07    	rcall     0x2f78 <_coinCheck> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
+    2fea:	f3 ff 37    	bra       0x2fd2 <.L8>
 Disassembly of section .dinit:
 
-00002f78 <.dinit>:
-    2f78:	30 08 00    	nop       
-    2f7a:	04 00 00    	nop       
-    2f7c:	80 00 00    	nop       
-    2f7e:	38 08 00    	nop       
-    2f80:	b8 01 00    	nop       
-    2f82:	80 00 00    	nop       
-    2f84:	f0 09 00    	nop       
-    2f86:	1c 01 00    	nop       
-    2f88:	80 00 00    	nop       
-    2f8a:	34 08 00    	nop       
-    2f8c:	04 00 00    	nop       
-    2f8e:	80 00 00    	nop       
-    2f90:	00 08 00    	nop       
-    2f92:	30 00 00    	nop       
-    2f94:	80 00 00    	nop       
-    2f96:	7a 0b 00    	nop       
-    2f98:	10 00 00    	nop       
-    2f9a:	82 00 00    	nop       
-    2f9c:	bd 37 86    	mov.w     0xc6f6, w13
-    2f9e:	33 bd 37    	bra       0xffffaa06
-    2fa0:	06 35 bd    	subr.w    0x1506
-    2fa2:	37 86 36    	bra       LEU, 0xffff3c12
-    2fa4:	bd 37 86    	mov.w     0xc6f6, w13
-    2fa6:	37 00 00    	nop       
-    2fa8:	0c 0b 00    	nop       
-    2faa:	6e 00 00    	nop       
-    2fac:	80 00 00    	nop       
-    2fae:	00 00 00    	nop       
-Disassembly of section .text:
-
-00002fb0 <_coinCheck>:
-    2fb0:	00 00 fa    	lnk       #0x0
-    2fb2:	00 80 20    	mov.w     #0x800, w0
-    2fb4:	60 ff 07    	rcall     0x2e76 <_led_toggle> <L0> <.LFB4> <.LFE3>
-    2fb6:	00 80 fa    	ulnk      
-    2fb8:	00 00 06    	return    
-
-00002fba <_main>:
-    2fba:	00 00 fa    	lnk       #0x0
-    2fbc:	00 10 20    	mov.w     #0x100, w0
-    2fbe:	20 3a 88    	mov.w     w0, 0x744
-    2fc0:	ef f4 07    	rcall     0x19a0 <_init_uart> <L0> <.LFB15> <.LFE14>
-    2fc2:	b6 fc 07    	rcall     0x2930 <_init_pin> <L0> <.LFB3> <.LFE2>
-    2fc4:	d5 fe 07    	rcall     0x2d70 <_init_ui> <L0> <.L0> <.LFB0> <.LFE12> <.Letext0> <.Ltext0>
-    2fc6:	89 fa 07    	rcall     0x24da <_init_timer> <L0> <.LFB6> <.LFE5>
-    2fc8:	60 8a 20    	mov.w     #0x8a6, w0
-    2fca:	80 41 88    	mov.w     w0, 0x830
-    2fcc:	80 41 80    	mov.w     0x830, w0
-    2fce:	f0 fd 07    	rcall     0x2bb0 <_pin_digitalIn> <L0> <.LFB5> <.LFE4>
-    2fd0:	01 00 37    	bra       0x2fd4 <.L4>
-
-00002fd2 <.L5>:
-    2fd2:	00 00 00    	nop       
-
-00002fd4 <.L4>:
-    2fd4:	80 41 80    	mov.w     0x830, w0
-    2fd6:	be fe 07    	rcall     0x2d54 <_pin_read> <L0> <.LFB12> <.LFE11>
-    2fd8:	90 41 88    	mov.w     w0, 0x832
-    2fda:	90 41 80    	mov.w     0x832, w0
-    2fdc:	00 00 e0    	cp0.w     w0
-    2fde:	f9 ff 3a    	bra       NZ, 0x2fd2 <.L5>
-    2fe0:	e7 ff 07    	rcall     0x2fb0 <_coinCheck> <.L0> <.LFB0> <.Ltext0>
-    2fe2:	f8 ff 37    	bra       0x2fd4 <.L4>
+00002fec <.dinit>:
+    2fec:	30 08 00    	nop       
+    2fee:	06 00 00    	nop       
+    2ff0:	80 00 00    	nop       
+    2ff2:	3a 08 00    	nop       
+    2ff4:	b8 01 00    	nop       
+    2ff6:	80 00 00    	nop       
+    2ff8:	f2 09 00    	nop       
+    2ffa:	1c 01 00    	nop       
+    2ffc:	80 00 00    	nop       
+    2ffe:	36 08 00    	nop       
+    3000:	04 00 00    	nop       
+    3002:	80 00 00    	nop       
+    3004:	00 08 00    	nop       
+    3006:	30 00 00    	nop       
+    3008:	80 00 00    	nop       
+    300a:	7c 0b 00    	nop       
+    300c:	10 00 00    	nop       
+    300e:	82 00 00    	nop       
+    3010:	bd 37 86    	mov.w     0xc6f6, w13
+    3012:	33 bd 37    	bra       0xffffaa7a
+    3014:	06 35 bd    	subr.w    0x1506
+    3016:	37 86 36    	bra       LEU, 0xffff3c86
+    3018:	bd 37 86    	mov.w     0xc6f6, w13
+    301a:	37 00 00    	nop       
+    301c:	0e 0b 00    	nop       
+    301e:	6e 00 00    	nop       
+    3020:	80 00 00    	nop       
+    3022:	00 00 00    	nop       
 Disassembly of section .isr:
 
-00002fe4 <__DefaultInterrupt>:
-    2fe4:	00 40 da    	break     
-    2fe6:	00 00 fe    	reset     
+00003024 <__DefaultInterrupt>:
+    3024:	00 40 da    	break     
+    3026:	00 00 fe    	reset     
