@@ -93,7 +93,6 @@ int16_t main(void) {
     pin_set(CS1);
     pin_set(CS2);
     pin_set(CS3);
-    pin_set(RESET);
 
     spi_open(&spi1, MISO, MOSI, SCK, 1e6, 1);
 
