@@ -49,6 +49,12 @@ int olatb1 = 0;
 int prev_olata1 = 0;
 int prev_olatb1 = 0;
 
+// For lightsRandom
+int random_olat;
+int random_bit;
+int olat;
+int new_olat;
+
 void shiftreg_writeReg(uint8_t address, uint8_t value, struct _PIN * CS) {
 
     pin_clear(CS);
@@ -71,6 +77,19 @@ uint8_t shiftreg_readReg(uint8_t address, struct _PIN * CS) {
     pin_set(CS);
     return value;
    
+}
+
+
+int lightsRandom(olat){
+    // Randomly turns on a light
+    srand(time(NULL));            
+    int random_bit = (rand() % 8);
+    led_toggle(&led1);
+    if (random_bit == 0){
+        led_toggle(&led2);
+    }
+    new_olat = olat | (1 << random_bit);
+    return new_olat;
 }
 
 
@@ -131,6 +150,8 @@ int16_t main(void) {
 
     timer_setPeriod(&timer2, .01);
     timer_start(&timer2);
+    timer_setPeriod(&timer3, .5);
+    timer_start(&timer3);
 
     while(1){
 
@@ -141,7 +162,6 @@ int16_t main(void) {
 
         if (timer_flag(&timer2)) {
             timer_lower(&timer2);
-            led_toggle(&led1);
             prev_gpioa0 = gpioa0;
             prev_gpiob0 = gpiob0;
             prev_gpioa1 = gpioa1;
@@ -171,13 +191,32 @@ int16_t main(void) {
             olatb1 = olatb1 ^ diff_rising_gpiob0;
             
         }
+
+        if (timer_flag(&timer3)){
+            timer_lower(&timer3);
+            srand(time(NULL));           
+            int random_olat = (rand() % 4);
+            if (random_olat == 0){
+                olata0 = lightsRandom(olata0);
+            }
+            else if (random_olat == 1){
+                olatb0 = lightsRandom(olatb0);
+            }
+            else if (random_olat == 2){
+                olata1 = lightsRandom(olata1);
+            }
+            else if (random_olat == 3){
+                olatb1 = lightsRandom(olatb1);
+            }
+
+        }
         
 
         if (olata0 != prev_olata0){
-            shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 1 REG 3 
+            shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 0 REG 1 
         }
         if (olatb0 != prev_olatb0){
-            shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 1 REG 3            
+            shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 0 REG 1            
         }
         if (olata1 != prev_olata1){
 
@@ -187,6 +226,8 @@ int16_t main(void) {
         if (olatb1 != prev_olatb1){
             shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
         }
+
+
         
            
     }
