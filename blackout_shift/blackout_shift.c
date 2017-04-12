@@ -79,6 +79,7 @@ int16_t main(void) {
     init_ui();
     init_pin();
     init_spi();
+    init_timer();
 
 
     SCK = &D[0];
@@ -102,7 +103,7 @@ int16_t main(void) {
     pin_set(CS2);
     pin_set(CS3);
 
-    spi_open(&spi1, MISO, MOSI, SCK, 1e6, 1);
+    spi_open(&spi1, MISO, MOSI, SCK, 1e7, 1);
 
     pin_clear(RESET);  
 
@@ -128,53 +129,65 @@ int16_t main(void) {
     shiftreg_writeReg(0x01, 0, CS3); // IODIRB to 0
 
 
-    // timer_setPeriod(&timer2, 0.15);
-    // timer_start(&timer2);
+    timer_setPeriod(&timer2, .01);
+    timer_start(&timer2);
 
     while(1){
-        // if (timer_flag(&timer2)) {
-        // timer_lower(&timer2);
-        
-        prev_gpioa0 = gpioa0;
-        prev_gpiob0 = gpiob0;
-        prev_gpioa1 = gpioa1;
-        prev_gpiob1 = gpiob1;
-
-        gpioa0 = shiftreg_readReg(0x12, CS0); // READ GPIOA PANEL 0 REG 0
-        gpiob0 = shiftreg_readReg(0x13, CS0); // READ GPIOB PANEL 0 REG 0
-        gpioa1 = shiftreg_readReg(0x12, CS2); // READ GPIOA PANEL 1 REG 2
-        gpiob1 = shiftreg_readReg(0x13, CS2); // READ GPIOB PANEL 1 REG 2
-
-        diff_gpioa0 = gpioa0 ^ prev_gpioa0;
-        diff_gpiob0 = gpiob0 ^ prev_gpiob0;
-        diff_gpioa1 = gpioa1 ^ prev_gpioa1;
-        diff_gpiob1 = gpiob1 ^ prev_gpiob1;
-
-        diff_rising_gpioa0 = diff_gpioa0 & gpioa0;
-        diff_rising_gpiob0 = diff_gpiob0 & gpiob0;
-        diff_rising_gpioa1 = diff_gpioa1 & gpioa1;
-        diff_rising_gpiob1 = diff_gpiob1 & gpiob1;
 
         prev_olata0 = olata0;
         prev_olatb0 = olatb0;
         prev_olata1 = olata1;
         prev_olatb1 = olatb1;
 
-        olata0 = olata0 ^ diff_rising_gpioa1;
-        olatb0 = olatb0 ^ diff_rising_gpiob1;
-        olata1 = olata1 ^ diff_rising_gpioa0;
-        olatb1 = olatb1 ^ diff_rising_gpiob0;
-    
+        if (timer_flag(&timer2)) {
+            timer_lower(&timer2);
+            led_toggle(&led1);
+            prev_gpioa0 = gpioa0;
+            prev_gpiob0 = gpiob0;
+            prev_gpioa1 = gpioa1;
+            prev_gpiob1 = gpiob1;
 
-        // shiftreg_writeReg(0x14, gpioa1, CS1); // WRITE OLATA PANEL 1 REG 3 
-        // shiftreg_writeReg(0x15, gpiob1, CS1); // WRITE OLATB PANEL 1 REG 3
-        // shiftreg_writeReg(0x14, gpioa0, CS3); // WRITE OLATA PANEL 1 REG 3 
-        // shiftreg_writeReg(0x15, gpiob0, CS3); // WRITE OLATB PANEL 1 REG 3
+            gpioa0 = shiftreg_readReg(0x12, CS0); // READ GPIOA PANEL 0 REG 0
+            gpiob0 = shiftreg_readReg(0x13, CS0); // READ GPIOB PANEL 0 REG 0
+            gpioa1 = shiftreg_readReg(0x12, CS2); // READ GPIOA PANEL 1 REG 2
+            gpiob1 = shiftreg_readReg(0x13, CS2); // READ GPIOB PANEL 1 REG 2
 
-        shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 1 REG 3 
-        shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 1 REG 3
+
+            diff_gpioa0 = gpioa0 ^ prev_gpioa0;
+            diff_gpiob0 = gpiob0 ^ prev_gpiob0;
+            diff_gpioa1 = gpioa1 ^ prev_gpioa1;
+            diff_gpiob1 = gpiob1 ^ prev_gpiob1;
+
+            diff_rising_gpioa0 = diff_gpioa0 & gpioa0;
+            diff_rising_gpiob0 = diff_gpiob0 & gpiob0;
+            diff_rising_gpioa1 = diff_gpioa1 & gpioa1;
+            diff_rising_gpiob1 = diff_gpiob1 & gpiob1;
+
+            
+
+            olata0 = olata0 ^ diff_rising_gpioa1;
+            olatb0 = olatb0 ^ diff_rising_gpiob1;
+            olata1 = olata1 ^ diff_rising_gpioa0;
+            olatb1 = olatb1 ^ diff_rising_gpiob0;
+            
+        }
+        
+
+        if (olata0 != prev_olata0){
+            shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 1 REG 3 
+        }
+        if (olatb0 != prev_olatb0){
+            shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 1 REG 3            
+        }
+        if (olata1 != prev_olata1){
+
         shiftreg_writeReg(0x14, olata1, CS3); // WRITE OLATA PANEL 1 REG 3 
-        shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
-        // }   
+        }
+
+        if (olatb1 != prev_olatb1){
+            shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
+        }
+        
+           
     }
 }
