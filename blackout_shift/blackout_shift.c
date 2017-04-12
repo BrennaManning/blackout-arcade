@@ -13,30 +13,30 @@
 _PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3;
 
 // R0 Register
-int gpioa0;
-int gpiob0;
+int gpioa0 = 0;
+int gpiob0 = 0;
 
 int prev_gpioa0 = 0;
 int prev_gpiob0 = 0;
 
 // W0 Register
-int olata0;
-int olatb0;
+int olata0 = 0;
+int olatb0 = 0;
 
 int prev_olata0 = 0;
 int prev_olatb0 = 0;
 
 
 // R1 Register
-int gpioa1;
-int gpiob1;
+int gpioa1 = 0;
+int gpiob1 = 0;
 
 int prev_gpioa1 = 0;
 int prev_gpiob1 = 0;
 
 // W1 Register
-int olata1;
-int olatb1;
+int olata1 = 0;
+int olatb1 = 0;
 
 int prev_olata1 = 0;
 int prev_olatb1 = 0;
@@ -104,32 +104,49 @@ int16_t main(void) {
     shiftreg_writeReg(0x00, 0, CS0); // IODIRA to 0
     shiftreg_writeReg(0x01, 0, CS0); // IODIRB to 0
     
+    shiftreg_writeReg(0x0A, 0, CS1); // IOCON TO 0
+    shiftreg_writeReg(0x0B, 0, CS1); // IOCON TO 0
+    shiftreg_writeReg(0x00, 0, CS1); // IODIRA to 0
+    shiftreg_writeReg(0x01, 0, CS1); // IODIRB to 0
+
+    shiftreg_writeReg(0x0A, 0, CS2); // IOCON TO 0
+    shiftreg_writeReg(0x0B, 0, CS2); // IOCON TO 0
+    shiftreg_writeReg(0x00, 0, CS2); // IODIRA to 0
+    shiftreg_writeReg(0x01, 0, CS2); // IODIRB to 0
+
+    shiftreg_writeReg(0x0A, 0, CS3); // IOCON TO 0
+    shiftreg_writeReg(0x0B, 0, CS3); // IOCON TO 0
+    shiftreg_writeReg(0x00, 0, CS3); // IODIRA to 0
+    shiftreg_writeReg(0x01, 0, CS3); // IODIRB to 0
+
     while(1){
+        
+        prev_gpioa0 = gpioa0;
+        prev_gpiob0 = gpiob0;
+        prev_gpioa1 = gpioa1;
+        prev_gpiob1 = gpiob1;
 
-        gpiob0 = shiftreg_readReg(0x13, CS0); // READ GPIOB
-        if (gpiob0 & 00000001){
-            led_on(&led1);
-        }
-        if (gpiob0 & 00000010){
-            led_on(&led2);
-        }
-        if (gpiob0 == 0){
-            led_on(&led3);
-        }
-        else{
-            led_off(&led3);
-        }
+        gpioa0 = shiftreg_readReg(0x12, CS0); // READ GPIOA PANEL 0 REG 0
+        gpiob0 = shiftreg_readReg(0x13, CS0); // READ GPIOB PANEL 0 REG 0
+        gpioa1 = shiftreg_readReg(0x12, CS2); // READ GPIOA PANEL 1 REG 2
+        gpiob1 = shiftreg_readReg(0x13, CS2); // READ GPIOB PANEL 1 REG 2
 
-        // prev_buttons_p2 = buttons_p2;
-        // buttons_p2 = readButtons(2);
+        
+
+        // prev_buttons_p2 = buttons_p2; CHECK
+        // buttons_p2 = readButtons(2); CHECK
         // diff_buttons_p2 = buttons_p2 ^ prev_buttons_p2;
         // diff_rising_buttons_p2 = diff_buttons_p2 & buttons_p2;
 
 
-        shiftreg_writeReg(0x14, gpiob0, CS0); // WRITE OLATA
+        shiftreg_writeReg(0x14, gpioa1, CS1); // WRITE OLATA PANEL 1 REG 3 
+        shiftreg_writeReg(0x15, gpiob1, CS1); // WRITE OLATB PANEL 1 REG 3
+        shiftreg_writeReg(0x14, gpioa0, CS3); // WRITE OLATA PANEL 1 REG 3 
+        shiftreg_writeReg(0x15, gpiob0, CS3); // WRITE OLATB PANEL 1 REG 3
+
+
         
 
-        shiftreg_writeReg(0x14, gpiob0, CS3);
 
         // gpioa = shiftreg_readReg(0x12, CS0); // READ GPIOA
         // shiftreg_writeReg(0x15, gpioa, CS0); // WRITE OLATB
