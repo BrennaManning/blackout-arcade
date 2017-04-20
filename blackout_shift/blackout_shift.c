@@ -9,6 +9,7 @@
 #include "timer.h"
 #include "oc.h"
 
+// SPRINT 3 WORKING - NO COIN MECH INTEGRATION
 
 _PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3;
 
