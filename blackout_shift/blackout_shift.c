@@ -123,6 +123,7 @@ void coinCheck(void){
 void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
     // Main gameplay loop.
     // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
+
     led_on(&led3);   
 
     int c = 1, d = 1;
