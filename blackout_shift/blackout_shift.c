@@ -193,24 +193,24 @@ int16_t main(void) {
             
         }
 
-        if (timer_flag(&timer3)){
-            timer_lower(&timer3);
-            srand(time(NULL));           
-            int random_olat = (rand() % 4);
-            if (random_olat == 0){
-                olata0 = lightsRandom(olata0);
-            }
-            else if (random_olat == 1){
-                olatb0 = lightsRandom(olatb0);
-            }
-            else if (random_olat == 2){
-                olata1 = lightsRandom(olata1);
-            }
-            else if (random_olat == 3){
-                olatb1 = lightsRandom(olatb1);
-            }
+        // if (timer_flag(&timer3)){
+        //     timer_lower(&timer3);
+        //     srand(time(NULL));           
+        //     int random_olat = (rand() % 4);
+        //     if (random_olat == 0){
+        //         olata0 = lightsRandom(olata0);
+        //     }
+        //     else if (random_olat == 1){
+        //         olatb0 = lightsRandom(olatb0);
+        //     }
+        //     else if (random_olat == 2){
+        //         olata1 = lightsRandom(olata1);
+        //     }
+        //     else if (random_olat == 3){
+        //         olatb1 = lightsRandom(olatb1);
+        //     }
 
-        }
+        // }
         
 
         if (olata0 != prev_olata0){
