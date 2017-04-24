@@ -120,10 +120,10 @@ void coinCheck(void){
 
 
 
-void playGame(CS0, CS1, CS2, CS3){
+void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
     // Main gameplay loop.
     // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
-    led_toggle(&led3)   
+    led_toggle(&led3);   
 
     // Initialize timers
     timer_setPeriod(&timer2, .01);
