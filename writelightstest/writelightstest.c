@@ -13,6 +13,10 @@
 
 _PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3;
 
+// FOOR WRITELIGHTSTEST
+int counter = 0;
+int lightval = 0;
+
 // R0 Register
 int gpioa0 = 0;
 int prev_gpioa0 = 0;
@@ -153,87 +157,29 @@ int16_t main(void) {
     timer_start(&timer3);
 
     while(1){
-
-        prev_olata0 = olata0;
-        prev_olatb0 = olatb0;
-        prev_olata1 = olata1;
-        prev_olatb1 = olatb1;
-
-        if (timer_flag(&timer2)) {
-            timer_lower(&timer2);
-            prev_gpioa0 = gpioa0;
-            prev_gpiob0 = gpiob0;
-            prev_gpioa1 = gpioa1;
-            prev_gpiob1 = gpiob1;
-
-            gpioa0 = shiftreg_readReg(0x12, CS0); // READ GPIOA PANEL 0 REG 0
-            gpiob0 = shiftreg_readReg(0x13, CS0); // READ GPIOB PANEL 0 REG 0
-            gpioa1 = shiftreg_readReg(0x12, CS2); // READ GPIOA PANEL 1 REG 2
-            gpiob1 = shiftreg_readReg(0x13, CS2); // READ GPIOB PANEL 1 REG 2
-
-
-            diff_gpioa0 = gpioa0 ^ prev_gpioa0;
-            diff_gpiob0 = gpiob0 ^ prev_gpiob0;
-            diff_gpioa1 = gpioa1 ^ prev_gpioa1;
-            diff_gpiob1 = gpiob1 ^ prev_gpiob1;
-
-            diff_rising_gpioa0 = diff_gpioa0 & gpioa0;
-            diff_rising_gpiob0 = diff_gpiob0 & gpiob0;
-            diff_rising_gpioa1 = diff_gpioa1 & gpioa1;
-            diff_rising_gpiob1 = diff_gpiob1 & gpiob1;
-
-            
-
-            olata0 = olata0 ^ diff_rising_gpioa1;
-            olatb0 = olatb0 ^ diff_rising_gpiob1;
-            olata1 = olata1 ^ diff_rising_gpioa0;
-            olatb1 = olatb1 ^ diff_rising_gpiob0;
-            
-        }
-
         if (timer_flag(&timer3)){
             timer_lower(&timer3);
-            srand(time(NULL));           
-            int random_olat = (rand() % 4);
-            if (random_olat == 0){
-                olata0 = lightsRandom(olata0);
-                led_toggle(&led1);
+            //lightval = 00000000 | (1 << 2);
+            
+             lightval = 00000000 | (1 << counter);
+             if (counter == 8) {
+                lightval = 0b11111111;
             }
-            else if (random_olat == 1){
-                olatb0 = lightsRandom(olatb0);
-                led_toggle(&led3);
+            if (counter < 8) {
+                counter = counter + 1;
             }
-            else if (random_olat == 2){
-                olata1 = lightsRandom(olata1);
-                led_toggle(&led2);
-
+            else{
+                counter = 0;
             }
-            else if (random_olat == 3){
-                olatb1 = lightsRandom(olatb1);
-                led_toggle(&led3);
-            }
-         }
-        
 
-        // if (olata0 != prev_olata0){
-        //     shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 0 REG 1 
-        // }
-        // if (olatb0 != prev_olatb0){
-        //     shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 0 REG 1            
-        // }
-        // if (olata1 != prev_olata1){
-
-        //      shiftreg_writeReg(0x14, olata1, CS3); // WRITE OLATA PANEL 1 REG 3 
-        // }
-
-        // if (olatb1 != prev_olatb1){
-        //     shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
-        // }
-
-        shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 0 REG 1 
-        shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 0 REG 1
-        shiftreg_writeReg(0x14, olata1, CS3); // WRITE OLATA PANEL 1 REG 3
-        shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
-
+            olata0 = lightval;
+            olata1 = lightval;
+            olatb0 = lightval;
+            olatb1 = lightval;
+            shiftreg_writeReg(0x14, olata0, CS1); // WRITE OLATA PANEL 0 REG 1 
+            shiftreg_writeReg(0x15, olatb0, CS1); // WRITE OLATB PANEL 0 REG 1
+            shiftreg_writeReg(0x14, olata1, CS3); // WRITE OLATA PANEL 1 REG 3
+            shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
+        }
     }
 }

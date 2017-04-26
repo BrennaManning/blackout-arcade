@@ -4,411 +4,411 @@ writelightstest.elf:     file format elf32-pic30
 Disassembly of section .aivt._AltADC1Interrupt:
 
 0000012e <.aivt._AltADC1Interrupt>:
- 12e:	68 2f 00    	nop       
+ 12e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltAddressError:
 
 00000108 <.aivt._AltAddressError>:
- 108:	68 2f 00    	nop       
+ 108:	88 2e 00    	nop       
 Disassembly of section .aivt._AltCNInterrupt:
 
 0000013a <.aivt._AltCNInterrupt>:
- 13a:	68 2f 00    	nop       
+ 13a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltCRCInterrupt:
 
 0000019a <.aivt._AltCRCInterrupt>:
- 19a:	68 2f 00    	nop       
+ 19a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltCTMUInterrupt:
 
 000001ae <.aivt._AltCTMUInterrupt>:
- 1ae:	68 2f 00    	nop       
+ 1ae:	88 2e 00    	nop       
 Disassembly of section .aivt._AltCompInterrupt:
 
 00000138 <.aivt._AltCompInterrupt>:
- 138:	68 2f 00    	nop       
+ 138:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC1Interrupt:
 
 00000116 <.aivt._AltIC1Interrupt>:
- 116:	68 2f 00    	nop       
+ 116:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC2Interrupt:
 
 0000011e <__CONFIG1-0x156e0>:
- 11e:	68 2f 00    	nop       
+ 11e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC3Interrupt:
 
 0000015e <__CONFIG2-0x1569e>:
- 15e:	68 2f 00    	nop       
+ 15e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC4Interrupt:
 
 00000160 <__CONFIG3-0x1569a>:
- 160:	68 2f 00    	nop       
+ 160:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC5Interrupt:
 
 00000162 <.aivt._AltIC5Interrupt>:
- 162:	68 2f 00    	nop       
+ 162:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC6Interrupt:
 
 00000164 <.aivt._AltIC6Interrupt>:
- 164:	68 2f 00    	nop       
+ 164:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC7Interrupt:
 
 00000140 <.aivt._AltIC7Interrupt>:
- 140:	68 2f 00    	nop       
+ 140:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC8Interrupt:
 
 00000142 <.aivt._AltIC8Interrupt>:
- 142:	68 2f 00    	nop       
+ 142:	88 2e 00    	nop       
 Disassembly of section .aivt._AltIC9Interrupt:
 
 000001ce <.aivt._AltIC9Interrupt>:
- 1ce:	68 2f 00    	nop       
+ 1ce:	88 2e 00    	nop       
 Disassembly of section .aivt._AltINT0Interrupt:
 
 00000114 <.aivt._AltINT0Interrupt>:
- 114:	68 2f 00    	nop       
+ 114:	88 2e 00    	nop       
 Disassembly of section .aivt._AltINT1Interrupt:
 
 0000013c <.aivt._AltINT1Interrupt>:
- 13c:	68 2f 00    	nop       
+ 13c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltINT2Interrupt:
 
 0000014e <.aivt._AltINT2Interrupt>:
- 14e:	68 2f 00    	nop       
+ 14e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltINT3Interrupt:
 
 0000017e <.aivt._AltINT3Interrupt>:
- 17e:	68 2f 00    	nop       
+ 17e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltINT4Interrupt:
 
 00000180 <.aivt._AltINT4Interrupt>:
- 180:	68 2f 00    	nop       
+ 180:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt14:
 
 00000130 <.aivt._AltInterrupt14>:
- 130:	68 2f 00    	nop       
+ 130:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt15:
 
 00000132 <.aivt._AltInterrupt15>:
- 132:	68 2f 00    	nop       
+ 132:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt21:
 
 0000013e <.aivt._AltInterrupt21>:
- 13e:	68 2f 00    	nop       
+ 13e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt24:
 
 00000144 <.aivt._AltInterrupt24>:
- 144:	68 2f 00    	nop       
+ 144:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt34:
 
 00000158 <.aivt._AltInterrupt34>:
- 158:	68 2f 00    	nop       
+ 158:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt35:
 
 0000015a <.aivt._AltInterrupt35>:
- 15a:	68 2f 00    	nop       
+ 15a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt36:
 
 0000015c <.aivt._AltInterrupt36>:
- 15c:	68 2f 00    	nop       
+ 15c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt4:
 
 0000011c <.aivt._AltInterrupt4>:
- 11c:	68 2f 00    	nop       
+ 11c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt46:
 
 00000170 <.aivt._AltInterrupt46>:
- 170:	68 2f 00    	nop       
+ 170:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt47:
 
 00000172 <.aivt._AltInterrupt47>:
- 172:	68 2f 00    	nop       
+ 172:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt48:
 
 00000174 <.aivt._AltInterrupt48>:
- 174:	68 2f 00    	nop       
+ 174:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt51:
 
 0000017a <.aivt._AltInterrupt51>:
- 17a:	68 2f 00    	nop       
+ 17a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt52:
 
 0000017c <.aivt._AltInterrupt52>:
- 17c:	68 2f 00    	nop       
+ 17c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt55:
 
 00000182 <.aivt._AltInterrupt55>:
- 182:	68 2f 00    	nop       
+ 182:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt56:
 
 00000184 <.aivt._AltInterrupt56>:
- 184:	68 2f 00    	nop       
+ 184:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt57:
 
 00000186 <.aivt._AltInterrupt57>:
- 186:	68 2f 00    	nop       
+ 186:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt58:
 
 00000188 <.aivt._AltInterrupt58>:
- 188:	68 2f 00    	nop       
+ 188:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt59:
 
 0000018a <.aivt._AltInterrupt59>:
- 18a:	68 2f 00    	nop       
+ 18a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt60:
 
 0000018c <.aivt._AltInterrupt60>:
- 18c:	68 2f 00    	nop       
+ 18c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt61:
 
 0000018e <.aivt._AltInterrupt61>:
- 18e:	68 2f 00    	nop       
+ 18e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt63:
 
 00000192 <.aivt._AltInterrupt63>:
- 192:	68 2f 00    	nop       
+ 192:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt64:
 
 00000194 <.aivt._AltInterrupt64>:
- 194:	68 2f 00    	nop       
+ 194:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt68:
 
 0000019c <.aivt._AltInterrupt68>:
- 19c:	68 2f 00    	nop       
+ 19c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt69:
 
 0000019e <.aivt._AltInterrupt69>:
- 19e:	68 2f 00    	nop       
+ 19e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt70:
 
 000001a0 <.aivt._AltInterrupt70>:
- 1a0:	68 2f 00    	nop       
+ 1a0:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt71:
 
 000001a2 <.aivt._AltInterrupt71>:
- 1a2:	68 2f 00    	nop       
+ 1a2:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt73:
 
 000001a6 <.aivt._AltInterrupt73>:
- 1a6:	68 2f 00    	nop       
+ 1a6:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt74:
 
 000001a8 <.aivt._AltInterrupt74>:
- 1a8:	68 2f 00    	nop       
+ 1a8:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt75:
 
 000001aa <.aivt._AltInterrupt75>:
- 1aa:	68 2f 00    	nop       
+ 1aa:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt76:
 
 000001ac <.aivt._AltInterrupt76>:
- 1ac:	68 2f 00    	nop       
+ 1ac:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt78:
 
 000001b0 <.aivt._AltInterrupt78>:
- 1b0:	68 2f 00    	nop       
+ 1b0:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt79:
 
 000001b2 <.aivt._AltInterrupt79>:
- 1b2:	68 2f 00    	nop       
+ 1b2:	88 2e 00    	nop       
 Disassembly of section .aivt._AltInterrupt80:
 
 000001b4 <.aivt._AltInterrupt80>:
- 1b4:	68 2f 00    	nop       
+ 1b4:	88 2e 00    	nop       
 Disassembly of section .aivt._AltLVDInterrupt:
 
 000001a4 <.aivt._AltLVDInterrupt>:
- 1a4:	68 2f 00    	nop       
+ 1a4:	88 2e 00    	nop       
 Disassembly of section .aivt._AltMI2C1Interrupt:
 
 00000136 <.aivt._AltMI2C1Interrupt>:
- 136:	68 2f 00    	nop       
+ 136:	88 2e 00    	nop       
 Disassembly of section .aivt._AltMI2C2Interrupt:
 
 00000178 <.aivt._AltMI2C2Interrupt>:
- 178:	68 2f 00    	nop       
+ 178:	88 2e 00    	nop       
 Disassembly of section .aivt._AltMI2C3Interrupt:
 
 000001be <.aivt._AltMI2C3Interrupt>:
- 1be:	68 2f 00    	nop       
+ 1be:	88 2e 00    	nop       
 Disassembly of section .aivt._AltMathError:
 
 0000010c <.aivt._AltMathError>:
- 10c:	68 2f 00    	nop       
+ 10c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC1Interrupt:
 
 00000118 <.aivt._AltOC1Interrupt>:
- 118:	68 2f 00    	nop       
+ 118:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC2Interrupt:
 
 00000120 <.aivt._AltOC2Interrupt>:
- 120:	68 2f 00    	nop       
+ 120:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC3Interrupt:
 
 00000146 <.aivt._AltOC3Interrupt>:
- 146:	68 2f 00    	nop       
+ 146:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC4Interrupt:
 
 00000148 <.aivt._AltOC4Interrupt>:
- 148:	68 2f 00    	nop       
+ 148:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC5Interrupt:
 
 00000166 <.aivt._AltOC5Interrupt>:
- 166:	68 2f 00    	nop       
+ 166:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC6Interrupt:
 
 00000168 <.aivt._AltOC6Interrupt>:
- 168:	68 2f 00    	nop       
+ 168:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC7Interrupt:
 
 0000016a <.aivt._AltOC7Interrupt>:
- 16a:	68 2f 00    	nop       
+ 16a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC8Interrupt:
 
 0000016c <.aivt._AltOC8Interrupt>:
- 16c:	68 2f 00    	nop       
+ 16c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOC9Interrupt:
 
 000001cc <.aivt._AltOC9Interrupt>:
- 1cc:	68 2f 00    	nop       
+ 1cc:	88 2e 00    	nop       
 Disassembly of section .aivt._AltOscillatorFail:
 
 00000106 <.aivt._AltOscillatorFail>:
- 106:	68 2f 00    	nop       
+ 106:	88 2e 00    	nop       
 Disassembly of section .aivt._AltPMPInterrupt:
 
 0000016e <.aivt._AltPMPInterrupt>:
- 16e:	68 2f 00    	nop       
+ 16e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltRTCCInterrupt:
 
 00000190 <.aivt._AltRTCCInterrupt>:
- 190:	68 2f 00    	nop       
+ 190:	88 2e 00    	nop       
 Disassembly of section .aivt._AltReservedTrap0:
 
 00000104 <.aivt._AltReservedTrap0>:
- 104:	68 2f 00    	nop       
+ 104:	88 2e 00    	nop       
 Disassembly of section .aivt._AltReservedTrap5:
 
 0000010e <.aivt._AltReservedTrap5>:
- 10e:	68 2f 00    	nop       
+ 10e:	88 2e 00    	nop       
 Disassembly of section .aivt._AltReservedTrap6:
 
 00000110 <.aivt._AltReservedTrap6>:
- 110:	68 2f 00    	nop       
+ 110:	88 2e 00    	nop       
 Disassembly of section .aivt._AltReservedTrap7:
 
 00000112 <.aivt._AltReservedTrap7>:
- 112:	68 2f 00    	nop       
+ 112:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSI2C1Interrupt:
 
 00000134 <.aivt._AltSI2C1Interrupt>:
- 134:	68 2f 00    	nop       
+ 134:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSI2C2Interrupt:
 
 00000176 <.aivt._AltSI2C2Interrupt>:
- 176:	68 2f 00    	nop       
+ 176:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSI2C3Interrupt:
 
 000001bc <.aivt._AltSI2C3Interrupt>:
- 1bc:	68 2f 00    	nop       
+ 1bc:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI1ErrInterrupt:
 
 00000126 <.aivt._AltSPI1ErrInterrupt>:
- 126:	68 2f 00    	nop       
+ 126:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI1Interrupt:
 
 00000128 <.aivt._AltSPI1Interrupt>:
- 128:	68 2f 00    	nop       
+ 128:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI2ErrInterrupt:
 
 00000154 <.aivt._AltSPI2ErrInterrupt>:
- 154:	68 2f 00    	nop       
+ 154:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI2Interrupt:
 
 00000156 <.aivt._AltSPI2Interrupt>:
- 156:	68 2f 00    	nop       
+ 156:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI3ErrInterrupt:
 
 000001c8 <.aivt._AltSPI3ErrInterrupt>:
- 1c8:	68 2f 00    	nop       
+ 1c8:	88 2e 00    	nop       
 Disassembly of section .aivt._AltSPI3Interrupt:
 
 000001ca <.aivt._AltSPI3Interrupt>:
- 1ca:	68 2f 00    	nop       
+ 1ca:	88 2e 00    	nop       
 Disassembly of section .aivt._AltStackError:
 
 0000010a <.aivt._AltStackError>:
- 10a:	68 2f 00    	nop       
+ 10a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltT1Interrupt:
 
 0000011a <.aivt._AltT1Interrupt>:
- 11a:	68 2f 00    	nop       
+ 11a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltT2Interrupt:
 
 00000122 <.aivt._AltT2Interrupt>:
- 122:	68 2f 00    	nop       
+ 122:	88 2e 00    	nop       
 Disassembly of section .aivt._AltT3Interrupt:
 
 00000124 <.aivt._AltT3Interrupt>:
- 124:	68 2f 00    	nop       
+ 124:	88 2e 00    	nop       
 Disassembly of section .aivt._AltT4Interrupt:
 
 0000014a <.aivt._AltT4Interrupt>:
- 14a:	68 2f 00    	nop       
+ 14a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltT5Interrupt:
 
 0000014c <.aivt._AltT5Interrupt>:
- 14c:	68 2f 00    	nop       
+ 14c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU1ErrInterrupt:
 
 00000196 <.aivt._AltU1ErrInterrupt>:
- 196:	68 2f 00    	nop       
+ 196:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU1RXInterrupt:
 
 0000012a <.aivt._AltU1RXInterrupt>:
- 12a:	68 2f 00    	nop       
+ 12a:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU1TXInterrupt:
 
 0000012c <.aivt._AltU1TXInterrupt>:
- 12c:	68 2f 00    	nop       
+ 12c:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU2ErrInterrupt:
 
 00000198 <.aivt._AltU2ErrInterrupt>:
- 198:	68 2f 00    	nop       
+ 198:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU2RXInterrupt:
 
 00000150 <.aivt._AltU2RXInterrupt>:
- 150:	68 2f 00    	nop       
+ 150:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU2TXInterrupt:
 
 00000152 <.aivt._AltU2TXInterrupt>:
- 152:	68 2f 00    	nop       
+ 152:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU3ErrInterrupt:
 
 000001b6 <.aivt._AltU3ErrInterrupt>:
- 1b6:	68 2f 00    	nop       
+ 1b6:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU3RXInterrupt:
 
 000001b8 <.aivt._AltU3RXInterrupt>:
- 1b8:	68 2f 00    	nop       
+ 1b8:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU3TXInterrupt:
 
 000001ba <.aivt._AltU3TXInterrupt>:
- 1ba:	68 2f 00    	nop       
+ 1ba:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU4ErrInterrupt:
 
 000001c2 <.aivt._AltU4ErrInterrupt>:
- 1c2:	68 2f 00    	nop       
+ 1c2:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU4RXInterrupt:
 
 000001c4 <.aivt._AltU4RXInterrupt>:
- 1c4:	68 2f 00    	nop       
+ 1c4:	88 2e 00    	nop       
 Disassembly of section .aivt._AltU4TXInterrupt:
 
 000001c6 <.aivt._AltU4TXInterrupt>:
- 1c6:	68 2f 00    	nop       
+ 1c6:	88 2e 00    	nop       
 Disassembly of section .aivt._AltUSB1Interrupt:
 
 000001c0 <.aivt._AltUSB1Interrupt>:
- 1c0:	68 2f 00    	nop       
+ 1c0:	88 2e 00    	nop       
 Disassembly of section .reset:
 
 00000000 <.reset>:
@@ -417,7 +417,7 @@ Disassembly of section .reset:
 Disassembly of section .text:
 
 00001110 <__reset>:
-    1110:	0f c2 20    	mov.w     #0xc20, w15
+    1110:	4f c2 20    	mov.w     #0xc24, w15
     1112:	0e ff 27    	mov.w     #0x7ff0, w14
     1114:	0e 01 88    	mov.w     w14, 0x20
     1116:	00 00 00    	nop       
@@ -432,7 +432,7 @@ Disassembly of section .text:
     1124:	91 00 07    	rcall     0x1248 <__crt_start_mode> <__crt_start_mode_normal> <L0>
     1126:	00 00 e0    	cp0.w     w0
     1128:	03 00 3a    	bra       NZ, 0x1130 <L11>
-    112a:	a0 ef 22    	mov.w     #0x2efa, w0
+    112a:	a0 e1 22    	mov.w     #0x2e1a, w0
     112c:	01 00 20    	mov.w     #0x0, w1
     112e:	02 00 37    	bra       0x1134 <L21>
 
@@ -1225,23 +1225,23 @@ Disassembly of section .text:
 
 0000158e <_rand>:
     158e:	88 9f be    	mov.d     w8, [w15++]
-    1590:	a0 56 80    	mov.w     0xad4, w0
+    1590:	c0 56 80    	mov.w     0xad8, w0
     1592:	00 00 e0    	cp0.w     w0
     1594:	01 00 32    	bra       Z, 0x1598 <.L2>
     1596:	00 00 01    	call      w0
 
 00001598 <.L2>:
-    1598:	b0 56 80    	mov.w     0xad6, w0
+    1598:	d0 56 80    	mov.w     0xada, w0
     159a:	00 00 e0    	cp0.w     w0
     159c:	01 00 32    	bra       Z, 0x15a0 <.L3>
     159e:	00 00 01    	call      w0
 
 000015a0 <.L3>:
-    15a0:	20 ad 20    	mov.w     #0xad2, w0
+    15a0:	60 ad 20    	mov.w     #0xad6, w0
     15a2:	10 04 e0    	cp0.b     [w0]
     15a4:	22 00 3a    	bra       NZ, 0x15ea <.L4>
-    15a6:	e0 60 80    	mov.w     0xc1c, w0
-    15a8:	f1 60 80    	mov.w     0xc1e, w1
+    15a6:	00 61 80    	mov.w     0xc20, w0
+    15a8:	11 61 80    	mov.w     0xc22, w1
     15aa:	88 00 20    	mov.w     #0x8, w8
 
 000015ac <.L5>:
@@ -1254,7 +1254,7 @@ Disassembly of section .text:
     15b8:	81 80 49    	addc.w    w3, w1, w1
     15ba:	08 04 e9    	dec.w     w8, w8
     15bc:	f7 ff 3a    	bra       NZ, 0x15ac <.L5>
-    15be:	88 ad 20    	mov.w     #0xad8, w8
+    15be:	c8 ad 20    	mov.w     #0xadc, w8
     15c0:	09 08 20    	mov.w     #0x80, w9
     15c2:	88 84 44    	add.w     w9, w8, w9
 
@@ -1269,37 +1269,37 @@ Disassembly of section .text:
     15d2:	00 ac be    	mov.d     w0, [++w8]
     15d4:	89 0f 54    	sub.w     w8, w9, [w15]
     15d6:	f6 ff 3a    	bra       NZ, 0x15c4 <.L6>
-    15d8:	e0 60 88    	mov.w     w0, 0xc1c
-    15da:	f1 60 88    	mov.w     w1, 0xc1e
-    15dc:	c0 5a 80    	mov.w     0xb58, w0
-    15de:	d1 5a 80    	mov.w     0xb5a, w1
-    15e0:	c0 56 88    	mov.w     w0, 0xad8
-    15e2:	d1 56 88    	mov.w     w1, 0xada
+    15d8:	00 61 88    	mov.w     w0, 0xc20
+    15da:	11 61 88    	mov.w     w1, 0xc22
+    15dc:	e0 5a 80    	mov.w     0xb5c, w0
+    15de:	f1 5a 80    	mov.w     0xb5e, w1
+    15e0:	e0 56 88    	mov.w     w0, 0xadc
+    15e2:	f1 56 88    	mov.w     w1, 0xade
     15e4:	11 c0 b3    	mov.b     #0x1, w1
-    15e6:	20 ad 20    	mov.w     #0xad2, w0
+    15e6:	60 ad 20    	mov.w     #0xad6, w0
     15e8:	01 48 78    	mov.b     w1, [w0]
 
 000015ea <.L4>:
     15ea:	d2 60 26    	mov.w     #0x660d, w2
     15ec:	93 01 20    	mov.w     #0x19, w3
-    15ee:	e0 60 80    	mov.w     0xc1c, w0
-    15f0:	f1 60 80    	mov.w     0xc1e, w1
+    15ee:	00 61 80    	mov.w     0xc20, w0
+    15f0:	11 61 80    	mov.w     0xc22, w1
     15f2:	25 00 07    	rcall     0x163e <___mulp32eds3> <___mulp32peds3> <___mulsi3> <L0>
     15f4:	f2 35 2f    	mov.w     #0xf35f, w2
     15f6:	e3 c6 23    	mov.w     #0x3c6e, w3
     15f8:	00 02 41    	add.w     w2, w0, w4
     15fa:	81 82 49    	addc.w    w3, w1, w5
-    15fc:	e4 60 88    	mov.w     w4, 0xc1c
-    15fe:	f5 60 88    	mov.w     w5, 0xc1e
-    1600:	80 ad 20    	mov.w     #0xad8, w0
+    15fc:	04 61 88    	mov.w     w4, 0xc20
+    15fe:	15 61 88    	mov.w     w5, 0xc22
+    1600:	c0 ad 20    	mov.w     #0xadc, w0
     1602:	10 00 78    	mov.w     [w0], w0
     1604:	7f 01 60    	and.w     w0, #0x1f, w2
     1606:	42 11 dd    	sl.w      w2, #0x2, w2
-    1608:	c0 ad 20    	mov.w     #0xadc, w0
+    1608:	00 ae 20    	mov.w     #0xae0, w0
     160a:	02 01 40    	add.w     w0, w2, w2
     160c:	12 00 be    	mov.d     [w2], w0
-    160e:	c0 56 88    	mov.w     w0, 0xad8
-    1610:	d1 56 88    	mov.w     w1, 0xada
+    160e:	e0 56 88    	mov.w     w0, 0xadc
+    1610:	f1 56 88    	mov.w     w1, 0xade
     1612:	04 89 be    	mov.d     w4, [w2]
     1614:	01 00 78    	mov.w     w1, w0
     1616:	00 f0 a1    	bclr.w    w0, #0xf
@@ -1309,23 +1309,23 @@ Disassembly of section .text:
 0000161c <_srand>:
     161c:	88 9f be    	mov.d     w8, [w15++]
     161e:	00 04 78    	mov.w     w0, w8
-    1620:	a0 56 80    	mov.w     0xad4, w0
+    1620:	c0 56 80    	mov.w     0xad8, w0
     1622:	00 00 e0    	cp0.w     w0
     1624:	01 00 32    	bra       Z, 0x1628 <.L2>
     1626:	00 00 01    	call      w0
 
 00001628 <.L2>:
-    1628:	20 ad 20    	mov.w     #0xad2, w0
+    1628:	60 ad 20    	mov.w     #0xad6, w0
     162a:	00 48 eb    	clr.b     [w0]
-    162c:	b0 56 80    	mov.w     0xad6, w0
+    162c:	d0 56 80    	mov.w     0xada, w0
     162e:	00 00 e0    	cp0.w     w0
     1630:	01 00 32    	bra       Z, 0x1634 <.L3>
     1632:	00 00 01    	call      w0
 
 00001634 <.L3>:
     1634:	80 04 eb    	clr.w     w9
-    1636:	e8 60 88    	mov.w     w8, 0xc1c
-    1638:	f9 60 88    	mov.w     w9, 0xc1e
+    1636:	08 61 88    	mov.w     w8, 0xc20
+    1638:	19 61 88    	mov.w     w9, 0xc22
     163a:	4f 04 be    	mov.d     [--w15], w8
     163c:	00 00 06    	return    
 
@@ -1353,141 +1353,141 @@ Disassembly of section .application_ivt:
 00001000 <__DEFAULT_VECTOR-0x10c>:
     1000:	10 11 04    	goto      0x1110 <__reset>
     1002:	00 00 00 
-    1004:	68 2f 04    	goto      0x2f68 <L0>
+    1004:	88 2e 04    	goto      0x2e88 <L0>
     1006:	00 00 00 
-    1008:	68 2f 04    	goto      0x2f68 <L0>
+    1008:	88 2e 04    	goto      0x2e88 <L0>
     100a:	00 00 00 
-    100c:	68 2f 04    	goto      0x2f68 <L0>
+    100c:	88 2e 04    	goto      0x2e88 <L0>
     100e:	00 00 00 
-    1010:	68 2f 04    	goto      0x2f68 <L0>
+    1010:	88 2e 04    	goto      0x2e88 <L0>
     1012:	00 00 00 
-    1014:	68 2f 04    	goto      0x2f68 <L0>
+    1014:	88 2e 04    	goto      0x2e88 <L0>
     1016:	00 00 00 
-    1018:	68 2f 04    	goto      0x2f68 <L0>
+    1018:	88 2e 04    	goto      0x2e88 <L0>
     101a:	00 00 00 
-    101c:	68 2f 04    	goto      0x2f68 <L0>
+    101c:	88 2e 04    	goto      0x2e88 <L0>
     101e:	00 00 00 
-    1020:	68 2f 04    	goto      0x2f68 <L0>
+    1020:	88 2e 04    	goto      0x2e88 <L0>
     1022:	00 00 00 
     1024:	fe 16 04    	goto      0x16fe <__T1Interrupt>
     1026:	00 00 00 
-    1028:	68 2f 04    	goto      0x2f68 <L0>
+    1028:	88 2e 04    	goto      0x2e88 <L0>
     102a:	00 00 00 
-    102c:	68 2f 04    	goto      0x2f68 <L0>
+    102c:	88 2e 04    	goto      0x2e88 <L0>
     102e:	00 00 00 
     1030:	2c 17 04    	goto      0x172c <__T2Interrupt>
     1032:	00 00 00 
     1034:	5a 17 04    	goto      0x175a <__T3Interrupt>
     1036:	00 00 00 
-    1038:	68 2f 04    	goto      0x2f68 <L0>
+    1038:	88 2e 04    	goto      0x2e88 <L0>
     103a:	00 00 00 
-    103c:	68 2f 04    	goto      0x2f68 <L0>
+    103c:	88 2e 04    	goto      0x2e88 <L0>
     103e:	00 00 00 
-    1040:	68 2f 04    	goto      0x2f68 <L0>
+    1040:	88 2e 04    	goto      0x2e88 <L0>
     1042:	00 00 00 
-    1044:	68 2f 04    	goto      0x2f68 <L0>
+    1044:	88 2e 04    	goto      0x2e88 <L0>
     1046:	00 00 00 
-    1048:	68 2f 04    	goto      0x2f68 <L0>
+    1048:	88 2e 04    	goto      0x2e88 <L0>
     104a:	00 00 00 
-    104c:	68 2f 04    	goto      0x2f68 <L0>
+    104c:	88 2e 04    	goto      0x2e88 <L0>
     104e:	00 00 00 
-    1050:	68 2f 04    	goto      0x2f68 <L0>
+    1050:	88 2e 04    	goto      0x2e88 <L0>
     1052:	00 00 00 
-    1054:	68 2f 04    	goto      0x2f68 <L0>
+    1054:	88 2e 04    	goto      0x2e88 <L0>
     1056:	00 00 00 
-    1058:	68 2f 04    	goto      0x2f68 <L0>
+    1058:	88 2e 04    	goto      0x2e88 <L0>
     105a:	00 00 00 
-    105c:	68 2f 04    	goto      0x2f68 <L0>
+    105c:	88 2e 04    	goto      0x2e88 <L0>
     105e:	00 00 00 
-    1060:	68 2f 04    	goto      0x2f68 <L0>
+    1060:	88 2e 04    	goto      0x2e88 <L0>
     1062:	00 00 00 
-    1064:	68 2f 04    	goto      0x2f68 <L0>
+    1064:	88 2e 04    	goto      0x2e88 <L0>
     1066:	00 00 00 
-    1068:	68 2f 04    	goto      0x2f68 <L0>
+    1068:	88 2e 04    	goto      0x2e88 <L0>
     106a:	00 00 00 
-    106c:	68 2f 04    	goto      0x2f68 <L0>
+    106c:	88 2e 04    	goto      0x2e88 <L0>
     106e:	00 00 00 
     1070:	88 17 04    	goto      0x1788 <__T4Interrupt>
     1072:	00 00 00 
     1074:	b6 17 04    	goto      0x17b6 <__T5Interrupt>
     1076:	00 00 00 
-    1078:	68 2f 04    	goto      0x2f68 <L0>
+    1078:	88 2e 04    	goto      0x2e88 <L0>
     107a:	00 00 00 
-    107c:	68 2f 04    	goto      0x2f68 <L0>
+    107c:	88 2e 04    	goto      0x2e88 <L0>
     107e:	00 00 00 
-    1080:	68 2f 04    	goto      0x2f68 <L0>
+    1080:	88 2e 04    	goto      0x2e88 <L0>
     1082:	00 00 00 
-    1084:	68 2f 04    	goto      0x2f68 <L0>
+    1084:	88 2e 04    	goto      0x2e88 <L0>
     1086:	00 00 00 
-    1088:	68 2f 04    	goto      0x2f68 <L0>
+    1088:	88 2e 04    	goto      0x2e88 <L0>
     108a:	00 00 00 
-    108c:	68 2f 04    	goto      0x2f68 <L0>
+    108c:	88 2e 04    	goto      0x2e88 <L0>
     108e:	00 00 00 
-    1090:	68 2f 04    	goto      0x2f68 <L0>
+    1090:	88 2e 04    	goto      0x2e88 <L0>
     1092:	00 00 00 
-    1094:	68 2f 04    	goto      0x2f68 <L0>
+    1094:	88 2e 04    	goto      0x2e88 <L0>
     1096:	00 00 00 
-    1098:	68 2f 04    	goto      0x2f68 <L0>
+    1098:	88 2e 04    	goto      0x2e88 <L0>
     109a:	00 00 00 
-    109c:	68 2f 04    	goto      0x2f68 <L0>
+    109c:	88 2e 04    	goto      0x2e88 <L0>
     109e:	00 00 00 
-    10a0:	68 2f 04    	goto      0x2f68 <L0>
+    10a0:	88 2e 04    	goto      0x2e88 <L0>
     10a2:	00 00 00 
-    10a4:	68 2f 04    	goto      0x2f68 <L0>
+    10a4:	88 2e 04    	goto      0x2e88 <L0>
     10a6:	00 00 00 
-    10a8:	68 2f 04    	goto      0x2f68 <L0>
+    10a8:	88 2e 04    	goto      0x2e88 <L0>
     10aa:	00 00 00 
-    10ac:	68 2f 04    	goto      0x2f68 <L0>
+    10ac:	88 2e 04    	goto      0x2e88 <L0>
     10ae:	00 00 00 
-    10b0:	68 2f 04    	goto      0x2f68 <L0>
+    10b0:	88 2e 04    	goto      0x2e88 <L0>
     10b2:	00 00 00 
-    10b4:	68 2f 04    	goto      0x2f68 <L0>
+    10b4:	88 2e 04    	goto      0x2e88 <L0>
     10b6:	00 00 00 
-    10b8:	68 2f 04    	goto      0x2f68 <L0>
+    10b8:	88 2e 04    	goto      0x2e88 <L0>
     10ba:	00 00 00 
-    10bc:	68 2f 04    	goto      0x2f68 <L0>
+    10bc:	88 2e 04    	goto      0x2e88 <L0>
     10be:	00 00 00 
-    10c0:	68 2f 04    	goto      0x2f68 <L0>
+    10c0:	88 2e 04    	goto      0x2e88 <L0>
     10c2:	00 00 00 
-    10c4:	68 2f 04    	goto      0x2f68 <L0>
+    10c4:	88 2e 04    	goto      0x2e88 <L0>
     10c6:	00 00 00 
-    10c8:	68 2f 04    	goto      0x2f68 <L0>
+    10c8:	88 2e 04    	goto      0x2e88 <L0>
     10ca:	00 00 00 
-    10cc:	68 2f 04    	goto      0x2f68 <L0>
+    10cc:	88 2e 04    	goto      0x2e88 <L0>
     10ce:	00 00 00 
-    10d0:	68 2f 04    	goto      0x2f68 <L0>
+    10d0:	88 2e 04    	goto      0x2e88 <L0>
     10d2:	00 00 00 
-    10d4:	68 2f 04    	goto      0x2f68 <L0>
+    10d4:	88 2e 04    	goto      0x2e88 <L0>
     10d6:	00 00 00 
-    10d8:	68 2f 04    	goto      0x2f68 <L0>
+    10d8:	88 2e 04    	goto      0x2e88 <L0>
     10da:	00 00 00 
-    10dc:	68 2f 04    	goto      0x2f68 <L0>
+    10dc:	88 2e 04    	goto      0x2e88 <L0>
     10de:	00 00 00 
-    10e0:	68 2f 04    	goto      0x2f68 <L0>
+    10e0:	88 2e 04    	goto      0x2e88 <L0>
     10e2:	00 00 00 
-    10e4:	68 2f 04    	goto      0x2f68 <L0>
+    10e4:	88 2e 04    	goto      0x2e88 <L0>
     10e6:	00 00 00 
-    10e8:	68 2f 04    	goto      0x2f68 <L0>
+    10e8:	88 2e 04    	goto      0x2e88 <L0>
     10ea:	00 00 00 
-    10ec:	68 2f 04    	goto      0x2f68 <L0>
+    10ec:	88 2e 04    	goto      0x2e88 <L0>
     10ee:	00 00 00 
-    10f0:	68 2f 04    	goto      0x2f68 <L0>
+    10f0:	88 2e 04    	goto      0x2e88 <L0>
     10f2:	00 00 00 
-    10f4:	68 2f 04    	goto      0x2f68 <L0>
+    10f4:	88 2e 04    	goto      0x2e88 <L0>
     10f6:	00 00 00 
-    10f8:	68 2f 04    	goto      0x2f68 <L0>
+    10f8:	88 2e 04    	goto      0x2e88 <L0>
     10fa:	00 00 00 
-    10fc:	68 2f 04    	goto      0x2f68 <L0>
+    10fc:	88 2e 04    	goto      0x2e88 <L0>
     10fe:	00 00 00 
-    1100:	68 2f 04    	goto      0x2f68 <L0>
+    1100:	88 2e 04    	goto      0x2e88 <L0>
     1102:	00 00 00 
-    1104:	68 2f 04    	goto      0x2f68 <L0>
+    1104:	88 2e 04    	goto      0x2e88 <L0>
     1106:	00 00 00 
-    1108:	68 2f 04    	goto      0x2f68 <L0>
+    1108:	88 2e 04    	goto      0x2e88 <L0>
     110a:	00 00 00 
 
 0000110c <__DEFAULT_VECTOR>:
-    110c:	68 2f 04    	goto      0x2f68 <L0>
+    110c:	88 2e 04    	goto      0x2e88 <L0>
     110e:	00 00 00 
 Disassembly of section .ivt:
 
@@ -1767,7 +1767,7 @@ void __attribute__((interrupt, auto_psv)) _T1Interrupt(void) {
     1712:	90 01 88    	mov.w     w0, 0x32
     1714:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer1);
-    1716:	c0 b5 20    	mov.w     #0xb5c, w0
+    1716:	00 b6 20    	mov.w     #0xb60, w0
     1718:	c9 ff 07    	rcall     0x16ac <_timer_serviceInterrupt> <.L0> <.LFB0> <.Ltext0>
 }
     171a:	00 80 fa    	ulnk      
@@ -1796,7 +1796,7 @@ void __attribute__((interrupt, auto_psv)) _T2Interrupt(void) {
     1740:	90 01 88    	mov.w     w0, 0x32
     1742:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer2);
-    1744:	20 b7 20    	mov.w     #0xb72, w0
+    1744:	60 b7 20    	mov.w     #0xb76, w0
     1746:	b2 ff 07    	rcall     0x16ac <_timer_serviceInterrupt> <.L0> <.LFB0> <.Ltext0>
 }
     1748:	00 80 fa    	ulnk      
@@ -1825,7 +1825,7 @@ void __attribute__((interrupt, auto_psv)) _T3Interrupt(void) {
     176e:	90 01 88    	mov.w     w0, 0x32
     1770:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer3);
-    1772:	80 b8 20    	mov.w     #0xb88, w0
+    1772:	c0 b8 20    	mov.w     #0xb8c, w0
     1774:	9b ff 07    	rcall     0x16ac <_timer_serviceInterrupt> <.L0> <.LFB0> <.Ltext0>
 }
     1776:	00 80 fa    	ulnk      
@@ -1854,7 +1854,7 @@ void __attribute__((interrupt, auto_psv)) _T4Interrupt(void) {
     179c:	90 01 88    	mov.w     w0, 0x32
     179e:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer4);
-    17a0:	e0 b9 20    	mov.w     #0xb9e, w0
+    17a0:	20 ba 20    	mov.w     #0xba2, w0
     17a2:	84 ff 07    	rcall     0x16ac <_timer_serviceInterrupt> <.L0> <.LFB0> <.Ltext0>
 }
     17a4:	00 80 fa    	ulnk      
@@ -1883,7 +1883,7 @@ void __attribute__((interrupt, auto_psv)) _T5Interrupt(void) {
     17ca:	90 01 88    	mov.w     w0, 0x32
     17cc:	00 00 fa    	lnk       #0x0
     timer_serviceInterrupt(&timer5);
-    17ce:	40 bb 20    	mov.w     #0xbb4, w0
+    17ce:	80 bb 20    	mov.w     #0xbb8, w0
     17d0:	6d ff 07    	rcall     0x16ac <_timer_serviceInterrupt> <.L0> <.LFB0> <.Ltext0>
 }
     17d2:	00 80 fa    	ulnk      
@@ -1910,7 +1910,7 @@ void init_timer(void) {
     17f2:	03 10 20    	mov.w     #0x100, w3
     17f4:	22 10 20    	mov.w     #0x102, w2
     17f6:	41 10 20    	mov.w     #0x104, w1
-    17f8:	c0 b5 20    	mov.w     #0xb5c, w0
+    17f8:	00 b6 20    	mov.w     #0xb60, w0
     17fa:	33 00 07    	rcall     0x1862 <_timer_init> <L0> <.LFB7> <.LFE6>
     17fc:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 3, 4, 11);
@@ -1924,7 +1924,7 @@ void init_timer(void) {
     180a:	63 10 20    	mov.w     #0x106, w3
     180c:	c2 10 20    	mov.w     #0x10c, w2
     180e:	01 11 20    	mov.w     #0x110, w1
-    1810:	20 b7 20    	mov.w     #0xb72, w0
+    1810:	60 b7 20    	mov.w     #0xb76, w0
     1812:	27 00 07    	rcall     0x1862 <_timer_init> <L0> <.LFB7> <.LFE6>
     1814:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 7, 0, 12);
@@ -1938,7 +1938,7 @@ void init_timer(void) {
     1822:	a3 10 20    	mov.w     #0x10a, w3
     1824:	e2 10 20    	mov.w     #0x10e, w2
     1826:	21 11 20    	mov.w     #0x112, w1
-    1828:	80 b8 20    	mov.w     #0xb88, w0
+    1828:	c0 b8 20    	mov.w     #0xb8c, w0
     182a:	1b 00 07    	rcall     0x1862 <_timer_init> <L0> <.LFB7> <.LFE6>
     182c:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS0, (uint16_t *)&IEC0, 8, 1, 13);
@@ -1952,7 +1952,7 @@ void init_timer(void) {
     183a:	43 11 20    	mov.w     #0x114, w3
     183c:	a2 11 20    	mov.w     #0x11a, w2
     183e:	e1 11 20    	mov.w     #0x11e, w1
-    1840:	e0 b9 20    	mov.w     #0xb9e, w0
+    1840:	20 ba 20    	mov.w     #0xba2, w0
     1842:	0f 00 07    	rcall     0x1862 <_timer_init> <L0> <.LFB7> <.LFE6>
     1844:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS1, (uint16_t *)&IEC1, 11, 2, 14);
@@ -1966,7 +1966,7 @@ void init_timer(void) {
     1852:	83 11 20    	mov.w     #0x118, w3
     1854:	c2 11 20    	mov.w     #0x11c, w2
     1856:	01 12 20    	mov.w     #0x120, w1
-    1858:	40 bb 20    	mov.w     #0xbb4, w0
+    1858:	80 bb 20    	mov.w     #0xbb8, w0
     185a:	03 00 07    	rcall     0x1862 <_timer_init> <L0> <.LFB7> <.LFE6>
     185c:	8f 87 e9    	dec2.w    w15, w15
                (uint16_t *)&IFS1, (uint16_t *)&IEC1, 12, 3, 15);
@@ -2221,7 +2221,7 @@ float timer_period(_TIMER *self) {
     return timer_multipliers[prescalar]*((float)peek(self->PRx)+1.);
     19c8:	1e 00 78    	mov.w     [w14], w0
     19ca:	c2 00 dd    	sl.w      w0, #0x2, w1
-    19cc:	c0 c0 20    	mov.w     #0xc0c, w0
+    19cc:	00 c1 20    	mov.w     #0xc10, w0
     19ce:	00 80 40    	add.w     w1, w0, w0
     19d0:	10 04 be    	mov.d     [w0], w8
     19d2:	1e 00 90    	mov.w     [w14+2], w0
@@ -2294,7 +2294,7 @@ float timer_time(_TIMER *self) {
     return timer_multipliers[prescalar]*((float)peek(self->PRx)+1.);
     1a32:	1e 00 78    	mov.w     [w14], w0
     1a34:	c2 00 dd    	sl.w      w0, #0x2, w1
-    1a36:	c0 c0 20    	mov.w     #0xc0c, w0
+    1a36:	00 c1 20    	mov.w     #0xc10, w0
     1a38:	00 80 40    	add.w     w1, w0, w0
     1a3a:	10 04 be    	mov.d     [w0], w8
     1a3c:	1e 00 90    	mov.w     [w14+2], w0
@@ -2580,7 +2580,7 @@ void timer_cancel(_TIMER *self) {
     1bc6:	43 24 20    	mov.w     #0x244, w3
     1bc8:	22 24 20    	mov.w     #0x242, w2
     1bca:	01 24 20    	mov.w     #0x240, w1
-    1bcc:	a0 bc 20    	mov.w     #0xbca, w0
+    1bcc:	e0 bc 20    	mov.w     #0xbce, w0
     1bce:	1b 00 07    	rcall     0x1c06 <_spi_init> <L0> <.LFB1> <.LFE0>
     1bd0:	8f 87 e9    	dec2.w    w15, w15
     1bd2:	b0 00 20    	mov.w     #0xb, w0
@@ -2592,7 +2592,7 @@ void timer_cancel(_TIMER *self) {
     1bde:	43 26 20    	mov.w     #0x264, w3
     1be0:	22 26 20    	mov.w     #0x262, w2
     1be2:	01 26 20    	mov.w     #0x260, w1
-    1be4:	00 be 20    	mov.w     #0xbe0, w0
+    1be4:	40 be 20    	mov.w     #0xbe4, w0
     1be6:	0f 00 07    	rcall     0x1c06 <_spi_init> <L0> <.LFB1> <.LFE0>
     1be8:	8f 87 e9    	dec2.w    w15, w15
     1bea:	10 02 20    	mov.w     #0x21, w0
@@ -2604,7 +2604,7 @@ void timer_cancel(_TIMER *self) {
     1bf6:	43 28 20    	mov.w     #0x284, w3
     1bf8:	22 28 20    	mov.w     #0x282, w2
     1bfa:	01 28 20    	mov.w     #0x280, w1
-    1bfc:	60 bf 20    	mov.w     #0xbf6, w0
+    1bfc:	a0 bf 20    	mov.w     #0xbfa, w0
     1bfe:	03 00 07    	rcall     0x1c06 <_spi_init> <L0> <.LFB1> <.LFE0>
     1c00:	8f 87 e9    	dec2.w    w15, w15
     1c02:	00 80 fa    	ulnk      
@@ -3345,7 +3345,7 @@ void init_pin(void) {
     210e:	80 01 eb    	clr.w     w3
     2110:	82 2d 20    	mov.w     #0x2d8, w2
     2112:	a1 2d 20    	mov.w     #0x2da, w1
-    2114:	80 87 20    	mov.w     #0x878, w0
+    2114:	c0 87 20    	mov.w     #0x87c, w0
     2116:	08 01 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2118:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 5, -1, 0, 20, (uint16_t *)&RPOR10);
@@ -3359,7 +3359,7 @@ void init_pin(void) {
     2126:	80 01 eb    	clr.w     w3
     2128:	82 2d 20    	mov.w     #0x2d8, w2
     212a:	a1 2d 20    	mov.w     #0x2da, w1
-    212c:	e0 88 20    	mov.w     #0x88e, w0
+    212c:	20 89 20    	mov.w     #0x892, w0
     212e:	fc 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2130:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 4, -1, 8, 25, (uint16_t *)&RPOR12);
@@ -3373,7 +3373,7 @@ void init_pin(void) {
     213e:	80 01 eb    	clr.w     w3
     2140:	82 2e 20    	mov.w     #0x2e8, w2
     2142:	a1 2e 20    	mov.w     #0x2ea, w1
-    2144:	40 8a 20    	mov.w     #0x8a4, w0
+    2144:	80 8a 20    	mov.w     #0x8a8, w0
     2146:	f0 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2148:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 4, -1, 0, 10, (uint16_t *)&RPOR5);
@@ -3387,7 +3387,7 @@ void init_pin(void) {
     2156:	80 01 eb    	clr.w     w3
     2158:	82 2e 20    	mov.w     #0x2e8, w2
     215a:	a1 2e 20    	mov.w     #0x2ea, w1
-    215c:	a0 8b 20    	mov.w     #0x8ba, w0
+    215c:	e0 8b 20    	mov.w     #0x8be, w0
     215e:	e4 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2160:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 5, -1, 8, 17, (uint16_t *)&RPOR8);
@@ -3401,7 +3401,7 @@ void init_pin(void) {
     216e:	23 4e 20    	mov.w     #0x4e2, w3
     2170:	82 2c 20    	mov.w     #0x2c8, w2
     2172:	a1 2c 20    	mov.w     #0x2ca, w1
-    2174:	00 8d 20    	mov.w     #0x8d0, w0
+    2174:	40 8d 20    	mov.w     #0x8d4, w0
     2176:	d8 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2178:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 15, 15, 8, 29, (uint16_t *)&RPOR14);
@@ -3415,7 +3415,7 @@ void init_pin(void) {
     2186:	80 01 eb    	clr.w     w3
     2188:	82 2e 20    	mov.w     #0x2e8, w2
     218a:	a1 2e 20    	mov.w     #0x2ea, w1
-    218c:	60 8e 20    	mov.w     #0x8e6, w0
+    218c:	a0 8e 20    	mov.w     #0x8ea, w0
     218e:	cc 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2190:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 3, -1, 0, 16, (uint16_t *)&RPOR8);
@@ -3429,7 +3429,7 @@ void init_pin(void) {
     219e:	80 01 eb    	clr.w     w3
     21a0:	82 2d 20    	mov.w     #0x2d8, w2
     21a2:	a1 2d 20    	mov.w     #0x2da, w1
-    21a4:	c0 8f 20    	mov.w     #0x8fc, w0
+    21a4:	00 90 20    	mov.w     #0x900, w0
     21a6:	c0 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     21a8:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 8, -1, 0, 2, (uint16_t *)&RPOR1);
@@ -3443,7 +3443,7 @@ void init_pin(void) {
     21b6:	80 01 eb    	clr.w     w3
     21b8:	82 2d 20    	mov.w     #0x2d8, w2
     21ba:	a1 2d 20    	mov.w     #0x2da, w1
-    21bc:	20 91 20    	mov.w     #0x912, w0
+    21bc:	60 91 20    	mov.w     #0x916, w0
     21be:	b4 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     21c0:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 11, -1, 0, 12, (uint16_t *)&RPOR6);
@@ -3457,7 +3457,7 @@ void init_pin(void) {
     21ce:	80 01 eb    	clr.w     w3
     21d0:	82 2d 20    	mov.w     #0x2d8, w2
     21d2:	a1 2d 20    	mov.w     #0x2da, w1
-    21d4:	80 92 20    	mov.w     #0x928, w0
+    21d4:	c0 92 20    	mov.w     #0x92c, w0
     21d6:	a8 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     21d8:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 9, -1, 0, 4, (uint16_t *)&RPOR2);
@@ -3471,7 +3471,7 @@ void init_pin(void) {
     21e6:	80 01 eb    	clr.w     w3
     21e8:	82 2d 20    	mov.w     #0x2d8, w2
     21ea:	a1 2d 20    	mov.w     #0x2da, w1
-    21ec:	e0 93 20    	mov.w     #0x93e, w0
+    21ec:	20 94 20    	mov.w     #0x942, w0
     21ee:	9c 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     21f0:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 10, -1, 8, 3, (uint16_t *)&RPOR1);
@@ -3485,7 +3485,7 @@ void init_pin(void) {
     21fe:	80 01 eb    	clr.w     w3
     2200:	82 2d 20    	mov.w     #0x2d8, w2
     2202:	a1 2d 20    	mov.w     #0x2da, w1
-    2204:	40 95 20    	mov.w     #0x954, w0
+    2204:	80 95 20    	mov.w     #0x958, w0
     2206:	90 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2208:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 0, -1, 8, 11, (uint16_t *)&RPOR5);
@@ -3499,7 +3499,7 @@ void init_pin(void) {
     2216:	80 01 eb    	clr.w     w3
     2218:	82 2d 20    	mov.w     #0x2d8, w2
     221a:	a1 2d 20    	mov.w     #0x2da, w1
-    221c:	a0 96 20    	mov.w     #0x96a, w0
+    221c:	e0 96 20    	mov.w     #0x96e, w0
     221e:	84 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2220:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 1, -1, 0, 24, (uint16_t *)&RPOR12);
@@ -3513,7 +3513,7 @@ void init_pin(void) {
     222e:	80 01 eb    	clr.w     w3
     2230:	82 2d 20    	mov.w     #0x2d8, w2
     2232:	a1 2d 20    	mov.w     #0x2da, w1
-    2234:	00 98 20    	mov.w     #0x980, w0
+    2234:	40 98 20    	mov.w     #0x984, w0
     2236:	78 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2238:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 2, -1, 8, 23, (uint16_t *)&RPOR11);
@@ -3527,7 +3527,7 @@ void init_pin(void) {
     2246:	80 01 eb    	clr.w     w3
     2248:	82 2d 20    	mov.w     #0x2d8, w2
     224a:	a1 2d 20    	mov.w     #0x2da, w1
-    224c:	60 99 20    	mov.w     #0x996, w0
+    224c:	a0 99 20    	mov.w     #0x99a, w0
     224e:	6c 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2250:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)NULL, 3, -1, 0, 22, (uint16_t *)&RPOR11);
@@ -3541,7 +3541,7 @@ void init_pin(void) {
     225e:	23 4e 20    	mov.w     #0x4e2, w3
     2260:	82 2c 20    	mov.w     #0x2c8, w2
     2262:	a1 2c 20    	mov.w     #0x2ca, w1
-    2264:	a0 a1 20    	mov.w     #0xa1a, w0
+    2264:	e0 a1 20    	mov.w     #0xa1e, w0
     2266:	60 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2268:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 0, 0, 0, 0, (uint16_t *)&RPOR0);
@@ -3555,7 +3555,7 @@ void init_pin(void) {
     2276:	23 4e 20    	mov.w     #0x4e2, w3
     2278:	82 2c 20    	mov.w     #0x2c8, w2
     227a:	a1 2c 20    	mov.w     #0x2ca, w1
-    227c:	40 a0 20    	mov.w     #0xa04, w0
+    227c:	80 a0 20    	mov.w     #0xa08, w0
     227e:	54 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2280:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 1, 1, 8, 1, (uint16_t *)&RPOR0);
@@ -3569,7 +3569,7 @@ void init_pin(void) {
     228e:	23 4e 20    	mov.w     #0x4e2, w3
     2290:	82 2c 20    	mov.w     #0x2c8, w2
     2292:	a1 2c 20    	mov.w     #0x2ca, w1
-    2294:	e0 9e 20    	mov.w     #0x9ee, w0
+    2294:	20 9f 20    	mov.w     #0x9f2, w0
     2296:	48 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     2298:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 2, 2, 8, 13, (uint16_t *)&RPOR6);
@@ -3583,7 +3583,7 @@ void init_pin(void) {
     22a6:	23 4e 20    	mov.w     #0x4e2, w3
     22a8:	82 2c 20    	mov.w     #0x2c8, w2
     22aa:	a1 2c 20    	mov.w     #0x2ca, w1
-    22ac:	80 9d 20    	mov.w     #0x9d8, w0
+    22ac:	c0 9d 20    	mov.w     #0x9dc, w0
     22ae:	3c 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     22b0:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 3, 3, 0, -1, (uint16_t *)NULL);
@@ -3597,7 +3597,7 @@ void init_pin(void) {
     22be:	23 4e 20    	mov.w     #0x4e2, w3
     22c0:	82 2c 20    	mov.w     #0x2c8, w2
     22c2:	a1 2c 20    	mov.w     #0x2ca, w1
-    22c4:	20 9c 20    	mov.w     #0x9c2, w0
+    22c4:	60 9c 20    	mov.w     #0x9c6, w0
     22c6:	30 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     22c8:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 4, 4, 0, 28, (uint16_t *)&RPOR14);
@@ -3611,7 +3611,7 @@ void init_pin(void) {
     22d6:	23 4e 20    	mov.w     #0x4e2, w3
     22d8:	82 2c 20    	mov.w     #0x2c8, w2
     22da:	a1 2c 20    	mov.w     #0x2ca, w1
-    22dc:	c0 9a 20    	mov.w     #0x9ac, w0
+    22dc:	00 9b 20    	mov.w     #0x9b0, w0
     22de:	24 00 07    	rcall     0x2328 <_pin_init> <L0> <.LFB4> <.LFE3>
     22e0:	8f 87 e9    	dec2.w    w15, w15
              (uint16_t *)&ANSB, 5, 5, 0, 18, (uint16_t *)&RPOR9);
@@ -3625,7 +3625,7 @@ void init_pin(void) {
     22e8:	1e 00 78    	mov.w     [w14], w0
     22ea:	76 00 b9    	mul.su    w0, #0x16, w0
     22ec:	80 00 78    	mov.w     w0, w1
-    22ee:	80 87 20    	mov.w     #0x878, w0
+    22ee:	c0 87 20    	mov.w     #0x87c, w0
     22f0:	00 80 40    	add.w     w1, w0, w0
     22f2:	46 00 07    	rcall     0x2380 <_pin_digitalIn> <L0> <.LFB5> <.LFE4>
     22f4:	1e 0f e8    	inc.w     [w14], [w14]
@@ -3644,7 +3644,7 @@ void init_pin(void) {
     2302:	1e 00 78    	mov.w     [w14], w0
     2304:	76 00 b9    	mul.su    w0, #0x16, w0
     2306:	80 00 78    	mov.w     w0, w1
-    2308:	c0 9a 20    	mov.w     #0x9ac, w0
+    2308:	00 9b 20    	mov.w     #0x9b0, w0
     230a:	00 80 40    	add.w     w1, w0, w0
     230c:	95 00 07    	rcall     0x2438 <_pin_analogIn> <L0> <.LFB7> <.LFE6>
     230e:	1e 0f e8    	inc.w     [w14], [w14]
@@ -4218,7 +4218,7 @@ void init_oc(void) {
     261c:	43 19 20    	mov.w     #0x194, w3
     261e:	22 19 20    	mov.w     #0x192, w2
     2620:	01 19 20    	mov.w     #0x190, w1
-    2622:	00 a3 20    	mov.w     #0xa30, w0
+    2622:	40 a3 20    	mov.w     #0xa34, w0
     2624:	42 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC1RS, (uint16_t *)&OC1R, (uint16_t *)&OC1TMR, 18);
     oc_init(&oc2, (uint16_t *)&OC2CON1, (uint16_t *)&OC2CON2, 
@@ -4228,7 +4228,7 @@ void init_oc(void) {
     262c:	e3 19 20    	mov.w     #0x19e, w3
     262e:	c2 19 20    	mov.w     #0x19c, w2
     2630:	a1 19 20    	mov.w     #0x19a, w1
-    2632:	20 a4 20    	mov.w     #0xa42, w0
+    2632:	60 a4 20    	mov.w     #0xa46, w0
     2634:	3a 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC2RS, (uint16_t *)&OC2R, (uint16_t *)&OC2TMR, 19);
     oc_init(&oc3, (uint16_t *)&OC3CON1, (uint16_t *)&OC3CON2, 
@@ -4238,7 +4238,7 @@ void init_oc(void) {
     263c:	83 1a 20    	mov.w     #0x1a8, w3
     263e:	62 1a 20    	mov.w     #0x1a6, w2
     2640:	41 1a 20    	mov.w     #0x1a4, w1
-    2642:	40 a5 20    	mov.w     #0xa54, w0
+    2642:	80 a5 20    	mov.w     #0xa58, w0
     2644:	32 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC3RS, (uint16_t *)&OC3R, (uint16_t *)&OC3TMR, 20);
     oc_init(&oc4, (uint16_t *)&OC4CON1, (uint16_t *)&OC4CON2, 
@@ -4248,7 +4248,7 @@ void init_oc(void) {
     264c:	23 1b 20    	mov.w     #0x1b2, w3
     264e:	02 1b 20    	mov.w     #0x1b0, w2
     2650:	e1 1a 20    	mov.w     #0x1ae, w1
-    2652:	60 a6 20    	mov.w     #0xa66, w0
+    2652:	a0 a6 20    	mov.w     #0xa6a, w0
     2654:	2a 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC4RS, (uint16_t *)&OC4R, (uint16_t *)&OC4TMR, 21);
     oc_init(&oc5, (uint16_t *)&OC5CON1, (uint16_t *)&OC5CON2, 
@@ -4258,7 +4258,7 @@ void init_oc(void) {
     265c:	c3 1b 20    	mov.w     #0x1bc, w3
     265e:	a2 1b 20    	mov.w     #0x1ba, w2
     2660:	81 1b 20    	mov.w     #0x1b8, w1
-    2662:	80 a7 20    	mov.w     #0xa78, w0
+    2662:	c0 a7 20    	mov.w     #0xa7c, w0
     2664:	22 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC5RS, (uint16_t *)&OC5R, (uint16_t *)&OC5TMR, 22);
     oc_init(&oc6, (uint16_t *)&OC6CON1, (uint16_t *)&OC6CON2, 
@@ -4268,7 +4268,7 @@ void init_oc(void) {
     266c:	63 1c 20    	mov.w     #0x1c6, w3
     266e:	42 1c 20    	mov.w     #0x1c4, w2
     2670:	21 1c 20    	mov.w     #0x1c2, w1
-    2672:	a0 a8 20    	mov.w     #0xa8a, w0
+    2672:	e0 a8 20    	mov.w     #0xa8e, w0
     2674:	1a 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC6RS, (uint16_t *)&OC6R, (uint16_t *)&OC6TMR, 23);
     oc_init(&oc7, (uint16_t *)&OC7CON1, (uint16_t *)&OC7CON2, 
@@ -4278,7 +4278,7 @@ void init_oc(void) {
     267c:	03 1d 20    	mov.w     #0x1d0, w3
     267e:	e2 1c 20    	mov.w     #0x1ce, w2
     2680:	c1 1c 20    	mov.w     #0x1cc, w1
-    2682:	c0 a9 20    	mov.w     #0xa9c, w0
+    2682:	00 aa 20    	mov.w     #0xaa0, w0
     2684:	12 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC7RS, (uint16_t *)&OC7R, (uint16_t *)&OC7TMR, 24);
     oc_init(&oc8, (uint16_t *)&OC8CON1, (uint16_t *)&OC8CON2, 
@@ -4288,7 +4288,7 @@ void init_oc(void) {
     268c:	a3 1d 20    	mov.w     #0x1da, w3
     268e:	82 1d 20    	mov.w     #0x1d8, w2
     2690:	61 1d 20    	mov.w     #0x1d6, w1
-    2692:	e0 aa 20    	mov.w     #0xaae, w0
+    2692:	20 ab 20    	mov.w     #0xab2, w0
     2694:	0a 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC8RS, (uint16_t *)&OC8R, (uint16_t *)&OC8TMR, 25);
     oc_init(&oc9, (uint16_t *)&OC9CON1, (uint16_t *)&OC9CON2, 
@@ -4298,7 +4298,7 @@ void init_oc(void) {
     269c:	43 1e 20    	mov.w     #0x1e4, w3
     269e:	22 1e 20    	mov.w     #0x1e2, w2
     26a0:	01 1e 20    	mov.w     #0x1e0, w1
-    26a2:	00 ac 20    	mov.w     #0xac0, w0
+    26a2:	40 ac 20    	mov.w     #0xac4, w0
     26a4:	02 00 07    	rcall     0x26aa <_oc_init> <L0> <.LFB5> <.LFE4>
             (uint16_t *)&OC9RS, (uint16_t *)&OC9R, (uint16_t *)&OC9TMR, 35);
 }
@@ -4872,13 +4872,13 @@ void oc_servo(_OC *self, _PIN *pin, _TIMER *timer, float interval,
     2a06:	1e 00 90    	mov.w     [w14+2], w0
     2a08:	54 fd 07    	rcall     0x24b2 <_pin_clear> <L0> <.LFB9> <.LFE8>
     2a0a:	01 c4 b3    	mov.b     #0x40, w1
-    2a0c:	a0 bc 20    	mov.w     #0xbca, w0
+    2a0c:	e0 bc 20    	mov.w     #0xbce, w0
     2a0e:	22 fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a10:	9e 40 78    	mov.b     [w14], w1
-    2a12:	a0 bc 20    	mov.w     #0xbca, w0
+    2a12:	e0 bc 20    	mov.w     #0xbce, w0
     2a14:	1f fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a16:	9e 40 90    	mov.b     [w14+1], w1
-    2a18:	a0 bc 20    	mov.w     #0xbca, w0
+    2a18:	e0 bc 20    	mov.w     #0xbce, w0
     2a1a:	1c fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a1c:	1e 00 90    	mov.w     [w14+2], w0
     2a1e:	34 fd 07    	rcall     0x2488 <_pin_set> <L0> <.LFB8> <.LFE7>
@@ -4892,13 +4892,13 @@ void oc_servo(_OC *self, _PIN *pin, _TIMER *timer, float interval,
     2a2a:	2e 00 90    	mov.w     [w14+4], w0
     2a2c:	42 fd 07    	rcall     0x24b2 <_pin_clear> <L0> <.LFB9> <.LFE8>
     2a2e:	11 c4 b3    	mov.b     #0x41, w1
-    2a30:	a0 bc 20    	mov.w     #0xbca, w0
+    2a30:	e0 bc 20    	mov.w     #0xbce, w0
     2a32:	10 fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a34:	ae 40 90    	mov.b     [w14+2], w1
-    2a36:	a0 bc 20    	mov.w     #0xbca, w0
+    2a36:	e0 bc 20    	mov.w     #0xbce, w0
     2a38:	0d fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a3a:	80 40 eb    	clr.b     w1
-    2a3c:	a0 bc 20    	mov.w     #0xbca, w0
+    2a3c:	e0 bc 20    	mov.w     #0xbce, w0
     2a3e:	0a fb 07    	rcall     0x2054 <_spi_transfer> <L0> <.LFB4> <.LFE3>
     2a40:	00 4f 78    	mov.b     w0, [w14]
     2a42:	2e 00 90    	mov.w     [w14+4], w0
@@ -4925,34 +4925,34 @@ void oc_servo(_OC *self, _PIN *pin, _TIMER *timer, float interval,
     2a68:	80 08 dd    	sl.w      w1, w0, w1
     2a6a:	1e 00 90    	mov.w     [w14+2], w0
     2a6c:	01 00 70    	ior.w     w0, w1, w0
-    2a6e:	30 42 88    	mov.w     w0, 0x846
-    2a70:	30 42 80    	mov.w     0x846, w0
+    2a6e:	50 42 88    	mov.w     w0, 0x84a
+    2a70:	50 42 80    	mov.w     0x84a, w0
     2a72:	00 80 fa    	ulnk      
     2a74:	00 00 06    	return    
 
 00002a76 <_main>:
-    2a76:	02 00 fa    	lnk       #0x2
+    2a76:	00 00 fa    	lnk       #0x0
     2a78:	00 10 20    	mov.w     #0x100, w0
     2a7a:	20 3a 88    	mov.w     w0, 0x744
-    2a7c:	3a 01 07    	rcall     0x2cf2 <_init_ui> <L0> <.L0> <.LFB0> <.LFE3> <.Letext0> <.Ltext0>
+    2a7c:	ca 00 07    	rcall     0x2c12 <_init_ui> <L0> <.L0> <.LFB0> <.LFE3> <.Letext0> <.Ltext0>
     2a7e:	40 fb 07    	rcall     0x2100 <_init_pin> <L0> <.LFB3> <.LFE2>
     2a80:	9b f8 07    	rcall     0x1bb8 <_init_spi> <L0> <.L0> <.LFB0> <.LFE22> <.Letext0> <.Ltext0>
     2a82:	b0 f6 07    	rcall     0x17e4 <_init_timer> <L0> <.LFB6> <.LFE5>
-    2a84:	80 87 20    	mov.w     #0x878, w0
+    2a84:	c0 87 20    	mov.w     #0x87c, w0
     2a86:	00 40 88    	mov.w     w0, 0x800
-    2a88:	e0 88 20    	mov.w     #0x88e, w0
+    2a88:	20 89 20    	mov.w     #0x892, w0
     2a8a:	10 40 88    	mov.w     w0, 0x802
-    2a8c:	40 8a 20    	mov.w     #0x8a4, w0
+    2a8c:	80 8a 20    	mov.w     #0x8a8, w0
     2a8e:	20 40 88    	mov.w     w0, 0x804
-    2a90:	a0 8b 20    	mov.w     #0x8ba, w0
+    2a90:	e0 8b 20    	mov.w     #0x8be, w0
     2a92:	30 40 88    	mov.w     w0, 0x806
-    2a94:	00 8d 20    	mov.w     #0x8d0, w0
+    2a94:	40 8d 20    	mov.w     #0x8d4, w0
     2a96:	40 40 88    	mov.w     w0, 0x808
-    2a98:	60 8e 20    	mov.w     #0x8e6, w0
+    2a98:	a0 8e 20    	mov.w     #0x8ea, w0
     2a9a:	50 40 88    	mov.w     w0, 0x80a
-    2a9c:	c0 8f 20    	mov.w     #0x8fc, w0
+    2a9c:	00 90 20    	mov.w     #0x900, w0
     2a9e:	60 40 88    	mov.w     w0, 0x80c
-    2aa0:	20 91 20    	mov.w     #0x912, w0
+    2aa0:	60 91 20    	mov.w     #0x916, w0
     2aa2:	70 40 88    	mov.w     w0, 0x80e
     2aa4:	40 40 80    	mov.w     0x808, w0
     2aa6:	93 fc 07    	rcall     0x23ce <_pin_digitalOut> <L0> <.LFB6> <.LFE5>
@@ -4979,7 +4979,7 @@ void oc_servo(_OC *self, _PIN *pin, _TIMER *timer, float interval,
     2ad0:	82 01 78    	mov.w     w2, w3
     2ad2:	01 01 78    	mov.w     w1, w2
     2ad4:	80 00 78    	mov.w     w0, w1
-    2ad6:	a0 bc 20    	mov.w     #0xbca, w0
+    2ad6:	e0 bc 20    	mov.w     #0xbce, w0
     2ad8:	c2 f8 07    	rcall     0x1c5e <_spi_open> <L0> <.LFB2> <.LFE1>
     2ada:	30 40 80    	mov.w     0x806, w0
     2adc:	ea fc 07    	rcall     0x24b2 <_pin_clear> <L0> <.LFB9> <.LFE8>
@@ -5065,570 +5065,433 @@ void oc_servo(_OC *self, _PIN *pin, _TIMER *timer, float interval,
     2b7c:	40 ff 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
     2b7e:	a2 70 2d    	mov.w     #0xd70a, w2
     2b80:	33 c2 23    	mov.w     #0x3c23, w3
-    2b82:	20 b7 20    	mov.w     #0xb72, w0
+    2b82:	60 b7 20    	mov.w     #0xb76, w0
     2b84:	9a f6 07    	rcall     0x18ba <_timer_setPeriod> <L0> <.LFB8> <.LFE7>
-    2b86:	20 b7 20    	mov.w     #0xb72, w0
+    2b86:	60 b7 20    	mov.w     #0xb76, w0
     2b88:	67 f7 07    	rcall     0x1a58 <_timer_start> <L0> <.LFB13> <.LFE12>
     2b8a:	02 00 20    	mov.w     #0x0, w2
     2b8c:	03 f8 23    	mov.w     #0x3f80, w3
-    2b8e:	80 b8 20    	mov.w     #0xb88, w0
+    2b8e:	c0 b8 20    	mov.w     #0xb8c, w0
     2b90:	94 f6 07    	rcall     0x18ba <_timer_setPeriod> <L0> <.LFB8> <.LFE7>
-    2b92:	80 b8 20    	mov.w     #0xb88, w0
+    2b92:	c0 b8 20    	mov.w     #0xb8c, w0
     2b94:	61 f7 07    	rcall     0x1a58 <_timer_start> <L0> <.LFB13> <.LFE12>
+    2b96:	01 00 37    	bra       0x2b9a <.L9>
 
-00002b96 <.L10>:
-    2b96:	00 41 80    	mov.w     0x820, w0
-    2b98:	10 41 88    	mov.w     w0, 0x822
-    2b9a:	20 41 80    	mov.w     0x824, w0
-    2b9c:	30 41 88    	mov.w     w0, 0x826
-    2b9e:	c0 41 80    	mov.w     0x838, w0
-    2ba0:	e0 41 88    	mov.w     w0, 0x83c
-    2ba2:	d0 41 80    	mov.w     0x83a, w0
-    2ba4:	f0 41 88    	mov.w     w0, 0x83e
-    2ba6:	20 b7 20    	mov.w     #0xb72, w0
-    2ba8:	75 f7 07    	rcall     0x1a94 <_timer_flag> <L0> <.LFB15> <.LFE14>
-    2baa:	00 00 e0    	cp0.w     w0
-    2bac:	52 00 32    	bra       Z, 0x2c52 <.L5>
-    2bae:	20 b7 20    	mov.w     #0xb72, w0
-    2bb0:	82 f7 07    	rcall     0x1ab6 <_timer_lower> <L0> <.LFB16> <.LFE15>
-    2bb2:	80 40 80    	mov.w     0x810, w0
-    2bb4:	90 40 88    	mov.w     w0, 0x812
-    2bb6:	c0 40 80    	mov.w     0x818, w0
-    2bb8:	d0 40 88    	mov.w     w0, 0x81a
-    2bba:	40 41 80    	mov.w     0x828, w0
-    2bbc:	50 41 88    	mov.w     w0, 0x82a
-    2bbe:	80 41 80    	mov.w     0x830, w0
-    2bc0:	90 41 88    	mov.w     w0, 0x832
-    2bc2:	40 40 80    	mov.w     0x808, w0
-    2bc4:	80 00 78    	mov.w     w0, w1
-    2bc6:	20 c1 b3    	mov.b     #0x12, w0
-    2bc8:	2d ff 07    	rcall     0x2a24 <_shiftreg_readReg> <L0> <.LFB1> <.LFE0>
-    2bca:	00 80 fb    	ze        w0, w0
-    2bcc:	80 40 88    	mov.w     w0, 0x810
-    2bce:	40 40 80    	mov.w     0x808, w0
-    2bd0:	80 00 78    	mov.w     w0, w1
-    2bd2:	30 c1 b3    	mov.b     #0x13, w0
-    2bd4:	27 ff 07    	rcall     0x2a24 <_shiftreg_readReg> <L0> <.LFB1> <.LFE0>
-    2bd6:	00 80 fb    	ze        w0, w0
-    2bd8:	c0 40 88    	mov.w     w0, 0x818
-    2bda:	60 40 80    	mov.w     0x80c, w0
-    2bdc:	80 00 78    	mov.w     w0, w1
-    2bde:	20 c1 b3    	mov.b     #0x12, w0
-    2be0:	21 ff 07    	rcall     0x2a24 <_shiftreg_readReg> <L0> <.LFB1> <.LFE0>
-    2be2:	00 80 fb    	ze        w0, w0
-    2be4:	40 41 88    	mov.w     w0, 0x828
-    2be6:	60 40 80    	mov.w     0x80c, w0
-    2be8:	80 00 78    	mov.w     w0, w1
-    2bea:	30 c1 b3    	mov.b     #0x13, w0
-    2bec:	1b ff 07    	rcall     0x2a24 <_shiftreg_readReg> <L0> <.LFB1> <.LFE0>
-    2bee:	00 80 fb    	ze        w0, w0
-    2bf0:	80 41 88    	mov.w     w0, 0x830
-    2bf2:	81 40 80    	mov.w     0x810, w1
-    2bf4:	90 40 80    	mov.w     0x812, w0
-    2bf6:	00 80 68    	xor.w     w1, w0, w0
-    2bf8:	a0 40 88    	mov.w     w0, 0x814
-    2bfa:	c1 40 80    	mov.w     0x818, w1
-    2bfc:	d0 40 80    	mov.w     0x81a, w0
-    2bfe:	00 80 68    	xor.w     w1, w0, w0
-    2c00:	e0 40 88    	mov.w     w0, 0x81c
-    2c02:	41 41 80    	mov.w     0x828, w1
-    2c04:	50 41 80    	mov.w     0x82a, w0
-    2c06:	00 80 68    	xor.w     w1, w0, w0
-    2c08:	60 41 88    	mov.w     w0, 0x82c
-    2c0a:	81 41 80    	mov.w     0x830, w1
-    2c0c:	90 41 80    	mov.w     0x832, w0
-    2c0e:	00 80 68    	xor.w     w1, w0, w0
-    2c10:	a0 41 88    	mov.w     w0, 0x834
-    2c12:	a1 40 80    	mov.w     0x814, w1
-    2c14:	80 40 80    	mov.w     0x810, w0
-    2c16:	00 80 60    	and.w     w1, w0, w0
-    2c18:	b0 40 88    	mov.w     w0, 0x816
-    2c1a:	e1 40 80    	mov.w     0x81c, w1
-    2c1c:	c0 40 80    	mov.w     0x818, w0
-    2c1e:	00 80 60    	and.w     w1, w0, w0
-    2c20:	f0 40 88    	mov.w     w0, 0x81e
-    2c22:	61 41 80    	mov.w     0x82c, w1
-    2c24:	40 41 80    	mov.w     0x828, w0
-    2c26:	00 80 60    	and.w     w1, w0, w0
-    2c28:	70 41 88    	mov.w     w0, 0x82e
-    2c2a:	a1 41 80    	mov.w     0x834, w1
-    2c2c:	80 41 80    	mov.w     0x830, w0
-    2c2e:	00 80 60    	and.w     w1, w0, w0
-    2c30:	b0 41 88    	mov.w     w0, 0x836
-    2c32:	01 41 80    	mov.w     0x820, w1
-    2c34:	70 41 80    	mov.w     0x82e, w0
-    2c36:	00 80 68    	xor.w     w1, w0, w0
-    2c38:	00 41 88    	mov.w     w0, 0x820
-    2c3a:	21 41 80    	mov.w     0x824, w1
-    2c3c:	b0 41 80    	mov.w     0x836, w0
-    2c3e:	00 80 68    	xor.w     w1, w0, w0
-    2c40:	20 41 88    	mov.w     w0, 0x824
-    2c42:	c1 41 80    	mov.w     0x838, w1
-    2c44:	b0 40 80    	mov.w     0x816, w0
-    2c46:	00 80 68    	xor.w     w1, w0, w0
-    2c48:	c0 41 88    	mov.w     w0, 0x838
-    2c4a:	d1 41 80    	mov.w     0x83a, w1
-    2c4c:	f0 40 80    	mov.w     0x81e, w0
-    2c4e:	00 80 68    	xor.w     w1, w0, w0
-    2c50:	d0 41 88    	mov.w     w0, 0x83a
+00002b98 <.L10>:
+    2b98:	00 00 00    	nop       
 
-00002c52 <.L5>:
-    2c52:	80 b8 20    	mov.w     #0xb88, w0
-    2c54:	1f f7 07    	rcall     0x1a94 <_timer_flag> <L0> <.LFB15> <.LFE14>
-    2c56:	00 00 e0    	cp0.w     w0
-    2c58:	2f 00 32    	bra       Z, 0x2cb8 <.L6> <.LBE2>
+00002b9a <.L9>:
+    2b9a:	c0 b8 20    	mov.w     #0xb8c, w0
+    2b9c:	7b f7 07    	rcall     0x1a94 <_timer_flag> <L0> <.LFB15> <.LFE14>
+    2b9e:	00 00 e0    	cp0.w     w0
+    2ba0:	fb ff 32    	bra       Z, 0x2b98 <.L10>
+    2ba2:	c0 b8 20    	mov.w     #0xb8c, w0
+    2ba4:	88 f7 07    	rcall     0x1ab6 <_timer_lower> <L0> <.LFB16> <.LFE15>
+    2ba6:	80 40 80    	mov.w     0x810, w0
+    2ba8:	11 00 20    	mov.w     #0x1, w1
+    2baa:	00 08 dd    	sl.w      w1, w0, w0
+    2bac:	90 40 88    	mov.w     w0, 0x812
+    2bae:	80 40 80    	mov.w     0x810, w0
+    2bb0:	e8 0f 50    	sub.w     w0, #0x8, [w15]
+    2bb2:	02 00 3a    	bra       NZ, 0x2bb8 <.L6>
+    2bb4:	f0 0f 20    	mov.w     #0xff, w0
+    2bb6:	90 40 88    	mov.w     w0, 0x812
 
-00002c5a <.LBB2>:
-    2c5a:	80 b8 20    	mov.w     #0xb88, w0
-    2c5c:	2c f7 07    	rcall     0x1ab6 <_timer_lower> <L0> <.LFB16> <.LFE15>
-    2c5e:	00 00 eb    	clr.w     w0
-    2c60:	e7 f2 07    	rcall     0x1230 <_time>
-    2c62:	dc f4 07    	rcall     0x161c <_srand> <L0>
-    2c64:	94 f4 07    	rcall     0x158e <_rand>
-    2c66:	41 00 20    	mov.w     #0x4, w1
-    2c68:	01 01 78    	mov.w     w1, w2
-    2c6a:	11 00 09    	repeat    #0x11
-    2c6c:	02 00 d8    	div.sw    w0, w2
-    2c6e:	80 00 fd    	exch      w0, w1
-    2c70:	00 0f 78    	mov.w     w0, [w14]
+00002bb8 <.L6>:
+    2bb8:	80 40 80    	mov.w     0x810, w0
+    2bba:	e7 0f 50    	sub.w     w0, #0x7, [w15]
+    2bbc:	04 00 3c    	bra       GT, 0x2bc6 <.L7>
+    2bbe:	80 40 80    	mov.w     0x810, w0
+    2bc0:	00 00 e8    	inc.w     w0, w0
+    2bc2:	80 40 88    	mov.w     w0, 0x810
+    2bc4:	01 00 37    	bra       0x2bc8 <.L8>
+
+00002bc6 <.L7>:
+    2bc6:	10 28 ef    	clr.w     0x810
+
+00002bc8 <.L8>:
+    2bc8:	90 40 80    	mov.w     0x812, w0
+    2bca:	20 41 88    	mov.w     w0, 0x824
+    2bcc:	90 40 80    	mov.w     0x812, w0
+    2bce:	e0 41 88    	mov.w     w0, 0x83c
+    2bd0:	90 40 80    	mov.w     0x812, w0
+    2bd2:	40 41 88    	mov.w     w0, 0x828
+    2bd4:	90 40 80    	mov.w     0x812, w0
+    2bd6:	f0 41 88    	mov.w     w0, 0x83e
+    2bd8:	51 40 80    	mov.w     0x80a, w1
+    2bda:	20 41 80    	mov.w     0x824, w0
+    2bdc:	00 40 78    	mov.b     w0, w0
+    2bde:	01 01 78    	mov.w     w1, w2
+    2be0:	80 40 78    	mov.b     w0, w1
+    2be2:	40 c1 b3    	mov.b     #0x14, w0
+    2be4:	0c ff 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
+    2be6:	51 40 80    	mov.w     0x80a, w1
+    2be8:	40 41 80    	mov.w     0x828, w0
+    2bea:	00 40 78    	mov.b     w0, w0
+    2bec:	01 01 78    	mov.w     w1, w2
+    2bee:	80 40 78    	mov.b     w0, w1
+    2bf0:	50 c1 b3    	mov.b     #0x15, w0
+    2bf2:	05 ff 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
+    2bf4:	71 40 80    	mov.w     0x80e, w1
+    2bf6:	e0 41 80    	mov.w     0x83c, w0
+    2bf8:	00 40 78    	mov.b     w0, w0
+    2bfa:	01 01 78    	mov.w     w1, w2
+    2bfc:	80 40 78    	mov.b     w0, w1
+    2bfe:	40 c1 b3    	mov.b     #0x14, w0
+    2c00:	fe fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
+    2c02:	71 40 80    	mov.w     0x80e, w1
+    2c04:	f0 41 80    	mov.w     0x83e, w0
+    2c06:	00 40 78    	mov.b     w0, w0
+    2c08:	01 01 78    	mov.w     w1, w2
+    2c0a:	80 40 78    	mov.b     w0, w1
+    2c0c:	50 c1 b3    	mov.b     #0x15, w0
+    2c0e:	f7 fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
+    2c10:	c4 ff 37    	bra       0x2b9a <.L9>
+
+00002c12 <_init_ui>:
+    2c12:	00 00 fa    	lnk       #0x0
+    2c14:	74 c0 b3    	mov.b     #0x7, w4
+    2c16:	63 4e 20    	mov.w     #0x4e6, w3
+    2c18:	82 2d 20    	mov.w     #0x2d8, w2
+    2c1a:	a1 2d 20    	mov.w     #0x2da, w1
+    2c1c:	c0 84 20    	mov.w     #0x84c, w0
+    2c1e:	20 00 07    	rcall     0x2c60 <_led_init> <L0> <.LFB1> <.LFE0>
+    2c20:	00 42 eb    	clr.b     w4
+    2c22:	a3 4e 20    	mov.w     #0x4ea, w3
+    2c24:	82 2e 20    	mov.w     #0x2e8, w2
+    2c26:	a1 2e 20    	mov.w     #0x2ea, w1
+    2c28:	40 85 20    	mov.w     #0x854, w0
+    2c2a:	1a 00 07    	rcall     0x2c60 <_led_init> <L0> <.LFB1> <.LFE0>
+    2c2c:	14 c0 b3    	mov.b     #0x1, w4
+    2c2e:	a3 4e 20    	mov.w     #0x4ea, w3
+    2c30:	82 2e 20    	mov.w     #0x2e8, w2
+    2c32:	a1 2e 20    	mov.w     #0x2ea, w1
+    2c34:	c0 85 20    	mov.w     #0x85c, w0
+    2c36:	14 00 07    	rcall     0x2c60 <_led_init> <L0> <.LFB1> <.LFE0>
+    2c38:	f4 c0 b3    	mov.b     #0xf, w4
+    2c3a:	43 4e 20    	mov.w     #0x4e4, w3
+    2c3c:	02 2d 20    	mov.w     #0x2d0, w2
+    2c3e:	21 2d 20    	mov.w     #0x2d2, w1
+    2c40:	40 86 20    	mov.w     #0x864, w0
+    2c42:	ad 00 07    	rcall     0x2d9e <_sw_init> <L0> <.LFB7> <.LFE6>
+    2c44:	c4 c0 b3    	mov.b     #0xc, w4
+    2c46:	43 4e 20    	mov.w     #0x4e4, w3
+    2c48:	02 2d 20    	mov.w     #0x2d0, w2
+    2c4a:	21 2d 20    	mov.w     #0x2d2, w1
+    2c4c:	c0 86 20    	mov.w     #0x86c, w0
+    2c4e:	a7 00 07    	rcall     0x2d9e <_sw_init> <L0> <.LFB7> <.LFE6>
+    2c50:	c4 c0 b3    	mov.b     #0xc, w4
+    2c52:	23 4e 20    	mov.w     #0x4e2, w3
+    2c54:	82 2c 20    	mov.w     #0x2c8, w2
+    2c56:	a1 2c 20    	mov.w     #0x2ca, w1
+    2c58:	40 87 20    	mov.w     #0x874, w0
+    2c5a:	a1 00 07    	rcall     0x2d9e <_sw_init> <L0> <.LFB7> <.LFE6>
+    2c5c:	00 80 fa    	ulnk      
+    2c5e:	00 00 06    	return    
+
+00002c60 <_led_init>:
+    2c60:	0a 00 fa    	lnk       #0xa
+    2c62:	00 0f 78    	mov.w     w0, [w14]
+    2c64:	11 07 98    	mov.w     w1, [w14+2]
+    2c66:	22 07 98    	mov.w     w2, [w14+4]
+    2c68:	33 07 98    	mov.w     w3, [w14+6]
+    2c6a:	04 4f 98    	mov.b     w4, [w14+8]
+    2c6c:	1e 00 78    	mov.w     [w14], w0
+    2c6e:	9e 00 90    	mov.w     [w14+2], w1
+    2c70:	01 08 78    	mov.w     w1, [w0]
     2c72:	1e 00 78    	mov.w     [w14], w0
-    2c74:	00 00 e0    	cp0.w     w0
-    2c76:	06 00 3a    	bra       NZ, 0x2c84 <.L7>
-    2c78:	00 41 80    	mov.w     0x820, w0
-    2c7a:	e8 fe 07    	rcall     0x2a4c <_lightsRandom> <L0> <.LFB2> <.LFE1>
-    2c7c:	00 41 88    	mov.w     w0, 0x820
-    2c7e:	80 84 20    	mov.w     #0x848, w0
-    2c80:	bb 00 07    	rcall     0x2df8 <_led_toggle> <L0> <.LFB4> <.LFE3>
-    2c82:	1a 00 37    	bra       0x2cb8 <.L6> <.LBE2>
-
-00002c84 <.L7>:
+    2c74:	ae 00 90    	mov.w     [w14+4], w1
+    2c76:	11 00 98    	mov.w     w1, [w0+2]
+    2c78:	1e 00 78    	mov.w     [w14], w0
+    2c7a:	be 00 90    	mov.w     [w14+6], w1
+    2c7c:	21 00 98    	mov.w     w1, [w0+4]
+    2c7e:	1e 00 78    	mov.w     [w14], w0
+    2c80:	8e 48 90    	mov.b     [w14+8], w1
+    2c82:	61 40 98    	mov.b     w1, [w0+6]
     2c84:	1e 00 78    	mov.w     [w14], w0
-    2c86:	e1 0f 50    	sub.w     w0, #0x1, [w15]
-    2c88:	06 00 3a    	bra       NZ, 0x2c96 <.L8>
-    2c8a:	20 41 80    	mov.w     0x824, w0
-    2c8c:	df fe 07    	rcall     0x2a4c <_lightsRandom> <L0> <.LFB2> <.LFE1>
-    2c8e:	20 41 88    	mov.w     w0, 0x824
-    2c90:	80 85 20    	mov.w     #0x858, w0
-    2c92:	b2 00 07    	rcall     0x2df8 <_led_toggle> <L0> <.LFB4> <.LFE3>
-    2c94:	11 00 37    	bra       0x2cb8 <.L6> <.LBE2>
+    2c86:	20 00 90    	mov.w     [w0+4], w0
+    2c88:	9e 00 78    	mov.w     [w14], w1
+    2c8a:	a1 00 90    	mov.w     [w1+4], w1
+    2c8c:	11 01 78    	mov.w     [w1], w2
+    2c8e:	9e 00 78    	mov.w     [w14], w1
+    2c90:	e1 40 90    	mov.b     [w1+6], w1
+    2c92:	81 80 fb    	ze        w1, w1
+    2c94:	13 00 20    	mov.w     #0x1, w3
+    2c96:	81 18 dd    	sl.w      w3, w1, w1
+    2c98:	81 80 ea    	com.w     w1, w1
+    2c9a:	81 00 61    	and.w     w2, w1, w1
+    2c9c:	01 08 78    	mov.w     w1, [w0]
+    2c9e:	1e 00 78    	mov.w     [w14], w0
+    2ca0:	10 00 78    	mov.w     [w0], w0
+    2ca2:	9e 00 78    	mov.w     [w14], w1
+    2ca4:	91 00 78    	mov.w     [w1], w1
+    2ca6:	11 01 78    	mov.w     [w1], w2
+    2ca8:	9e 00 78    	mov.w     [w14], w1
+    2caa:	e1 40 90    	mov.b     [w1+6], w1
+    2cac:	81 80 fb    	ze        w1, w1
+    2cae:	13 00 20    	mov.w     #0x1, w3
+    2cb0:	81 18 dd    	sl.w      w3, w1, w1
+    2cb2:	81 80 ea    	com.w     w1, w1
+    2cb4:	81 00 61    	and.w     w2, w1, w1
+    2cb6:	01 08 78    	mov.w     w1, [w0]
+    2cb8:	1e 00 78    	mov.w     [w14], w0
+    2cba:	10 00 90    	mov.w     [w0+2], w0
+    2cbc:	9e 00 78    	mov.w     [w14], w1
+    2cbe:	91 00 90    	mov.w     [w1+2], w1
+    2cc0:	11 01 78    	mov.w     [w1], w2
+    2cc2:	9e 00 78    	mov.w     [w14], w1
+    2cc4:	e1 40 90    	mov.b     [w1+6], w1
+    2cc6:	81 80 fb    	ze        w1, w1
+    2cc8:	13 00 20    	mov.w     #0x1, w3
+    2cca:	81 18 dd    	sl.w      w3, w1, w1
+    2ccc:	81 80 ea    	com.w     w1, w1
+    2cce:	81 00 61    	and.w     w2, w1, w1
+    2cd0:	01 08 78    	mov.w     w1, [w0]
+    2cd2:	00 80 fa    	ulnk      
+    2cd4:	00 00 06    	return    
 
-00002c96 <.L8>:
-    2c96:	1e 00 78    	mov.w     [w14], w0
-    2c98:	e2 0f 50    	sub.w     w0, #0x2, [w15]
-    2c9a:	06 00 3a    	bra       NZ, 0x2ca8 <.L9>
-    2c9c:	c0 41 80    	mov.w     0x838, w0
-    2c9e:	d6 fe 07    	rcall     0x2a4c <_lightsRandom> <L0> <.LFB2> <.LFE1>
-    2ca0:	c0 41 88    	mov.w     w0, 0x838
-    2ca2:	00 85 20    	mov.w     #0x850, w0
-    2ca4:	a9 00 07    	rcall     0x2df8 <_led_toggle> <L0> <.LFB4> <.LFE3>
-    2ca6:	08 00 37    	bra       0x2cb8 <.L6> <.LBE2>
+00002cd6 <_led_on>:
+    2cd6:	02 00 fa    	lnk       #0x2
+    2cd8:	00 0f 78    	mov.w     w0, [w14]
+    2cda:	1e 00 78    	mov.w     [w14], w0
+    2cdc:	10 00 78    	mov.w     [w0], w0
+    2cde:	9e 00 78    	mov.w     [w14], w1
+    2ce0:	91 00 78    	mov.w     [w1], w1
+    2ce2:	11 01 78    	mov.w     [w1], w2
+    2ce4:	9e 00 78    	mov.w     [w14], w1
+    2ce6:	e1 40 90    	mov.b     [w1+6], w1
+    2ce8:	81 80 fb    	ze        w1, w1
+    2cea:	13 00 20    	mov.w     #0x1, w3
+    2cec:	81 18 dd    	sl.w      w3, w1, w1
+    2cee:	82 80 70    	ior.w     w1, w2, w1
+    2cf0:	01 08 78    	mov.w     w1, [w0]
+    2cf2:	00 80 fa    	ulnk      
+    2cf4:	00 00 06    	return    
 
-00002ca8 <.L9>:
-    2ca8:	1e 00 78    	mov.w     [w14], w0
-    2caa:	e3 0f 50    	sub.w     w0, #0x3, [w15]
-    2cac:	05 00 3a    	bra       NZ, 0x2cb8 <.L6> <.LBE2>
-    2cae:	d0 41 80    	mov.w     0x83a, w0
-    2cb0:	cd fe 07    	rcall     0x2a4c <_lightsRandom> <L0> <.LFB2> <.LFE1>
-    2cb2:	d0 41 88    	mov.w     w0, 0x83a
-    2cb4:	80 85 20    	mov.w     #0x858, w0
-    2cb6:	a0 00 07    	rcall     0x2df8 <_led_toggle> <L0> <.LFB4> <.LFE3>
+00002cf6 <_led_off>:
+    2cf6:	02 00 fa    	lnk       #0x2
+    2cf8:	00 0f 78    	mov.w     w0, [w14]
+    2cfa:	1e 00 78    	mov.w     [w14], w0
+    2cfc:	10 00 78    	mov.w     [w0], w0
+    2cfe:	9e 00 78    	mov.w     [w14], w1
+    2d00:	91 00 78    	mov.w     [w1], w1
+    2d02:	11 01 78    	mov.w     [w1], w2
+    2d04:	9e 00 78    	mov.w     [w14], w1
+    2d06:	e1 40 90    	mov.b     [w1+6], w1
+    2d08:	81 80 fb    	ze        w1, w1
+    2d0a:	13 00 20    	mov.w     #0x1, w3
+    2d0c:	81 18 dd    	sl.w      w3, w1, w1
+    2d0e:	81 80 ea    	com.w     w1, w1
+    2d10:	81 00 61    	and.w     w2, w1, w1
+    2d12:	01 08 78    	mov.w     w1, [w0]
+    2d14:	00 80 fa    	ulnk      
+    2d16:	00 00 06    	return    
 
-00002cb8 <.L6>:
-    2cb8:	51 40 80    	mov.w     0x80a, w1
-    2cba:	00 41 80    	mov.w     0x820, w0
-    2cbc:	00 40 78    	mov.b     w0, w0
-    2cbe:	01 01 78    	mov.w     w1, w2
-    2cc0:	80 40 78    	mov.b     w0, w1
-    2cc2:	40 c1 b3    	mov.b     #0x14, w0
-    2cc4:	9c fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
-    2cc6:	51 40 80    	mov.w     0x80a, w1
-    2cc8:	20 41 80    	mov.w     0x824, w0
-    2cca:	00 40 78    	mov.b     w0, w0
-    2ccc:	01 01 78    	mov.w     w1, w2
-    2cce:	80 40 78    	mov.b     w0, w1
-    2cd0:	50 c1 b3    	mov.b     #0x15, w0
-    2cd2:	95 fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
-    2cd4:	71 40 80    	mov.w     0x80e, w1
-    2cd6:	c0 41 80    	mov.w     0x838, w0
-    2cd8:	00 40 78    	mov.b     w0, w0
-    2cda:	01 01 78    	mov.w     w1, w2
-    2cdc:	80 40 78    	mov.b     w0, w1
-    2cde:	40 c1 b3    	mov.b     #0x14, w0
-    2ce0:	8e fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
-    2ce2:	71 40 80    	mov.w     0x80e, w1
-    2ce4:	d0 41 80    	mov.w     0x83a, w0
-    2ce6:	00 40 78    	mov.b     w0, w0
-    2ce8:	01 01 78    	mov.w     w1, w2
-    2cea:	80 40 78    	mov.b     w0, w1
-    2cec:	50 c1 b3    	mov.b     #0x15, w0
-    2cee:	87 fe 07    	rcall     0x29fe <_shiftreg_writeReg> <L0> <.L0> <.LFB0> <.LFE8> <.Letext0> <.Ltext0>
-    2cf0:	52 ff 37    	bra       0x2b96 <.L10>
+00002d18 <_led_toggle>:
+    2d18:	02 00 fa    	lnk       #0x2
+    2d1a:	00 0f 78    	mov.w     w0, [w14]
+    2d1c:	1e 00 78    	mov.w     [w14], w0
+    2d1e:	10 00 78    	mov.w     [w0], w0
+    2d20:	9e 00 78    	mov.w     [w14], w1
+    2d22:	91 00 78    	mov.w     [w1], w1
+    2d24:	11 01 78    	mov.w     [w1], w2
+    2d26:	9e 00 78    	mov.w     [w14], w1
+    2d28:	e1 40 90    	mov.b     [w1+6], w1
+    2d2a:	81 80 fb    	ze        w1, w1
+    2d2c:	13 00 20    	mov.w     #0x1, w3
+    2d2e:	81 18 dd    	sl.w      w3, w1, w1
+    2d30:	81 00 69    	xor.w     w2, w1, w1
+    2d32:	01 08 78    	mov.w     w1, [w0]
+    2d34:	00 80 fa    	ulnk      
+    2d36:	00 00 06    	return    
 
-00002cf2 <_init_ui>:
-    2cf2:	00 00 fa    	lnk       #0x0
-    2cf4:	74 c0 b3    	mov.b     #0x7, w4
-    2cf6:	63 4e 20    	mov.w     #0x4e6, w3
-    2cf8:	82 2d 20    	mov.w     #0x2d8, w2
-    2cfa:	a1 2d 20    	mov.w     #0x2da, w1
-    2cfc:	80 84 20    	mov.w     #0x848, w0
-    2cfe:	20 00 07    	rcall     0x2d40 <_led_init> <L0> <.LFB1> <.LFE0>
-    2d00:	00 42 eb    	clr.b     w4
-    2d02:	a3 4e 20    	mov.w     #0x4ea, w3
-    2d04:	82 2e 20    	mov.w     #0x2e8, w2
-    2d06:	a1 2e 20    	mov.w     #0x2ea, w1
-    2d08:	00 85 20    	mov.w     #0x850, w0
-    2d0a:	1a 00 07    	rcall     0x2d40 <_led_init> <L0> <.LFB1> <.LFE0>
-    2d0c:	14 c0 b3    	mov.b     #0x1, w4
-    2d0e:	a3 4e 20    	mov.w     #0x4ea, w3
-    2d10:	82 2e 20    	mov.w     #0x2e8, w2
-    2d12:	a1 2e 20    	mov.w     #0x2ea, w1
-    2d14:	80 85 20    	mov.w     #0x858, w0
-    2d16:	14 00 07    	rcall     0x2d40 <_led_init> <L0> <.LFB1> <.LFE0>
-    2d18:	f4 c0 b3    	mov.b     #0xf, w4
-    2d1a:	43 4e 20    	mov.w     #0x4e4, w3
-    2d1c:	02 2d 20    	mov.w     #0x2d0, w2
-    2d1e:	21 2d 20    	mov.w     #0x2d2, w1
-    2d20:	00 86 20    	mov.w     #0x860, w0
-    2d22:	ad 00 07    	rcall     0x2e7e <_sw_init> <L0> <.LFB7> <.LFE6>
-    2d24:	c4 c0 b3    	mov.b     #0xc, w4
-    2d26:	43 4e 20    	mov.w     #0x4e4, w3
-    2d28:	02 2d 20    	mov.w     #0x2d0, w2
-    2d2a:	21 2d 20    	mov.w     #0x2d2, w1
-    2d2c:	80 86 20    	mov.w     #0x868, w0
-    2d2e:	a7 00 07    	rcall     0x2e7e <_sw_init> <L0> <.LFB7> <.LFE6>
-    2d30:	c4 c0 b3    	mov.b     #0xc, w4
-    2d32:	23 4e 20    	mov.w     #0x4e2, w3
-    2d34:	82 2c 20    	mov.w     #0x2c8, w2
-    2d36:	a1 2c 20    	mov.w     #0x2ca, w1
-    2d38:	00 87 20    	mov.w     #0x870, w0
-    2d3a:	a1 00 07    	rcall     0x2e7e <_sw_init> <L0> <.LFB7> <.LFE6>
-    2d3c:	00 80 fa    	ulnk      
-    2d3e:	00 00 06    	return    
+00002d38 <_led_write>:
+    2d38:	04 00 fa    	lnk       #0x4
+    2d3a:	00 0f 78    	mov.w     w0, [w14]
+    2d3c:	11 07 98    	mov.w     w1, [w14+2]
+    2d3e:	1e 00 90    	mov.w     [w14+2], w0
+    2d40:	00 00 e0    	cp0.w     w0
+    2d42:	0d 00 32    	bra       Z, 0x2d5e <.L7>
+    2d44:	1e 00 78    	mov.w     [w14], w0
+    2d46:	10 00 78    	mov.w     [w0], w0
+    2d48:	9e 00 78    	mov.w     [w14], w1
+    2d4a:	91 00 78    	mov.w     [w1], w1
+    2d4c:	11 01 78    	mov.w     [w1], w2
+    2d4e:	9e 00 78    	mov.w     [w14], w1
+    2d50:	e1 40 90    	mov.b     [w1+6], w1
+    2d52:	81 80 fb    	ze        w1, w1
+    2d54:	13 00 20    	mov.w     #0x1, w3
+    2d56:	81 18 dd    	sl.w      w3, w1, w1
+    2d58:	82 80 70    	ior.w     w1, w2, w1
+    2d5a:	01 08 78    	mov.w     w1, [w0]
+    2d5c:	0d 00 37    	bra       0x2d78 <.L6>
 
-00002d40 <_led_init>:
-    2d40:	0a 00 fa    	lnk       #0xa
-    2d42:	00 0f 78    	mov.w     w0, [w14]
-    2d44:	11 07 98    	mov.w     w1, [w14+2]
-    2d46:	22 07 98    	mov.w     w2, [w14+4]
-    2d48:	33 07 98    	mov.w     w3, [w14+6]
-    2d4a:	04 4f 98    	mov.b     w4, [w14+8]
-    2d4c:	1e 00 78    	mov.w     [w14], w0
-    2d4e:	9e 00 90    	mov.w     [w14+2], w1
-    2d50:	01 08 78    	mov.w     w1, [w0]
-    2d52:	1e 00 78    	mov.w     [w14], w0
-    2d54:	ae 00 90    	mov.w     [w14+4], w1
-    2d56:	11 00 98    	mov.w     w1, [w0+2]
-    2d58:	1e 00 78    	mov.w     [w14], w0
-    2d5a:	be 00 90    	mov.w     [w14+6], w1
-    2d5c:	21 00 98    	mov.w     w1, [w0+4]
+00002d5e <.L7>:
     2d5e:	1e 00 78    	mov.w     [w14], w0
-    2d60:	8e 48 90    	mov.b     [w14+8], w1
-    2d62:	61 40 98    	mov.b     w1, [w0+6]
-    2d64:	1e 00 78    	mov.w     [w14], w0
-    2d66:	20 00 90    	mov.w     [w0+4], w0
+    2d60:	10 00 78    	mov.w     [w0], w0
+    2d62:	9e 00 78    	mov.w     [w14], w1
+    2d64:	91 00 78    	mov.w     [w1], w1
+    2d66:	11 01 78    	mov.w     [w1], w2
     2d68:	9e 00 78    	mov.w     [w14], w1
-    2d6a:	a1 00 90    	mov.w     [w1+4], w1
-    2d6c:	11 01 78    	mov.w     [w1], w2
-    2d6e:	9e 00 78    	mov.w     [w14], w1
-    2d70:	e1 40 90    	mov.b     [w1+6], w1
-    2d72:	81 80 fb    	ze        w1, w1
-    2d74:	13 00 20    	mov.w     #0x1, w3
-    2d76:	81 18 dd    	sl.w      w3, w1, w1
-    2d78:	81 80 ea    	com.w     w1, w1
-    2d7a:	81 00 61    	and.w     w2, w1, w1
-    2d7c:	01 08 78    	mov.w     w1, [w0]
-    2d7e:	1e 00 78    	mov.w     [w14], w0
-    2d80:	10 00 78    	mov.w     [w0], w0
-    2d82:	9e 00 78    	mov.w     [w14], w1
-    2d84:	91 00 78    	mov.w     [w1], w1
-    2d86:	11 01 78    	mov.w     [w1], w2
-    2d88:	9e 00 78    	mov.w     [w14], w1
-    2d8a:	e1 40 90    	mov.b     [w1+6], w1
-    2d8c:	81 80 fb    	ze        w1, w1
-    2d8e:	13 00 20    	mov.w     #0x1, w3
-    2d90:	81 18 dd    	sl.w      w3, w1, w1
-    2d92:	81 80 ea    	com.w     w1, w1
-    2d94:	81 00 61    	and.w     w2, w1, w1
-    2d96:	01 08 78    	mov.w     w1, [w0]
-    2d98:	1e 00 78    	mov.w     [w14], w0
-    2d9a:	10 00 90    	mov.w     [w0+2], w0
-    2d9c:	9e 00 78    	mov.w     [w14], w1
-    2d9e:	91 00 90    	mov.w     [w1+2], w1
-    2da0:	11 01 78    	mov.w     [w1], w2
-    2da2:	9e 00 78    	mov.w     [w14], w1
-    2da4:	e1 40 90    	mov.b     [w1+6], w1
-    2da6:	81 80 fb    	ze        w1, w1
-    2da8:	13 00 20    	mov.w     #0x1, w3
-    2daa:	81 18 dd    	sl.w      w3, w1, w1
-    2dac:	81 80 ea    	com.w     w1, w1
-    2dae:	81 00 61    	and.w     w2, w1, w1
-    2db0:	01 08 78    	mov.w     w1, [w0]
-    2db2:	00 80 fa    	ulnk      
-    2db4:	00 00 06    	return    
+    2d6a:	e1 40 90    	mov.b     [w1+6], w1
+    2d6c:	81 80 fb    	ze        w1, w1
+    2d6e:	13 00 20    	mov.w     #0x1, w3
+    2d70:	81 18 dd    	sl.w      w3, w1, w1
+    2d72:	81 80 ea    	com.w     w1, w1
+    2d74:	81 00 61    	and.w     w2, w1, w1
+    2d76:	01 08 78    	mov.w     w1, [w0]
 
-00002db6 <_led_on>:
-    2db6:	02 00 fa    	lnk       #0x2
-    2db8:	00 0f 78    	mov.w     w0, [w14]
-    2dba:	1e 00 78    	mov.w     [w14], w0
-    2dbc:	10 00 78    	mov.w     [w0], w0
-    2dbe:	9e 00 78    	mov.w     [w14], w1
-    2dc0:	91 00 78    	mov.w     [w1], w1
-    2dc2:	11 01 78    	mov.w     [w1], w2
-    2dc4:	9e 00 78    	mov.w     [w14], w1
-    2dc6:	e1 40 90    	mov.b     [w1+6], w1
-    2dc8:	81 80 fb    	ze        w1, w1
-    2dca:	13 00 20    	mov.w     #0x1, w3
-    2dcc:	81 18 dd    	sl.w      w3, w1, w1
-    2dce:	82 80 70    	ior.w     w1, w2, w1
-    2dd0:	01 08 78    	mov.w     w1, [w0]
-    2dd2:	00 80 fa    	ulnk      
-    2dd4:	00 00 06    	return    
+00002d78 <.L6>:
+    2d78:	00 80 fa    	ulnk      
+    2d7a:	00 00 06    	return    
 
-00002dd6 <_led_off>:
-    2dd6:	02 00 fa    	lnk       #0x2
-    2dd8:	00 0f 78    	mov.w     w0, [w14]
-    2dda:	1e 00 78    	mov.w     [w14], w0
-    2ddc:	10 00 78    	mov.w     [w0], w0
-    2dde:	9e 00 78    	mov.w     [w14], w1
-    2de0:	91 00 78    	mov.w     [w1], w1
-    2de2:	11 01 78    	mov.w     [w1], w2
-    2de4:	9e 00 78    	mov.w     [w14], w1
-    2de6:	e1 40 90    	mov.b     [w1+6], w1
-    2de8:	81 80 fb    	ze        w1, w1
-    2dea:	13 00 20    	mov.w     #0x1, w3
-    2dec:	81 18 dd    	sl.w      w3, w1, w1
-    2dee:	81 80 ea    	com.w     w1, w1
-    2df0:	81 00 61    	and.w     w2, w1, w1
+00002d7c <_led_read>:
+    2d7c:	02 00 fa    	lnk       #0x2
+    2d7e:	00 0f 78    	mov.w     w0, [w14]
+    2d80:	1e 00 78    	mov.w     [w14], w0
+    2d82:	10 00 78    	mov.w     [w0], w0
+    2d84:	90 00 78    	mov.w     [w0], w1
+    2d86:	1e 00 78    	mov.w     [w14], w0
+    2d88:	60 40 90    	mov.b     [w0+6], w0
+    2d8a:	00 80 fb    	ze        w0, w0
+    2d8c:	12 00 20    	mov.w     #0x1, w2
+    2d8e:	00 10 dd    	sl.w      w2, w0, w0
+    2d90:	00 80 60    	and.w     w1, w0, w0
+    2d92:	00 f0 a7    	btsc.w    w0, #0xf
+    2d94:	00 00 ea    	neg.w     w0, w0
+    2d96:	00 00 ea    	neg.w     w0, w0
+    2d98:	4f 00 de    	lsr.w     w0, #0xf, w0
+    2d9a:	00 80 fa    	ulnk      
+    2d9c:	00 00 06    	return    
+
+00002d9e <_sw_init>:
+    2d9e:	0a 00 fa    	lnk       #0xa
+    2da0:	00 0f 78    	mov.w     w0, [w14]
+    2da2:	11 07 98    	mov.w     w1, [w14+2]
+    2da4:	22 07 98    	mov.w     w2, [w14+4]
+    2da6:	33 07 98    	mov.w     w3, [w14+6]
+    2da8:	04 4f 98    	mov.b     w4, [w14+8]
+    2daa:	1e 00 78    	mov.w     [w14], w0
+    2dac:	9e 00 90    	mov.w     [w14+2], w1
+    2dae:	01 08 78    	mov.w     w1, [w0]
+    2db0:	1e 00 78    	mov.w     [w14], w0
+    2db2:	ae 00 90    	mov.w     [w14+4], w1
+    2db4:	11 00 98    	mov.w     w1, [w0+2]
+    2db6:	1e 00 78    	mov.w     [w14], w0
+    2db8:	be 00 90    	mov.w     [w14+6], w1
+    2dba:	21 00 98    	mov.w     w1, [w0+4]
+    2dbc:	1e 00 78    	mov.w     [w14], w0
+    2dbe:	8e 48 90    	mov.b     [w14+8], w1
+    2dc0:	61 40 98    	mov.b     w1, [w0+6]
+    2dc2:	1e 00 78    	mov.w     [w14], w0
+    2dc4:	20 00 90    	mov.w     [w0+4], w0
+    2dc6:	9e 00 78    	mov.w     [w14], w1
+    2dc8:	a1 00 90    	mov.w     [w1+4], w1
+    2dca:	11 01 78    	mov.w     [w1], w2
+    2dcc:	9e 00 78    	mov.w     [w14], w1
+    2dce:	e1 40 90    	mov.b     [w1+6], w1
+    2dd0:	81 80 fb    	ze        w1, w1
+    2dd2:	13 00 20    	mov.w     #0x1, w3
+    2dd4:	81 18 dd    	sl.w      w3, w1, w1
+    2dd6:	81 80 ea    	com.w     w1, w1
+    2dd8:	81 00 61    	and.w     w2, w1, w1
+    2dda:	01 08 78    	mov.w     w1, [w0]
+    2ddc:	1e 00 78    	mov.w     [w14], w0
+    2dde:	10 00 90    	mov.w     [w0+2], w0
+    2de0:	9e 00 78    	mov.w     [w14], w1
+    2de2:	91 00 90    	mov.w     [w1+2], w1
+    2de4:	11 01 78    	mov.w     [w1], w2
+    2de6:	9e 00 78    	mov.w     [w14], w1
+    2de8:	e1 40 90    	mov.b     [w1+6], w1
+    2dea:	81 80 fb    	ze        w1, w1
+    2dec:	13 00 20    	mov.w     #0x1, w3
+    2dee:	81 18 dd    	sl.w      w3, w1, w1
+    2df0:	82 80 70    	ior.w     w1, w2, w1
     2df2:	01 08 78    	mov.w     w1, [w0]
     2df4:	00 80 fa    	ulnk      
     2df6:	00 00 06    	return    
 
-00002df8 <_led_toggle>:
+00002df8 <_sw_read>:
     2df8:	02 00 fa    	lnk       #0x2
     2dfa:	00 0f 78    	mov.w     w0, [w14]
     2dfc:	1e 00 78    	mov.w     [w14], w0
     2dfe:	10 00 78    	mov.w     [w0], w0
-    2e00:	9e 00 78    	mov.w     [w14], w1
-    2e02:	91 00 78    	mov.w     [w1], w1
-    2e04:	11 01 78    	mov.w     [w1], w2
-    2e06:	9e 00 78    	mov.w     [w14], w1
-    2e08:	e1 40 90    	mov.b     [w1+6], w1
-    2e0a:	81 80 fb    	ze        w1, w1
-    2e0c:	13 00 20    	mov.w     #0x1, w3
-    2e0e:	81 18 dd    	sl.w      w3, w1, w1
-    2e10:	81 00 69    	xor.w     w2, w1, w1
-    2e12:	01 08 78    	mov.w     w1, [w0]
-    2e14:	00 80 fa    	ulnk      
-    2e16:	00 00 06    	return    
-
-00002e18 <_led_write>:
-    2e18:	04 00 fa    	lnk       #0x4
-    2e1a:	00 0f 78    	mov.w     w0, [w14]
-    2e1c:	11 07 98    	mov.w     w1, [w14+2]
-    2e1e:	1e 00 90    	mov.w     [w14+2], w0
-    2e20:	00 00 e0    	cp0.w     w0
-    2e22:	0d 00 32    	bra       Z, 0x2e3e <.L7>
-    2e24:	1e 00 78    	mov.w     [w14], w0
-    2e26:	10 00 78    	mov.w     [w0], w0
-    2e28:	9e 00 78    	mov.w     [w14], w1
-    2e2a:	91 00 78    	mov.w     [w1], w1
-    2e2c:	11 01 78    	mov.w     [w1], w2
-    2e2e:	9e 00 78    	mov.w     [w14], w1
-    2e30:	e1 40 90    	mov.b     [w1+6], w1
-    2e32:	81 80 fb    	ze        w1, w1
-    2e34:	13 00 20    	mov.w     #0x1, w3
-    2e36:	81 18 dd    	sl.w      w3, w1, w1
-    2e38:	82 80 70    	ior.w     w1, w2, w1
-    2e3a:	01 08 78    	mov.w     w1, [w0]
-    2e3c:	0d 00 37    	bra       0x2e58 <.L6>
-
-00002e3e <.L7>:
-    2e3e:	1e 00 78    	mov.w     [w14], w0
-    2e40:	10 00 78    	mov.w     [w0], w0
-    2e42:	9e 00 78    	mov.w     [w14], w1
-    2e44:	91 00 78    	mov.w     [w1], w1
-    2e46:	11 01 78    	mov.w     [w1], w2
-    2e48:	9e 00 78    	mov.w     [w14], w1
-    2e4a:	e1 40 90    	mov.b     [w1+6], w1
-    2e4c:	81 80 fb    	ze        w1, w1
-    2e4e:	13 00 20    	mov.w     #0x1, w3
-    2e50:	81 18 dd    	sl.w      w3, w1, w1
-    2e52:	81 80 ea    	com.w     w1, w1
-    2e54:	81 00 61    	and.w     w2, w1, w1
-    2e56:	01 08 78    	mov.w     w1, [w0]
-
-00002e58 <.L6>:
-    2e58:	00 80 fa    	ulnk      
-    2e5a:	00 00 06    	return    
-
-00002e5c <_led_read>:
-    2e5c:	02 00 fa    	lnk       #0x2
-    2e5e:	00 0f 78    	mov.w     w0, [w14]
-    2e60:	1e 00 78    	mov.w     [w14], w0
-    2e62:	10 00 78    	mov.w     [w0], w0
-    2e64:	90 00 78    	mov.w     [w0], w1
-    2e66:	1e 00 78    	mov.w     [w14], w0
-    2e68:	60 40 90    	mov.b     [w0+6], w0
-    2e6a:	00 80 fb    	ze        w0, w0
-    2e6c:	12 00 20    	mov.w     #0x1, w2
-    2e6e:	00 10 dd    	sl.w      w2, w0, w0
-    2e70:	00 80 60    	and.w     w1, w0, w0
-    2e72:	00 f0 a7    	btsc.w    w0, #0xf
-    2e74:	00 00 ea    	neg.w     w0, w0
-    2e76:	00 00 ea    	neg.w     w0, w0
-    2e78:	4f 00 de    	lsr.w     w0, #0xf, w0
-    2e7a:	00 80 fa    	ulnk      
-    2e7c:	00 00 06    	return    
-
-00002e7e <_sw_init>:
-    2e7e:	0a 00 fa    	lnk       #0xa
-    2e80:	00 0f 78    	mov.w     w0, [w14]
-    2e82:	11 07 98    	mov.w     w1, [w14+2]
-    2e84:	22 07 98    	mov.w     w2, [w14+4]
-    2e86:	33 07 98    	mov.w     w3, [w14+6]
-    2e88:	04 4f 98    	mov.b     w4, [w14+8]
-    2e8a:	1e 00 78    	mov.w     [w14], w0
-    2e8c:	9e 00 90    	mov.w     [w14+2], w1
-    2e8e:	01 08 78    	mov.w     w1, [w0]
-    2e90:	1e 00 78    	mov.w     [w14], w0
-    2e92:	ae 00 90    	mov.w     [w14+4], w1
-    2e94:	11 00 98    	mov.w     w1, [w0+2]
-    2e96:	1e 00 78    	mov.w     [w14], w0
-    2e98:	be 00 90    	mov.w     [w14+6], w1
-    2e9a:	21 00 98    	mov.w     w1, [w0+4]
-    2e9c:	1e 00 78    	mov.w     [w14], w0
-    2e9e:	8e 48 90    	mov.b     [w14+8], w1
-    2ea0:	61 40 98    	mov.b     w1, [w0+6]
-    2ea2:	1e 00 78    	mov.w     [w14], w0
-    2ea4:	20 00 90    	mov.w     [w0+4], w0
-    2ea6:	9e 00 78    	mov.w     [w14], w1
-    2ea8:	a1 00 90    	mov.w     [w1+4], w1
-    2eaa:	11 01 78    	mov.w     [w1], w2
-    2eac:	9e 00 78    	mov.w     [w14], w1
-    2eae:	e1 40 90    	mov.b     [w1+6], w1
-    2eb0:	81 80 fb    	ze        w1, w1
-    2eb2:	13 00 20    	mov.w     #0x1, w3
-    2eb4:	81 18 dd    	sl.w      w3, w1, w1
-    2eb6:	81 80 ea    	com.w     w1, w1
-    2eb8:	81 00 61    	and.w     w2, w1, w1
-    2eba:	01 08 78    	mov.w     w1, [w0]
-    self->ans = ans;
-    self->bit = bit;
-
-    bitclear(self->ans, self->bit);
-    bitset(self->tris, self->bit);
-    2ebc:	1e 00 78    	mov.w     [w14], w0
-    2ebe:	10 00 90    	mov.w     [w0+2], w0
-    2ec0:	9e 00 78    	mov.w     [w14], w1
-    2ec2:	91 00 90    	mov.w     [w1+2], w1
-    2ec4:	11 01 78    	mov.w     [w1], w2
-    2ec6:	9e 00 78    	mov.w     [w14], w1
-    2ec8:	e1 40 90    	mov.b     [w1+6], w1
-    2eca:	81 80 fb    	ze        w1, w1
-    2ecc:	13 00 20    	mov.w     #0x1, w3
-    2ece:	81 18 dd    	sl.w      w3, w1, w1
-    2ed0:	82 80 70    	ior.w     w1, w2, w1
-    2ed2:	01 08 78    	mov.w     w1, [w0]
-}
-    2ed4:	00 80 fa    	ulnk      
-    2ed6:	00 00 06    	return    
-
-00002ed8 <_sw_read>:
-
-uint16_t sw_read(_SW *self) {
-    2ed8:	02 00 fa    	lnk       #0x2
-    2eda:	00 0f 78    	mov.w     w0, [w14]
-    return bitread(self->port, self->bit);
-    2edc:	1e 00 78    	mov.w     [w14], w0
-    2ede:	10 00 78    	mov.w     [w0], w0
-    2ee0:	90 00 78    	mov.w     [w0], w1
-    2ee2:	1e 00 78    	mov.w     [w14], w0
-    2ee4:	60 40 90    	mov.b     [w0+6], w0
-    2ee6:	00 80 fb    	ze        w0, w0
-    2ee8:	12 00 20    	mov.w     #0x1, w2
-    2eea:	00 10 dd    	sl.w      w2, w0, w0
-    2eec:	00 80 60    	and.w     w1, w0, w0
-    2eee:	00 f0 a7    	btsc.w    w0, #0xf
-    2ef0:	00 00 ea    	neg.w     w0, w0
-    2ef2:	00 00 ea    	neg.w     w0, w0
-    2ef4:	4f 00 de    	lsr.w     w0, #0xf, w0
-}
-    2ef6:	00 80 fa    	ulnk      
-    2ef8:	00 00 06    	return    
+    2e00:	90 00 78    	mov.w     [w0], w1
+    2e02:	1e 00 78    	mov.w     [w14], w0
+    2e04:	60 40 90    	mov.b     [w0+6], w0
+    2e06:	00 80 fb    	ze        w0, w0
+    2e08:	12 00 20    	mov.w     #0x1, w2
+    2e0a:	00 10 dd    	sl.w      w2, w0, w0
+    2e0c:	00 80 60    	and.w     w1, w0, w0
+    2e0e:	00 f0 a7    	btsc.w    w0, #0xf
+    2e10:	00 00 ea    	neg.w     w0, w0
+    2e12:	00 00 ea    	neg.w     w0, w0
+    2e14:	4f 00 de    	lsr.w     w0, #0xf, w0
+    2e16:	00 80 fa    	ulnk      
+    2e18:	00 00 06    	return    
 Disassembly of section .dinit:
 
-00002efa <.dinit>:
-    2efa:	00 08 00    	nop       
-    2efc:	48 00 00    	nop       
-    2efe:	80 00 00    	nop       
-    2f00:	48 08 00    	nop       
-    2f02:	30 00 00    	nop       
-    2f04:	80 00 00    	nop       
-    2f06:	78 08 00    	nop       
-    2f08:	b8 01 00    	nop       
-    2f0a:	80 00 00    	nop       
-    2f0c:	ca 0b 00    	nop       
-    2f0e:	42 00 00    	nop       
-    2f10:	80 00 00    	nop       
-    2f12:	0c 0c 00    	nop       
-    2f14:	10 00 00    	nop       
-    2f16:	82 00 00    	nop       
-    2f18:	bd 37 86    	mov.w     0xc6f6, w13
-    2f1a:	33 bd 37    	bra       0xffffa982
-    2f1c:	06 35 bd    	subr.w    0x1506
-    2f1e:	37 86 36    	bra       LEU, 0xffff3b8e
-    2f20:	bd 37 86    	mov.w     0xc6f6, w13
-    2f22:	37 00 00    	nop       
-    2f24:	5c 0b 00    	nop       
-    2f26:	6e 00 00    	nop       
-    2f28:	80 00 00    	nop       
-    2f2a:	30 0a 00    	nop       
-    2f2c:	a2 00 00    	nop       
-    2f2e:	80 00 00    	nop       
-    2f30:	1c 0c 00    	nop       
-    2f32:	04 00 00    	nop       
-    2f34:	82 00 00    	nop       
-    2f36:	01 00 00    	nop       
-    2f38:	00 00 00    	nop       
-    2f3a:	d2 0a 00    	nop       
-    2f3c:	8a 00 00    	nop       
-    2f3e:	80 00 00    	nop       
-    2f40:	00 00 00    	nop       
+00002e1a <.dinit>:
+    2e1a:	00 08 00    	nop       
+    2e1c:	4c 00 00    	nop       
+    2e1e:	80 00 00    	nop       
+    2e20:	4c 08 00    	nop       
+    2e22:	30 00 00    	nop       
+    2e24:	80 00 00    	nop       
+    2e26:	7c 08 00    	nop       
+    2e28:	b8 01 00    	nop       
+    2e2a:	80 00 00    	nop       
+    2e2c:	ce 0b 00    	nop       
+    2e2e:	42 00 00    	nop       
+    2e30:	80 00 00    	nop       
+    2e32:	10 0c 00    	nop       
+    2e34:	10 00 00    	nop       
+    2e36:	82 00 00    	nop       
+    2e38:	bd 37 86    	mov.w     0xc6f6, w13
+    2e3a:	33 bd 37    	bra       0xffffa8a2
+    2e3c:	06 35 bd    	subr.w    0x1506
+    2e3e:	37 86 36    	bra       LEU, 0xffff3aae
+    2e40:	bd 37 86    	mov.w     0xc6f6, w13
+    2e42:	37 00 00    	nop       
+    2e44:	60 0b 00    	nop       
+    2e46:	6e 00 00    	nop       
+    2e48:	80 00 00    	nop       
+    2e4a:	34 0a 00    	nop       
+    2e4c:	a2 00 00    	nop       
+    2e4e:	80 00 00    	nop       
+    2e50:	20 0c 00    	nop       
+    2e52:	04 00 00    	nop       
+    2e54:	82 00 00    	nop       
+    2e56:	01 00 00    	nop       
+    2e58:	00 00 00    	nop       
+    2e5a:	d6 0a 00    	nop       
+    2e5c:	8a 00 00    	nop       
+    2e5e:	80 00 00    	nop       
+    2e60:	00 00 00    	nop       
 Disassembly of section .text:
 
-00002f42 <_parity>:
-
-#include "common.h"
-
-uint8_t parity(uint16_t v)
-{
-    2f42:	02 00 fa    	lnk       #0x2
-    2f44:	00 0f 78    	mov.w     w0, [w14]
-    v ^= v >> 8;
-    2f46:	1e 00 78    	mov.w     [w14], w0
-    2f48:	48 00 de    	lsr.w     w0, #0x8, w0
-    2f4a:	1e 0f 68    	xor.w     w0, [w14], [w14]
-    v ^= v >> 4;
-    2f4c:	1e 00 78    	mov.w     [w14], w0
-    2f4e:	44 00 de    	lsr.w     w0, #0x4, w0
-    2f50:	1e 0f 68    	xor.w     w0, [w14], [w14]
-    v ^= v >> 2;
-    2f52:	1e 00 78    	mov.w     [w14], w0
-    2f54:	42 00 de    	lsr.w     w0, #0x2, w0
-    2f56:	1e 0f 68    	xor.w     w0, [w14], [w14]
-    v ^= v >> 1;
-    2f58:	1e 00 78    	mov.w     [w14], w0
-    2f5a:	00 00 d1    	lsr.w     w0, w0
-    2f5c:	1e 0f 68    	xor.w     w0, [w14], [w14]
-    return v & 1;
-    2f5e:	1e 00 78    	mov.w     [w14], w0
-    2f60:	00 40 78    	mov.b     w0, w0
-    2f62:	61 40 60    	and.b     w0, #0x1, w0
-}
-    2f64:	00 80 fa    	ulnk      
-    2f66:	00 00 06    	return    
+00002e62 <_parity>:
+    2e62:	02 00 fa    	lnk       #0x2
+    2e64:	00 0f 78    	mov.w     w0, [w14]
+    2e66:	1e 00 78    	mov.w     [w14], w0
+    2e68:	48 00 de    	lsr.w     w0, #0x8, w0
+    2e6a:	1e 0f 68    	xor.w     w0, [w14], [w14]
+    2e6c:	1e 00 78    	mov.w     [w14], w0
+    2e6e:	44 00 de    	lsr.w     w0, #0x4, w0
+    2e70:	1e 0f 68    	xor.w     w0, [w14], [w14]
+    2e72:	1e 00 78    	mov.w     [w14], w0
+    2e74:	42 00 de    	lsr.w     w0, #0x2, w0
+    2e76:	1e 0f 68    	xor.w     w0, [w14], [w14]
+    2e78:	1e 00 78    	mov.w     [w14], w0
+    2e7a:	00 00 d1    	lsr.w     w0, w0
+    2e7c:	1e 0f 68    	xor.w     w0, [w14], [w14]
+    2e7e:	1e 00 78    	mov.w     [w14], w0
+    2e80:	00 40 78    	mov.b     w0, w0
+    2e82:	61 40 60    	and.b     w0, #0x1, w0
+    2e84:	00 80 fa    	ulnk      
+    2e86:	00 00 06    	return    
 Disassembly of section .isr:
 
-00002f68 <__DefaultInterrupt>:
-    2f68:	00 40 da    	break     
-    2f6a:	00 00 fe    	reset     
+00002e88 <__DefaultInterrupt>:
+    2e88:	00 40 da    	break     
+    2e8a:	00 00 fe    	reset     
