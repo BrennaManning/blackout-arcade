@@ -20,41 +20,41 @@ int coinState;
 int playing = 0;
 
 // R0 Register
-int gpioa0 = 0;
-int prev_gpioa0 = 0;
+int gpioa0 = 0b00000000;
+int prev_gpioa0 = 0b00000000;
 int diff_gpioa0;
 int diff_rising_gpioa0;
 
-int gpiob0 = 0;
-int prev_gpiob0 = 0;
+int gpiob0 = 0b00000000;
+int prev_gpiob0 = 0b00000000;
 int diff_gpiob0;
 int diff_rising_gpiob0;
 
 // W0 Register
-int olata0 = 0;
-int prev_olata0 = 0;
+int olata0 = 0b00000000;
+int prev_olata0 = 0b00000000;
 
-int olatb0 = 0;
-int prev_olatb0 = 0;
+int olatb0 = 0b00000000;
+int prev_olatb0 = 0b00000000;
 
 
 // R1 Register
-int gpioa1 = 0;
-int prev_gpioa1 = 0;
+int gpioa1 = 0b00000000;
+int prev_gpioa1 = 0b00000000;
 int diff_gpioa1;
 int diff_rising_gpioa1;
 
-int gpiob1 = 0;
-int prev_gpiob1 = 0;
+int gpiob1 = 0b00000000;
+int prev_gpiob1 = 0b00000000;
 int diff_gpiob1;
 int diff_rising_gpiob1;
 
 // W1 Register
-int olata1 = 0;
-int olatb1 = 0;
+int olata1 = 0b00000000;
+int olatb1 = 0b00000000;
 
-int prev_olata1 = 0;
-int prev_olatb1 = 0;
+int prev_olata1 = 0b00000000;
+int prev_olatb1 = 0b00000000;
 
 // For lightsRandom
 int random_olat;
@@ -94,10 +94,8 @@ uint8_t shiftreg_readReg(uint8_t address, struct _PIN * CS) {
 
 
 int lightsRandom(olat){
-    // Randomly turns on a light
-    srand(time(NULL));       // initialize random function     
+    // Randomly turns on a light 
     int random_bit = (rand() % 8); // choose random integer 0-7
-    led_toggle(&led1);
     if (random_bit == 0){
         led_toggle(&led2);
     }
@@ -107,14 +105,14 @@ int lightsRandom(olat){
 
 
 void coinCheck(void){
-    led_on(&led1); //replace with light/ button controls
+    led_on(&led2); //replace with light/ button controls
     // Start timer (legit) or Sketchy possibility of long while loop
      int c = 1, d = 1;
  
    for ( c = 1 ; c <= 3276 ; c++ )
        for ( d = 1 ; d <= 3276 ; d++ )
        {}
-    led_off(&led1);
+    led_off(&led2);
     playing = 0;
 }
 
@@ -124,17 +122,12 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
     // Main gameplay loop.
     // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
 
-    led_on(&led3);   
+    srand(time(NULL));       // initialize random function    
 
-    int c = 1, d = 1;
- 
-    for ( c = 1 ; c <= 3276 ; c++ )
-       for ( d = 1 ; d <= 3276 ; d++ )
-       {}
-    
+    led_on(&led3);       
     playing = 0;
 
-    /*
+    
     // Initialize timers
     timer_setPeriod(&timer2, .01);
     timer_start(&timer2);
@@ -189,7 +182,6 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
         // if it is time to randomly turn on a light
         if (timer_flag(&timer3)){
             timer_lower(&timer3);
-            //srand(time(NULL));      
 
             int random_olat = (rand() % 4); // choose random integer 0-3 (choose random set of 8 buttons from this)
             // After set of buttons selected, call lightsRandom on that olat to set a random bit high
@@ -225,12 +217,13 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
            
     }
     //GAME OVER
-   if (olata0 == 11111111 && olatb0 == 11111111  && olata1 == 11111111 && olatb1 == 11111111){
+   if (olata0 == 0b11111111 && olatb0 == 0b11111111  && olata1 == 0b11111111 && olatb1 == 0b11111111){
 
        playing = 0;
+       led_on(&led1);
 
    }
-    */
+
 
 }
 
