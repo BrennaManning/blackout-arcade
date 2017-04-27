@@ -62,6 +62,9 @@ int random_bit;
 int olat;
 int new_olat;
 
+// For Game Start
+int start_counter = 0;
+
 void shiftreg_writeReg(uint8_t address, uint8_t value, struct _PIN * CS) {
     // Write values to register
     // address = adress in register you are writing values to
@@ -131,8 +134,57 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
     // Initialize timers
     timer_setPeriod(&timer2, .01);
     timer_start(&timer2);
-    timer_setPeriod(&timer3, .3);
+    timer_setPeriod(&timer3, 1);
     timer_start(&timer3);
+
+
+    // GAME START
+    while(start_counter <= 4){
+        if (timer_flag(&timer3)){
+            timer_lower(&timer3);
+            if (start_counter == 0){
+                olata0 = 0b11110000;
+                olatb0 = 0b00000000;
+                olata1 = 0b11110000;
+                olatb1 = 0b00000000;
+            }
+            else if (start_counter == 1){
+                olata0 = 0b11111111;
+                olatb0 = 0b00000000;
+                olata1 = 0b11111111;
+                olatb1 = 0b00000000;
+            }
+            else if (start_counter == 2){
+                olata0 = 0b11111111;
+                olatb0 = 0b11110000;
+                olata1 = 0b11111111;
+                olatb1 = 0b11110000;
+
+            }
+            else if (start_counter == 3){
+                olata0 = 0b11111111;
+                olatb0 = 0b11111111;
+                olata1 = 0b11111111;
+                olatb1 = 0b11111111;
+
+            }
+            else if (start_counter == 4){
+                olata0 = 0b00000000;
+                olatb0 = 0b00000000;
+                olata1 = 0b00000000;
+                olatb1 = 0b00000000;
+
+            }
+            shiftreg_writeReg(0x14, olata0, CS1);
+            shiftreg_writeReg(0x15, olatb0, CS1);
+            shiftreg_writeReg(0x14, olata1, CS3);
+            shiftreg_writeReg(0x15, olatb1, CS3);
+            start_counter += 1;
+        }
+    }
+
+
+
 
     while(1){
         // light values are written to olats each loop.
