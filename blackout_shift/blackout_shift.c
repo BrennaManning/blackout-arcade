@@ -65,6 +65,9 @@ int new_olat;
 // For Game Start
 int start_counter = 0;
 
+// For Game End
+int end_counter = 0;
+
 void shiftreg_writeReg(uint8_t address, uint8_t value, struct _PIN * CS) {
     // Write values to register
     // address = adress in register you are writing values to
@@ -120,20 +123,7 @@ void coinCheck(void){
 }
 
 
-
-void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
-    // Main gameplay loop.
-    // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
-
-    srand(time(NULL));       // initialize random function    
-
-    led_on(&led3);       
-    playing = 0;
-
-    
-    // Initialize timers
-    timer_setPeriod(&timer2, .01);
-    timer_start(&timer2);
+void gameStart(struct _PIN * CS1, struct _PIN *CS3){
     timer_setPeriod(&timer3, 1);
     timer_start(&timer3);
 
@@ -182,11 +172,63 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
             start_counter += 1;
         }
     }
+    start_counter = 0;
+
+}
+
+
+void gameEnd(struct _PIN * CS1, struct _PIN *CS3){
+    timer_setPeriod(&timer3, 1);
+    timer_start(&timer3);
+
+
+    // GAME END
+    while(end_counter <= 8){
+        if (timer_flag(&timer3)){
+            timer_lower(&timer3);
+             if (end_counter % 2 == 0){
+                olata0 = 0b00000000;
+                olatb0 = 0b00000000;
+                olata1 = 0b00000000;
+                olatb1 = 0b00000000;
+            }
+            else {
+                olata0 = 0b11111111;
+                olatb0 = 0b11111111;
+                olata1 = 0b11111111;
+                olatb1 = 0b11111111;
+            }
+            shiftreg_writeReg(0x14, olata0, CS1);
+            shiftreg_writeReg(0x15, olatb0, CS1);
+            shiftreg_writeReg(0x14, olata1, CS3);
+            shiftreg_writeReg(0x15, olatb1, CS3);
+            end_counter += 1;
+        }
+    }
+    end_counter = 0;
+
+}
+
+void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
+    // Main gameplay loop.
+    // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
+
+    srand(time(NULL));       // initialize random function    
+
+    led_on(&led3);       
+    playing = 1;
+
+    
+    // Initialize timers
+    timer_setPeriod(&timer2, .01);
+    timer_start(&timer2);
+    timer_setPeriod(&timer3, 1);
+    timer_start(&timer3);
 
 
 
 
-    while(1){
+    while(playing = 1){
         // light values are written to olats each loop.
         // save previous loop's values to prev_olat_
         prev_olata0 = olata0;
@@ -266,17 +308,22 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
         if (olatb1 != prev_olatb1){
             shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
         }
+
+         //GAME OVER
+        if (olata0 == 255 && olatb0 == 255){
+            led_on(&led1);
+            gameEnd(CS1, CS3);
+            playing = 0;
+
+        }
+        if  (olata1 == 255 && olatb1 == 255){
+            led_on(&led1);
+            gameEnd(CS1, CS3);
+            playing = 0;
+        }
            
     }
-    //GAME OVER
-   if (olata0 == 0b11111111 && olatb0 == 0b11111111  && olata1 == 0b11111111 && olatb1 == 0b11111111){
-
-       playing = 0;
-       led_on(&led1);
-
-   }
-
-
+    led_off(&led1);
 }
 
 
@@ -348,6 +395,7 @@ int16_t main(void) {
         coinState = pin_read(coinMech);
         if (coinState == 0 && playing == 0) {
             playing=1;
+            gameStart(CS1, CS3);
             playGame(CS0, CS1, CS2, CS3);
         }
     }
