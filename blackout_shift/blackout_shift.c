@@ -20,41 +20,41 @@ int coinState;
 int playing = 0;
 
 // R0 Register
-int gpioa0 = 0b00000000;
-int prev_gpioa0 = 0b00000000;
+int gpioa0 = 0;
+int prev_gpioa0 = 0;
 int diff_gpioa0;
 int diff_rising_gpioa0;
 
-int gpiob0 = 0b00000000;
-int prev_gpiob0 = 0b00000000;
+int gpiob0 = 0;
+int prev_gpiob0 = 0;
 int diff_gpiob0;
 int diff_rising_gpiob0;
 
 // W0 Register
-int olata0 = 0b00000000;
-int prev_olata0 = 0b00000000;
+int olata0 = 0;
+int prev_olata0 = 0;
 
-int olatb0 = 0b00000000;
-int prev_olatb0 = 0b00000000;
+int olatb0 = 0;
+int prev_olatb0 = 0;
 
 
 // R1 Register
-int gpioa1 = 0b00000000;
-int prev_gpioa1 = 0b00000000;
+int gpioa1 = 0;
+int prev_gpioa1 = 0;
 int diff_gpioa1;
 int diff_rising_gpioa1;
 
-int gpiob1 = 0b00000000;
-int prev_gpiob1 = 0b00000000;
+int gpiob1 = 0;
+int prev_gpiob1 = 0;
 int diff_gpiob1;
 int diff_rising_gpiob1;
 
 // W1 Register
-int olata1 = 0b00000000;
-int olatb1 = 0b00000000;
+int olata1 = 0;
+int olatb1 = 0;
 
-int prev_olata1 = 0b00000000;
-int prev_olatb1 = 0b00000000;
+int prev_olata1 = 0;
+int prev_olatb1 = 0;
 
 // For lightsRandom
 int random_olat;
@@ -62,8 +62,6 @@ int random_bit;
 int olat;
 int new_olat;
 
-
-// For Game Start
 int start_counter = 0;
 
 void shiftreg_writeReg(uint8_t address, uint8_t value, struct _PIN * CS) {
@@ -98,8 +96,10 @@ uint8_t shiftreg_readReg(uint8_t address, struct _PIN * CS) {
 
 
 int lightsRandom(olat){
-    // Randomly turns on a light 
+    // Randomly turns on a light
+    srand(time(NULL));       // initialize random function     
     int random_bit = (rand() % 8); // choose random integer 0-7
+    led_toggle(&led1);
     if (random_bit == 0){
         led_toggle(&led2);
     }
@@ -109,14 +109,14 @@ int lightsRandom(olat){
 
 
 void coinCheck(void){
-    led_on(&led2); //replace with light/ button controls
+    led_on(&led1); //replace with light/ button controls
     // Start timer (legit) or Sketchy possibility of long while loop
      int c = 1, d = 1;
  
    for ( c = 1 ; c <= 3276 ; c++ )
        for ( d = 1 ; d <= 3276 ; d++ )
        {}
-    led_off(&led2);
+    led_off(&led1);
     playing = 0;
 }
 
@@ -125,21 +125,67 @@ void coinCheck(void){
 void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
     // Main gameplay loop.
     // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
+    led_on(&led3);   
 
+    timer_setPeriod(&timer3, 1);
+    timer_start(&timer3);
+
+
+    // GAME START
+    while(start_counter <= 4){
+        if (timer_flag(&timer3)){
+            timer_lower(&timer3);
+            if (start_counter == 0){
+                olata0 = 0b11110000;
+                olatb0 = 0b00000000;
+                olata1 = 0b11110000;
+                olatb1 = 0b00000000;
+            }
+            else if (start_counter == 1){
+                olata0 = 0b11111111;
+                olatb0 = 0b00000000;
+                olata1 = 0b11111111;
+                olatb1 = 0b00000000;
+            }
+            else if (start_counter == 2){
+                olata0 = 0b11111111;
+                olatb0 = 0b11110000;
+                olata1 = 0b11111111;
+                olatb1 = 0b11110000;
+
+            }
+            else if (start_counter == 3){
+                olata0 = 0b11111111;
+                olatb0 = 0b11111111;
+                olata1 = 0b11111111;
+                olatb1 = 0b11111111;
+
+            }
+            else if (start_counter == 4){
+                olata0 = 0b00000000;
+                olatb0 = 0b00000000;
+                olata1 = 0b00000000;
+                olatb1 = 0b00000000;
+
+            }
+            shiftreg_writeReg(0x14, olata0, CS1);
+            shiftreg_writeReg(0x15, olatb0, CS1);
+            shiftreg_writeReg(0x14, olata1, CS3);
+            shiftreg_writeReg(0x15, olatb1, CS3);
+            start_counter += 1;
+        }
+    }
+    start_counter = 0;
+    /*
     srand(time(NULL));       // initialize random function    
 
-    led_on(&led3);
-    gameStart(CS1, CS3);       
-    playing = 0;
-
-    /*
     // Initialize timers
     timer_setPeriod(&timer2, .01);
     timer_start(&timer2);
-    timer_setPeriod(&timer3, .3);
+    timer_setPeriod(&timer3, 1);
     timer_start(&timer3);
 
-    while(1){
+    while(playing = 1){
         // light values are written to olats each loop.
         // save previous loop's values to prev_olat_
         prev_olata0 = olata0;
@@ -219,16 +265,22 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
         if (olatb1 != prev_olatb1){
             shiftreg_writeReg(0x15, olatb1, CS3); // WRITE OLATB PANEL 1 REG 3
         }
+
+         //GAME OVER
+        if (olata0 == 255 && olatb0 == 255){
+            led_on(&led1);
+            gameEnd(CS1, CS3);
+            playing = 0;
+
+        }
+        if  (olata1 == 255 && olatb1 == 255){
+            led_on(&led1);
+            gameEnd(CS1, CS3);
+            playing = 0;
+        }
            
     }
-    //GAME OVER
-   if (olata0 == 0b11111111 && olatb0 == 0b11111111  && olata1 == 0b11111111 && olatb1 == 0b11111111){
-
-       playing = 0;
-       led_on(&led1);
-
-   }
-
+    playing = 0; 
     */
 }
 
@@ -256,60 +308,6 @@ void shiftreg_config(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, st
     shiftreg_writeReg(0x01, 0, CS3); // IODIRB to 0
 
 }
-
-void gameStart(struct _PIN * CS1, struct _PIN *CS3){
-    timer_setPeriod(&timer3, 1);
-    timer_start(&timer3);
-
-
-    // GAME START
-    while(start_counter <= 4){
-        if (timer_flag(&timer3)){
-            timer_lower(&timer3);
-            if (start_counter == 0){
-                olata0 = 0b11110000;
-                olatb0 = 0b00000000;
-                olata1 = 0b11110000;
-                olatb1 = 0b00000000;
-            }
-            else if (start_counter == 1){
-                olata0 = 0b11111111;
-                olatb0 = 0b00000000;
-                olata1 = 0b11111111;
-                olatb1 = 0b00000000;
-            }
-            else if (start_counter == 2){
-                olata0 = 0b11111111;
-                olatb0 = 0b11110000;
-                olata1 = 0b11111111;
-                olatb1 = 0b11110000;
-
-            }
-            else if (start_counter == 3){
-                olata0 = 0b11111111;
-                olatb0 = 0b11111111;
-                olata1 = 0b11111111;
-                olatb1 = 0b11111111;
-
-            }
-            else if (start_counter == 4){
-                olata0 = 0b00000000;
-                olatb0 = 0b00000000;
-                olata1 = 0b00000000;
-                olatb1 = 0b00000000;
-
-            }
-            shiftreg_writeReg(0x14, olata0, CS1);
-            shiftreg_writeReg(0x15, olatb0, CS1);
-            shiftreg_writeReg(0x14, olata1, CS3);
-            shiftreg_writeReg(0x15, olatb1, CS3);
-            start_counter += 1;
-        }
-    }
-    start_counter = 0;
-
-}
-
 
 int16_t main(void) {
     init_clock();
