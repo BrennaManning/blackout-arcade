@@ -228,7 +228,7 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
 
 
 
-    while(playing = 1){
+    while(playing == 1){
         // light values are written to olats each loop.
         // save previous loop's values to prev_olat_
         prev_olata0 = olata0;
@@ -393,10 +393,11 @@ int16_t main(void) {
     while (1) {
         led_off(&led3);
         coinState = pin_read(coinMech);
-        if (coinState == 0 && playing == 0) {
+        if (coinState == 0) {
             playing=1;
             gameStart(CS1, CS3);
             playGame(CS0, CS1, CS2, CS3);
+            playing = 0;
         }
     }
     
