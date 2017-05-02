@@ -13,7 +13,7 @@
 
 
 // Pins
-_PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3, *coinMech;
+_PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3, *coinMech, *tickets;
 
 // Coin Mech/Game start state constants
 int coinState;
@@ -177,10 +177,10 @@ void gameStart(struct _PIN * CS1, struct _PIN *CS3){
 }
 
 
-void gameEnd(struct _PIN * CS1, struct _PIN *CS3){
+void gameEnd(struct _PIN * CS1, struct _PIN *CS3, struct _PIN *tickets){
     timer_setPeriod(&timer3, 1);
     timer_start(&timer3);
-
+    pin_clear(tickets);
 
     // GAME END
     while(end_counter <= 8){
@@ -209,7 +209,7 @@ void gameEnd(struct _PIN * CS1, struct _PIN *CS3){
 
 }
 
-void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3){
+void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _PIN * CS3, struct _PIN * tickets){
     // Main gameplay loop.
     // Inputs CS0, CS1, CS2,CS3 are chip select pins for each shift register chip
 
@@ -217,7 +217,7 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
 
     led_on(&led3);       
     playing = 1;
-
+    pin_set(tickets);
     
     // Initialize timers
     timer_setPeriod(&timer2, .01);
@@ -312,13 +312,13 @@ void playGame(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, struct _P
          //GAME OVER
         if (olata0 == 255 && olatb0 == 255){
             led_on(&led1);
-            gameEnd(CS1, CS3);
+            gameEnd(CS1, CS3, tickets);
             playing = 0;
 
         }
         if  (olata1 == 255 && olatb1 == 255){
             led_on(&led1);
-            gameEnd(CS1, CS3);
+            gameEnd(CS1, CS3, tickets);
             playing = 0;
         }
            
@@ -348,7 +348,6 @@ void shiftreg_config(struct _PIN * CS0, struct _PIN * CS1, struct _PIN * CS2, st
     shiftreg_writeReg(0x0B, 0, CS3); // IOCON TO 0
     shiftreg_writeReg(0x00, 0, CS3); // IODIRA to 0
     shiftreg_writeReg(0x01, 0, CS3); // IODIRB to 0
-
 }
 
 int16_t main(void) {
@@ -368,20 +367,20 @@ int16_t main(void) {
     CS2 = &D[6];
     CS3 = &D[7];
     coinMech = &D[8];
-
+    tickets = &D[9];
 
     pin_digitalOut(CS0);
     pin_digitalOut(CS1);
     pin_digitalOut(CS2);
     pin_digitalOut(CS3);
     pin_digitalIn(coinMech);
+    pin_digitalOut(tickets);
 
 
     pin_set(CS0);
     pin_set(CS1);
     pin_set(CS2);
     pin_set(CS3);
-
     // Start SPI communication
     spi_open(&spi1, MISO, MOSI, SCK, 1e7, 1);
 
@@ -391,12 +390,18 @@ int16_t main(void) {
     shiftreg_config(CS0, CS1, CS2, CS3);
 
     while (1) {
+        shiftreg_writeReg(0x14, 0, CS1);
+        shiftreg_writeReg(0x15, 0, CS1);
+        shiftreg_writeReg(0x14, 0, CS3);
+        shiftreg_writeReg(0x15, 0, CS3);
+
         led_off(&led3);
         coinState = pin_read(coinMech);
         if (coinState == 0) {
             playing=1;
             gameStart(CS1, CS3);
-            playGame(CS0, CS1, CS2, CS3);
+            pin_set(tickets);
+            playGame(CS0, CS1, CS2, CS3, tickets);
             playing = 0;
         }
     }
