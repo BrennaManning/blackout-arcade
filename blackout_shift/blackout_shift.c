@@ -13,7 +13,7 @@
 
 
 // Pins
-_PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3, *coinMech, *tickets;
+_PIN *SCK, *MISO, *MOSI, *RESET, *CS0, *CS1, *CS2, *CS3, *coinMech, *tickets, *test;
 
 // Coin Mech/Game start state constants
 int coinState;
@@ -133,9 +133,9 @@ void gameStart(struct _PIN * CS1, struct _PIN *CS3){
         if (timer_flag(&timer3)){
             timer_lower(&timer3);
             if (start_counter == 0){
-                olata0 = 0b11110000;
+                olata0 = 0b00001111;
                 olatb0 = 0b00000000;
-                olata1 = 0b11110000;
+                olata1 = 0b00001111;
                 olatb1 = 0b00000000;
             }
             else if (start_counter == 1){
@@ -146,9 +146,9 @@ void gameStart(struct _PIN * CS1, struct _PIN *CS3){
             }
             else if (start_counter == 2){
                 olata0 = 0b11111111;
-                olatb0 = 0b11110000;
+                olatb0 = 0b00001111;
                 olata1 = 0b11111111;
-                olatb1 = 0b11110000;
+                olatb1 = 0b00001111;
 
             }
             else if (start_counter == 3){
@@ -180,7 +180,7 @@ void gameStart(struct _PIN * CS1, struct _PIN *CS3){
 void gameEnd(struct _PIN * CS1, struct _PIN *CS3, struct _PIN *tickets){
     timer_setPeriod(&timer3, 1);
     timer_start(&timer3);
-    pin_clear(tickets);
+    //pin_clear(tickets);
 
     // GAME END
     while(end_counter <= 8){
@@ -367,7 +367,8 @@ int16_t main(void) {
     CS2 = &D[6];
     CS3 = &D[7];
     coinMech = &D[8];
-    tickets = &D[9];
+    test = &D[9];
+    tickets = &D[10];
 
     pin_digitalOut(CS0);
     pin_digitalOut(CS1);
@@ -375,12 +376,15 @@ int16_t main(void) {
     pin_digitalOut(CS3);
     pin_digitalIn(coinMech);
     pin_digitalOut(tickets);
+    pin_digitalOut(test);
 
 
     pin_set(CS0);
     pin_set(CS1);
     pin_set(CS2);
     pin_set(CS3);
+    pin_set(tickets);
+    pin_clear(test);
     // Start SPI communication
     spi_open(&spi1, MISO, MOSI, SCK, 1e7, 1);
 
