@@ -80,50 +80,52 @@
 									<strong>Wiring Plan</strong>
 								</p>
 								<ul>
-									<li>Each panel has an identical protoboard that is supplied with 3.3V from the PIC. The implementation of shift registers decreases the amount and length of wires needing to plug into the PIC; 64 pins (a button press signal and LED on signal for each button) to 8 pins.  We currently have one chip select for each shift register (two from each board for a total of four), and four other signals that are tied together from board to board (RESET, CLK, MOSI, and MISO).</li>
+									<li> - Each panel has an identical protoboard that is supplied with 3.3V from the PIC. The implementation of shift registers decreases the amount and length of wires needing to plug into the PIC; 64 pins (a button press signal and LED on signal for each button) to 8 pins.  We currently have one chip select for each shift register (two from each board for a total of four), and four other signals that are tied together from board to board (RESET, CLK, MOSI, and MISO).</li>
 
-									<li>Red wires - 3.3V power for button part - daisy chained together to form a rail powered from the PCB</li>
+									<li> - Red wires - 3.3V power for button part - daisy chained together to form a rail powered from the PCB</li>
 									
-									<li>White wires - digital output from button to indicate it’s been pressed - goes to input of shift register circuit</li>
-									<li>Yellow wires - power supply to LED</li>
-									<li>Black wires - ground supply to LED and button</li>
-									<li>For each button, the yellow and black wire are joined together for ease of plugging into PCB header pins and the white, yellow, and black wire are twisted together.</li>
-									<li>The three-wire twist for each button is placed along the bottom of its row of buttons from the button to the left side of the panel and then downward along the edge to the PCB.</li>
-									<li>Button naming scheme by panel, shift register side, and shift register row: P0, P1 / A0 - A3, A4 - A7, B0 - B3, B4 - B7</li>
+									<li> - White wires - digital output from button to indicate it’s been pressed - goes to input of shift register circuit</li>
+									<li> - Yellow wires - power supply to LED</li>
+									<li> - Black wires - ground supply to LED and button</li>
+									<li> - For each button, the yellow and black wire are joined together for ease of plugging into PCB header pins and the white, yellow, and black wire are twisted together.</li>
+									<li> - The three-wire twist for each button is placed along the bottom of its row of buttons from the button to the left side of the panel and then downward along the edge to the PCB.</li>
+									<li> - Button naming scheme by panel, shift register side, and shift register row: P0, P1 / A0 - A3, A4 - A7, B0 - B3, B4 - B7</li>
 								</ul>
 
 								
 							</section>
 							<section>
 								<header>
-									<h3>Transistor LED Circuit</h3>
+									<h3></h3>
 								</header>
 								<p> 
-									Powering the LEDs from 12V supply provides the brightest possible lights versus the other option of powering directly from the shift register’s digital output. The shift register has current limit of 0.1 amps at 3.3V when the button LEDs go up to around 0.2 amps with 12 V.
+									
 								</p>
 							</section>
 							
 						</article>
 						<hr />
+						<header>
+							<p>Other work</p>
+						</header>
+						<br>
 						<div class="row">
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/transistor_led_circuit_12v.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Gravida aliquam penatibus</a></h3>
+									<h3>Transistor LED Circuit</h3>
 								</header>
 								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+									Powering the LEDs from 12V supply provides the brightest possible lights versus the other option of powering directly from the shift register’s digital output. The shift register has current limit of 0.1 amps at 3.3V when the button LEDs go up to around 0.2 amps with 12 V.
 								</p>
 							</article>
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/pcbsad.JPG" alt="" /></a>
 								<header>
-									<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+									<h3><a href="#">PCB</a></h3>
 								</header>
 								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+									We planned to have our circuit on a printed circuit board, but after some connection problems switched to protoboards.
 								</p>
 							</article>
 							<article class="4u 12u(mobile) special">
