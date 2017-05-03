@@ -84,6 +84,7 @@
 							<section>
 								<header>
 									<h3>SPI Communication</h3>
+									<p> readRegisters() writeRegisters()</p>
 								</header>
 								<p>
 										To use our shift registers, we are communicating over SPI (Serial Peripheral Interface bus) serial communication. This requires sending and receiving a couple data transfers each time we want to do something. This lets the device know we are communicating with it and whether we are about to send or receive data.
@@ -97,6 +98,7 @@
 							<section>
 								<header>
 									<h3>Toggling Partner's Lights</h3>
+									<p>playGame()</p>
 								</header>
 								<p>
 									There was some fun binary logic that went into taking the button values read from a shift register to determine what binary	binary value should be written to the corresponding light shift register.
@@ -117,6 +119,7 @@
 							<section>
 								<header>
 									<h3>Lights Randomly Turning on</h3>
+									<p>LightsRandom()</p>
 								</header>
 								<p>
 									To make the lights randomly turn on as part of the gameplay, every timer period (about 1 second) a random number between 0 and 3 is selected to decide which set of 8 buttons will be written to.  Next,  a random number between 0 and 7 is selected, and a 1 is shifted that many bits into the 8 bit lights value being written to those 8 lights. This makes a random light on either panel turn on, but will not cause any lights to turn off.
@@ -128,6 +131,7 @@
 							<section>
 								<header>
 									<h3>Coin Mech and the Game Start State</h3>
+									<p>CoinCheck() GameStart()</p>
 								</header>
 								<p>
 									As part of our “minimum viable game”, we wanted to include a coin mech that accepts pennies to start the game. On the firmware sidem the coin mech is a “pull-down” system, so a single dip in the signal output triggers the game to start. In the main loop, it is always checking whether the coin mech pin is low. Once it is, the game start code is triggered. The lights illuminate row by row to prepare the player, then they all switch off and the game begins. 
@@ -137,6 +141,7 @@
 							<section>
 								<header>
 									<h3>Tickets and the Game End State</h3>
+									<p>GameEnd()</p>
 								</header>
 								<p>
 									The end condition of the game is when all lights are on on either side.	During the game, tickets are spewing out of the top of the enclosure at a constant rate. This means that the longer a player lasts in the game, the better they do and the more tickets they can win!  Once the game is over, all lights flash to let the player know the game has ended, and the tickets stop.
